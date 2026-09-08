@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>PayloadDescription</key>
-    <string>国内走腾讯 国外走谷歌 CleanBrowsing过滤</string>
+    <string>国内走阿里 国外走Cloudflare 其余走AdGuard去广告</string>
     <key>PayloadDisplayName</key>
-    <string>Smart DNS (CN+US+Filter)</string>
+    <string>Smart DNS (Ali+CF+AdGuard)</string>
     <key>PayloadIdentifier</key>
     <string>com.custom.profile.smartdns</string>
     <key>PayloadOrganization</key>
@@ -22,14 +22,14 @@
     <key>PayloadContent</key>
     <array>
 
-        <!-- 国内域名走腾讯 DNSPod -->
+        <!-- 国内域名走阿里 DNS -->
         <dict>
             <key>PayloadDescription</key>
-            <string>国内域名走腾讯DNSPod加速</string>
+            <string>国内域名走阿里DNS加速</string>
             <key>PayloadDisplayName</key>
-            <string>腾讯 DNSPod (国内)</string>
+            <string>阿里 DNS (国内)</string>
             <key>PayloadIdentifier</key>
-            <string>com.tencent.dnspod.cn</string>
+            <string>com.aliyun.dns.cn</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
@@ -37,7 +37,7 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ServerName</key>
-            <string>腾讯 DNSPod</string>
+            <string>阿里 DNS</string>
             <key>MatchDomains</key>
             <array>
                 <string>qq.com</string>
@@ -48,7 +48,7 @@
                 <string>myqcloud.com</string>
                 <string>gtimg.cn</string>
                 <string>idqqimg.com</string>
-                <string>xxoox20.org</string>
+                <string>baidu.com</string>
                 <string>baidubce.com</string>
                 <string>bcebos.com</string>
                 <string>bdstatic.com</string>
@@ -118,23 +118,23 @@
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
                 <key>ServerURL</key>
-                <string>https://doh.pub/dns-query</string>
+                <string>https://dns.alidns.com/dns-query</string>
                 <key>ServerAddresses</key>
                 <array>
-                    <string>119.29.29.29</string>
-                    <string>182.254.116.116</string>
+                    <string>223.5.5.5</string>
+                    <string>223.6.6.6</string>
                 </array>
             </dict>
         </dict>
 
-        <!-- 国外域名走 Google DNS -->
+        <!-- 国外域名走 Cloudflare DNS -->
         <dict>
             <key>PayloadDescription</key>
-            <string>国外域名走Google DNS</string>
+            <string>国外域名走Cloudflare DNS</string>
             <key>PayloadDisplayName</key>
-            <string>Google DNS (国外)</string>
+            <string>Cloudflare DNS (国外)</string>
             <key>PayloadIdentifier</key>
-            <string>com.google.dns.intl</string>
+            <string>com.cloudflare.dns.intl</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
@@ -142,7 +142,7 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ServerName</key>
-            <string>Google DNS</string>
+            <string>Cloudflare DNS</string>
             <key>MatchDomains</key>
             <array>
                 <string>google.com</string>
@@ -263,23 +263,23 @@
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
                 <key>ServerURL</key>
-                <string>https://dns.google/dns-query</string>
+                <string>https://dns.adguard-dns.com/dns-query</string>
                 <key>ServerAddresses</key>
                 <array>
-                    <string>8.8.8.8</string>
-                    <string>8.8.4.4</string>
+                    <string>94.140.14.140</string>
+                    <string>94.140.15.141</string>
                 </array>
             </dict>
         </dict>
 
-        <!-- 其余域名走 CleanBrowsing Family 过滤 -->
+        <!-- 其余域名走 AdGuard DNS 去广告 -->
         <dict>
             <key>PayloadDescription</key>
-            <string>CleanBrowsing Family Filter（拦截成人内容、强制安全搜索）</string>
+            <string>AdGuard DNS（广告拦截+恶意软件防护）</string>
             <key>PayloadDisplayName</key>
-            <string>CleanBrowsing Family</string>
+            <string>AdGuard DNS (去广告)</string>
             <key>PayloadIdentifier</key>
-            <string>com.cleanbrowsing.dns.family</string>
+            <string>com.adguard.dns.default</string>
             <key>PayloadType</key>
             <string>com.apple.dnsSettings.managed</string>
             <key>PayloadUUID</key>
@@ -287,17 +287,17 @@
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>ServerName</key>
-            <string>CleanBrowsing Family</string>
+            <string>AdGuard DNS</string>
             <key>DNSSettings</key>
             <dict>
                 <key>DNSProtocol</key>
                 <string>HTTPS</string>
                 <key>ServerURL</key>
-                <string>https://doh.cleanbrowsing.org/doh/family-filter/</string>
+                <string>https://dns.adguard-dns.com/dns-query</string>
                 <key>ServerAddresses</key>
                 <array>
-                    <string>185.228.168.168</string>
-                    <string>185.228.169.168</string>
+                    <string>94.140.14.140</string>
+                    <string>94.140.15.141</string>
                 </array>
             </dict>
         </dict>
