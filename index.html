@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DNS 30秒可视化测试</title>
+    <title>DNS 30秒可视化测试 Pro</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -28,7 +28,7 @@
         .controls {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             margin-bottom: 20px;
             flex-wrap: wrap;
             justify-content: center;
@@ -36,26 +36,22 @@
         .btn {
             color: #fff;
             border: none;
-            padding: 10px 24px;
+            padding: 10px 22px;
             border-radius: 10px;
-            font-size: 15px;
+            font-size: 14px;
             cursor: pointer;
             transition: transform 0.15s, box-shadow 0.15s;
         }
         .btn:hover { transform: scale(1.04); }
         .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
-        .btn-start {
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-        }
+        .btn-start { background: linear-gradient(135deg, #3b82f6, #8b5cf6); }
         .btn-start:hover { box-shadow: 0 4px 20px rgba(99,102,241,0.4); }
-        .btn-pause {
-            background: linear-gradient(135deg, #f59e0b, #ef4444);
-        }
+        .btn-pause { background: linear-gradient(135deg, #f59e0b, #ef4444); }
         .btn-pause:hover { box-shadow: 0 4px 20px rgba(245,158,11,0.4); }
-        .btn-pause.resumed {
-            background: linear-gradient(135deg, #22c55e, #10b981);
-        }
+        .btn-pause.resumed { background: linear-gradient(135deg, #22c55e, #10b981); }
         .btn-pause.resumed:hover { box-shadow: 0 4px 20px rgba(34,197,94,0.4); }
+        .btn-export { background: linear-gradient(135deg, #06b6d4, #3b82f6); }
+        .btn-export:hover { box-shadow: 0 4px 20px rgba(6,182,212,0.4); }
 
         .timer {
             font-size: 32px;
@@ -69,7 +65,7 @@
 
         .progress-bar {
             width: 100%;
-            max-width: 560px;
+            max-width: 600px;
             height: 6px;
             background: #1e293b;
             border-radius: 3px;
@@ -84,12 +80,16 @@
             transition: width 1s linear;
         }
 
-        .charts { width: 100%; max-width: 560px; display: flex; flex-direction: column; gap: 20px; }
+        .charts { width: 100%; max-width: 600px; display: flex; flex-direction: column; gap: 18px; }
         .chart-box {
             background: #1e293b;
             border-radius: 14px;
             padding: 16px;
             border: 1px solid #334155;
+        }
+        .chart-box.overview {
+            border: 1px solid #475569;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
         }
         .chart-title {
             font-size: 13px;
@@ -101,14 +101,25 @@
             align-items: center;
         }
         .chart-title .avg { font-size: 18px; font-weight: 700; }
+        .chart-title .badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        .badge.excellent { background: #22c55e22; color: #22c55e; }
+        .badge.good { background: #eab30822; color: #eab308; }
+        .badge.fair { background: #f97316aa; color: #fbbf24; }
+        .badge.poor { background: #ef444422; color: #ef4444; }
         canvas { width: 100% !important; height: 160px !important; }
+        canvas.tall { height: 200px !important; }
 
         .stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 10px;
             width: 100%;
-            max-width: 560px;
+            max-width: 600px;
             margin-top: 20px;
         }
         .stat-card {
@@ -124,29 +135,79 @@
         .stat-value.yellow { color: #eab308; }
         .stat-value.red { color: #ef4444; }
 
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin-top: 16px;
+        }
+        .detail-card {
+            background: #1e293b;
+            border-radius: 12px;
+            padding: 14px;
+            border: 1px solid #334155;
+        }
+        .detail-card .name {
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .detail-card .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .detail-card .row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: #94a3b8;
+            margin-bottom: 4px;
+        }
+        .detail-card .row span:last-child {
+            font-weight: 600;
+            color: #e2e8f0;
+        }
+
         .note {
             margin-top: 24px;
             font-size: 11px;
             color: #475569;
             text-align: center;
-            max-width: 560px;
+            max-width: 600px;
             line-height: 1.5;
         }
     </style>
 </head>
 <body>
-    <h1>⚡ DNS 30秒可视化测试</h1>
-    <p class="subtitle">持续 30 秒采样，实时绘制延迟曲线</p>
+    <h1>⚡ DNS 30秒可视化测试 Pro</h1>
+    <p class="subtitle">持续 30 秒采样 · 实时曲线 · 丢包统计 · 稳定性评级</p>
 
     <div class="controls">
         <button class="btn btn-start" id="startBtn" onclick="startTest()">开始测试</button>
         <button class="btn btn-pause" id="pauseBtn" onclick="togglePause()" disabled>暂停</button>
+        <button class="btn btn-export" id="exportBtn" onclick="exportReport()" disabled>导出报告</button>
         <div class="timer" id="timer">30s</div>
     </div>
 
     <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
 
     <div class="charts">
+        <!-- 总览对比图 -->
+        <div class="chart-box overview">
+            <div class="chart-title">
+                <span>📊 三合一对比</span>
+                <span style="font-size:11px;color:#64748b">越低越好</span>
+            </div>
+            <canvas id="chart-overview" class="tall"></canvas>
+        </div>
+
         <div class="chart-box">
             <div class="chart-title">
                 <span>阿里 DNS (223.5.5.5)</span>
@@ -170,6 +231,35 @@
         </div>
     </div>
 
+    <!-- 详细统计卡片 -->
+    <div class="detail-grid">
+        <div class="detail-card" id="detail-ali">
+            <div class="name"><span class="dot" style="background:#22c55e"></span>阿里 DNS</div>
+            <div class="row"><span>平均</span><span id="d-ali-avg">--</span></div>
+            <div class="row"><span>最快</span><span id="d-ali-min">--</span></div>
+            <div class="row"><span>最慢</span><span id="d-ali-max">--</span></div>
+            <div class="row"><span>丢包</span><span id="d-ali-loss">0 / 0</span></div>
+            <div class="row"><span>评级</span><span id="d-ali-grade">--</span></div>
+        </div>
+        <div class="detail-card" id="detail-tx">
+            <div class="name"><span class="dot" style="background:#38bdf8"></span>腾讯 DNS</div>
+            <div class="row"><span>平均</span><span id="d-tx-avg">--</span></div>
+            <div class="row"><span>最快</span><span id="d-tx-min">--</span></div>
+            <div class="row"><span>最慢</span><span id="d-tx-max">--</span></div>
+            <div class="row"><span>丢包</span><span id="d-tx-loss">0 / 0</span></div>
+            <div class="row"><span>评级</span><span id="d-tx-grade">--</span></div>
+        </div>
+        <div class="detail-card" id="detail-cf">
+            <div class="name"><span class="dot" style="background:#818cf8"></span>Cloudflare</div>
+            <div class="row"><span>平均</span><span id="d-cf-avg">--</span></div>
+            <div class="row"><span>最快</span><span id="d-cf-min">--</span></div>
+            <div class="row"><span>最慢</span><span id="d-cf-max">--</span></div>
+            <div class="row"><span>丢包</span><span id="d-cf-loss">0 / 0</span></div>
+            <div class="row"><span>评级</span><span id="d-cf-grade">--</span></div>
+        </div>
+    </div>
+
+    <!-- 总体统计 -->
     <div class="stats">
         <div class="stat-card">
             <div class="stat-label">最快</div>
@@ -187,7 +277,7 @@
 
     <p class="note">
         测试原理：每 1 秒向各 DoH 服务器发起 HTTPS 请求，测量握手+响应耗时。 
-        共采样 30 次，自动绘制实时曲线并计算统计值。支持暂停/继续。
+        共采样 30 次，自动绘制实时曲线、统计丢包率并给出稳定性评级。
     </p>
 
     <script>
@@ -195,9 +285,9 @@
         const INTERVAL = 1000;
 
         const servers = [
-            { key: 'ali', name: '阿里 DNS', url: 'https://dns.alidns.com/resolve?name=www.baidu.com', color: '#22c55e', data: [] },
-            { key: 'tx',  name: '腾讯 DNS', url: 'https://doh.pub/resolve?name=www.baidu.com',        color: '#38bdf8', data: [] },
-            { key: 'cf',  name: 'Cloudflare', url: 'https://1.1.1.1/dns-query?name=www.google.com&type=A', color: '#818cf8', data: [] },
+            { key: 'ali', name: '阿里 DNS', url: 'https://dns.alidns.com/resolve?name=www.baidu.com', color: '#22c55e', data: [], losses: 0 },
+            { key: 'tx',  name: '腾讯 DNS', url: 'https://doh.pub/resolve?name=www.baidu.com',        color: '#38bdf8', data: [], losses: 0 },
+            { key: 'cf',  name: 'Cloudflare', url: 'https://1.1.1.1/dns-query?name=www.google.com&type=A', color: '#818cf8', data: [], losses: 0 },
         ];
 
         let timer = null;
@@ -205,7 +295,15 @@
         let running = false;
         let paused = false;
 
-        // ---- Canvas 绘图 ----
+        // ---- 评级算法 ----
+        function getGrade(avg, lossRate) {
+            if (avg < 30 && lossRate < 5) return { text: '优秀', cls: 'excellent' };
+            if (avg < 60 && lossRate < 15) return { text: '良好', cls: 'good' };
+            if (avg < 120 && lossRate < 30) return { text: '一般', cls: 'fair' };
+            return { text: '较差', cls: 'poor' };
+        }
+
+        // ---- Canvas 绘图（单条） ----
         function drawChart(canvasId, data, color) {
             const canvas = document.getElementById(canvasId);
             const ctx = canvas.getContext('2d');
@@ -305,119 +403,293 @@
             }
         }
 
-        // ---- 单次 ping ----
-        async function ping(url) {
-            const start = performance.now();
-            try {
-                await fetch(url, { method: 'GET', mode: 'no-cors', cache: 'no-store' });
-                return Math.round(performance.now() - start);
-            } catch (e) {
-                return null;
+        // ---- 总览对比图 ----
+        function drawOverview() {
+            const canvas = document.getElementById('chart-overview');
+            const ctx = canvas.getContext('2d');
+            const d
+
+        // ---- 总览对比图（三条曲线画在一起） ----
+        function drawOverview() {
+            const canvas = document.getElementById('chart-overview');
+            const ctx = canvas.getContext('2d');
+            const dpr = window.devicePixelRatio || 1;
+            const rect = canvas.getBoundingClientRect();
+            canvas.width = rect.width * dpr;
+            canvas.height = rect.height * dpr;
+            ctx.scale(dpr, dpr);
+
+            const w = rect.width;
+            const h = rect.height;
+            const pad = { top: 14, right: 14, bottom: 28, left: 44 };
+            const plotW = w - pad.left - pad.right;
+            const plotH = h - pad.top - pad.bottom;
+
+            ctx.clearRect(0, 0, w, h);
+
+            // 找全局最大值
+            let globalMax = 50;
+            servers.forEach(s => {
+                s.data.forEach(v => { if (v !== null && v > globalMax) globalMax = v; });
+            });
+            const yMax = globalMax * 1.15;
+            const yScale = plotH / yMax;
+
+            // 网格线
+            ctx.strokeStyle = '#334155';
+            ctx.lineWidth = 0.5;
+            for (let i = 0; i <= 4; i++) {
+                const y = pad.top + (plotH / 4) * i;
+                ctx.beginPath();
+                ctx.moveTo(pad.left, y);
+                ctx.lineTo(w - pad.right, y);
+                ctx.stroke();
+
+                ctx.fillStyle = '#64748b';
+                ctx.font = '10px sans-serif';
+                ctx.textAlign = 'right';
+                const label = Math.round(yMax * (1 - i / 4));
+                ctx.fillText(label + 'ms', pad.left - 4, y + 3);
+            }
+
+            // X 轴标签
+            ctx.fillStyle = '#64748b';
+            ctx.font = '10px sans-serif';
+            ctx.textAlign = 'center';
+            for (let i = 0; i < DURATION; i += 5) {
+                const x = pad.left + (plotW / (DURATION - 1)) * i;
+                ctx.fillText((i + 1) + 's', x, h - 6);
+            }
+
+            // 画每条线
+            servers.forEach(s => {
+                const points = [];
+                s.data.forEach((v, i) => {
+                    if (v === null) return;
+                    const x = pad.left + (plotW / (DURATION - 1)) * i;
+                    const y = pad.top + plotH - v * yScale;
+                    points.push({ x, y });
+                });
+
+                if (points.length > 1) {
+                    ctx.beginPath();
+                    ctx.moveTo(points[0].x, points[0].y);
+                    for (let i = 1; i < points.length; i++) {
+                        ctx.lineTo(points[i].x, points[i].y);
+                    }
+                    ctx.strokeStyle = s.color;
+                    ctx.lineWidth = 2;
+                    ctx.lineJoin = 'round';
+                    ctx.stroke();
+                }
+
+                // 末端圆点
+                if (points.length > 0) {
+                    const last = points[points.length - 1];
+                    ctx.beginPath();
+                    ctx.arc(last.x, last.y, 4, 0, Math.PI * 2);
+                    ctx.fillStyle = s.color;
+                    ctx.fill();
+                    ctx.strokeStyle = '#0f172a';
+                    ctx.lineWidth = 2;
+                    ctx.stroke();
+                }
+            });
+
+            // 图例
+            const legendY = pad.top + 2;
+            let legendX = pad.left + 8;
+            servers.forEach(s => {
+                ctx.fillStyle = s.color;
+                ctx.fillRect(legendX, legendY, 12, 3);
+                ctx.fillStyle = '#94a3b8';
+                ctx.font = '10px sans-serif';
+                ctx.textAlign = 'left';
+                ctx.fillText(s.name, legendX + 16, legendY + 4);
+                legendX += ctx.measureText(s.name).width + 30;
+            });
+        }
+
+        // ---- 统计更新 ----
+        function updateStats() {
+            let allVals = [];
+
+            servers.forEach(s => {
+                const valid = s.data.filter(v => v !== null);
+                const total = s.data.length;
+                const avgEl = document.getElementById('avg-' + s.key);
+                const dAvg = document.getElementById('d-' + s.key + '-avg');
+                const dMin = document.getElementById('d-' + s.key + '-min');
+                const dMax = document.getElementById('d-' + s.key + '-max');
+                const dLoss = document.getElementById('d-' + s.key + '-loss');
+                const dGrade = document.getElementById('d-' + s.key + '-grade');
+
+                if (valid.length === 0) return;
+
+                const avg = Math.round(valid.reduce((a, b) => a + b, 0) / valid.length);
+                const min = Math.min(...valid);
+                const max = Math.max(...valid);
+                const lossRate = total > 0 ? ((s.losses / total) * 100).toFixed(1) : 0;
+                const grade = getGrade(avg, parseFloat(lossRate));
+
+                avgEl.textContent = avg + ' ms';
+                dAvg.textContent = avg + ' ms';
+                dMin.textContent = min + ' ms';
+                dMax.textContent = max + ' ms';
+                dLoss.textContent = s.losses + ' / ' + total + ' (' + lossRate + '%)';
+                dGrade.textContent = grade.text;
+                dGrade.className = 'badge ' + grade.cls;
+
+                allVals = allVals.concat(valid);
+            });
+
+            if (allVals.length > 0) {
+                document.getElementById('statMin').textContent = Math.min(...allVals) + 'ms';
+                document.getElementById('statAvg').textContent = Math.round(allVals.reduce((a, b) => a + b, 0) / allVals.length) + 'ms';
+                document.getElementById('statMax').textContent = Math.max(...allVals) + 'ms';
             }
         }
 
-        // ---- 一轮测试 ----
+        // ---- 发起一次 DNS 请求 ----
+        async function probeDNS(server) {
+            try {
+                const start = performance.now();
+                const controller = new AbortController();
+                const timeout = setTimeout(() => controller.abort(), 4000);
+
+                const resp = await fetch(server.url, {
+                    method: 'GET',
+                    signal: controller.signal,
+                    mode: 'cors'
+                });
+                clearTimeout(timeout);
+
+                const elapsed = Math.round(performance.now() - start);
+
+                if (resp.ok || resp.status === 200 || resp.status === 400) {
+                    // 收到任何响应都算成功（DoH 可能返回 400 但说明服务器可达）
+                    return elapsed;
+                }
+                return null; // 异常状态码算丢包
+            } catch (e) {
+                return null; // 超时或网络错误
+            }
+        }
+
+        // ---- 每秒采样 ----
         async function tick() {
             if (paused) return;
 
-            if (elapsed >= DURATION) {
-                stopTest();
-                return;
-            }
-
-            for (const s of servers) {
-                const ms = await ping(s.url);
-                s.data.push(ms);
-                drawChart('chart-' + s.key, s.data, s.color);
-
-                const valid = s.data.filter(v => v !== null);
-                if (valid.length > 0) {
-                    const avg = Math.round(valid.reduce((a, b) => a + b, 0) / valid.length);
-                    document.getElementById('avg-' + s.key).textContent = avg + ' ms';
+            const promises = servers.map(async (s) => {
+                const result = await probeDNS(s);
+                if (result === null) {
+                    s.data.push(null);
+                    s.losses++;
+                } else {
+                    s.data.push(result);
                 }
-            }
+            });
+
+            await Promise.all(promises);
+
+            // 绘图
+            servers.forEach(s => drawChart('chart-' + s.key, s.data, s.color));
+            drawOverview();
+            updateStats();
 
             elapsed++;
-            document.getElementById('timer').textContent = (DURATION - elapsed) + 's';
-            document.getElementById('progressFill').style.width = (elapsed / DURATION * 100) + '%';
+            const remaining = DURATION - elapsed;
+            document.getElementById('timer').textContent = remaining + 's';
+            document.getElementById('progressFill').style.width = ((elapsed / DURATION) * 100) + '%';
 
-            updateStats();
+            if (elapsed >= DURATION) {
+                stopTest();
+            }
         }
 
-        function updateStats() {
-            const all = servers.flatMap(s => s.data.filter(v => v !== null));
-            if (all.length === 0) return;
-            document.getElementById('statMin').textContent = Math.min(...all) + ' ms';
-            document.getElementById('statAvg').textContent = Math.round(all.reduce((a, b) => a + b, 0) / all.length) + ' ms';
-            document.getElementById('statMax').textContent = Math.max(...all) + ' ms';
-        }
-
-        // ---- 开始 ----
+        // ---- 开始测试 ----
         function startTest() {
-            if (running) return;
-            running = true;
-            paused = false;
+            // 重置
+            servers.forEach(s => { s.data = []; s.losses = 0; });
             elapsed = 0;
-
-            servers.forEach(s => s.data = []);
+            paused = false;
+            running = true;
 
             document.getElementById('startBtn').disabled = true;
-            document.getElementById('startBtn').textContent = '测试中...';
             document.getElementById('pauseBtn').disabled = false;
-            document.getElementById('pauseBtn').textContent = '暂停';
-            document.getElementById('pauseBtn').classList.remove('resumed');
+            document.getElementById('exportBtn').disabled = true;
             document.getElementById('timer').textContent = DURATION + 's';
             document.getElementById('timer').classList.remove('paused');
             document.getElementById('progressFill').style.width = '0%';
 
-            ['ali', 'tx', 'cf'].forEach(k => {
-                drawChart('chart-' + k, [], '#64748b');
-                document.getElementById('avg-' + k).textContent = '-- ms';
-            });
-            document.getElementById('statMin').textContent = '--';
-            document.getElementById('statAvg').textContent = '--';
-            document.getElementById('statMax').textContent = '--';
-
+            // 立即执行一次
             tick();
             timer = setInterval(tick, INTERVAL);
         }
 
-        // ---- 暂停 / 继续 ----
+        // ---- 暂停/恢复 ----
         function togglePause() {
-            if (!running) return;
-
             paused = !paused;
-            const pauseBtn = document.getElementById('pauseBtn');
+            const btn = document.getElementById('pauseBtn');
             const timerEl = document.getElementById('timer');
 
             if (paused) {
-                pauseBtn.textContent = '继续';
-                pauseBtn.classList.add('resumed');
+                btn.textContent = '继续';
+                btn.classList.add('resumed');
                 timerEl.classList.add('paused');
             } else {
-                pauseBtn.textContent = '暂停';
-                pauseBtn.classList.remove('resumed');
+                btn.textContent = '暂停';
+                btn.classList.remove('resumed');
                 timerEl.classList.remove('paused');
             }
         }
 
-        // ---- 停止 ----
+        // ---- 停止测试 ----
         function stopTest() {
             clearInterval(timer);
+            timer = null;
             running = false;
-            paused = false;
 
             document.getElementById('startBtn').disabled = false;
-            document.getElementById('startBtn').textContent = '重新测试';
             document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('exportBtn').disabled = false;
             document.getElementById('pauseBtn').textContent = '暂停';
             document.getElementById('pauseBtn').classList.remove('resumed');
-            document.getElementById('timer').textContent = '完成';
-            document.getElementById('timer').classList.remove('paused');
         }
 
-        // 初始化空图表
-        ['ali', 'tx', 'cf'].forEach(k => drawChart('chart-' + k, [], '#64748b'));
+        // ---- 导出报告 ----
+        function exportReport() {
+            const report = {
+                testTime: new Date().toISOString(),
+                duration: DURATION + 's',
+                servers: servers.map(s => {
+                    const valid = s.data.filter(v => v !== null);
+                    const avg = valid.length > 0 ? Math.round(valid.reduce((a, b) => a + b, 0) / valid.length) : 0;
+                    const lossRate = s.data.length > 0 ? ((s.losses / s.data.length) * 100).toFixed(1) : 0;
+                    const grade = getGrade(avg, parseFloat(lossRate));
+                    return {
+                        name: s.name,
+                        url: s.url,
+                        avg: avg + 'ms',
+                        min: valid.length > 0 ? Math.min(...valid) + 'ms' : '--',
+                        max: valid.length > 0 ? Math.max(...valid) + 'ms' : '--',
+                        losses: s.losses,
+                        total: s.data.length,
+                        lossRate: lossRate + '%',
+                        grade: grade.text,
+                        samples: s.data
+                    };
+                })
+            };
+
+            const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'dns-test-report-' + new Date().toISOString().slice(0, 10) + '.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
     </script>
 </body>
 </html>
