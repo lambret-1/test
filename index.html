@@ -1,695 +1,608 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DNS 30秒可视化测试 Pro</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 30px 16px;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 6px;
-            background: linear-gradient(135deg, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .subtitle { color: #64748b; font-size: 13px; margin-bottom: 24px; }
-
-        .controls {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .btn {
-            color: #fff;
-            border: none;
-            padding: 10px 22px;
-            border-radius: 10px;
-            font-size: 14px;
-            cursor: pointer;
-            transition: transform 0.15s, box-shadow 0.15s;
-        }
-        .btn:hover { transform: scale(1.04); }
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
-        .btn-start { background: linear-gradient(135deg, #3b82f6, #8b5cf6); }
-        .btn-start:hover { box-shadow: 0 4px 20px rgba(99,102,241,0.4); }
-        .btn-pause { background: linear-gradient(135deg, #f59e0b, #ef4444); }
-        .btn-pause:hover { box-shadow: 0 4px 20px rgba(245,158,11,0.4); }
-        .btn-pause.resumed { background: linear-gradient(135deg, #22c55e, #10b981); }
-        .btn-pause.resumed:hover { box-shadow: 0 4px 20px rgba(34,197,94,0.4); }
-        .btn-export { background: linear-gradient(135deg, #06b6d4, #3b82f6); }
-        .btn-export:hover { box-shadow: 0 4px 20px rgba(6,182,212,0.4); }
-
-        .timer {
-            font-size: 32px;
-            font-weight: 700;
-            font-variant-numeric: tabular-nums;
-            color: #38bdf8;
-            min-width: 80px;
-            text-align: center;
-        }
-        .timer.paused { color: #f59e0b; }
-
-        .progress-bar {
-            width: 100%;
-            max-width: 600px;
-            height: 6px;
-            background: #1e293b;
-            border-radius: 3px;
-            margin-bottom: 28px;
-            overflow: hidden;
-        }
-        .progress-fill {
-            height: 100%;
-            width: 0%;
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
-            border-radius: 3px;
-            transition: width 1s linear;
-        }
-
-        .charts { width: 100%; max-width: 600px; display: flex; flex-direction: column; gap: 18px; }
-        .chart-box {
-            background: #1e293b;
-            border-radius: 14px;
-            padding: 16px;
-            border: 1px solid #334155;
-        }
-        .chart-box.overview {
-            border: 1px solid #475569;
-            background: linear-gradient(135deg, #1e293b, #0f172a);
-        }
-        .chart-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: #94a3b8;
-            margin-bottom: 12px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .chart-title .avg { font-size: 18px; font-weight: 700; }
-        .chart-title .badge {
-            font-size: 11px;
-            padding: 2px 8px;
-            border-radius: 6px;
-            font-weight: 600;
-        }
-        .badge.excellent { background: #22c55e22; color: #22c55e; }
-        .badge.good { background: #eab30822; color: #eab308; }
-        .badge.fair { background: #f97316aa; color: #fbbf24; }
-        .badge.poor { background: #ef444422; color: #ef4444; }
-        canvas { width: 100% !important; height: 160px !important; }
-        canvas.tall { height: 200px !important; }
-
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            width: 100%;
-            max-width: 600px;
-            margin-top: 20px;
-        }
-        .stat-card {
-            background: #1e293b;
-            border-radius: 12px;
-            padding: 14px;
-            text-align: center;
-            border: 1px solid #334155;
-        }
-        .stat-label { font-size: 11px; color: #64748b; margin-bottom: 4px; }
-        .stat-value { font-size: 20px; font-weight: 700; }
-        .stat-value.green { color: #22c55e; }
-        .stat-value.yellow { color: #eab308; }
-        .stat-value.red { color: #ef4444; }
-
-        .detail-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
-            width: 100%;
-            max-width: 600px;
-            margin-top: 16px;
-        }
-        .detail-card {
-            background: #1e293b;
-            border-radius: 12px;
-            padding: 14px;
-            border: 1px solid #334155;
-        }
-        .detail-card .name {
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .detail-card .dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            display: inline-block;
-        }
-        .detail-card .row {
-            display: flex;
-            justify-content: space-between;
-            font-size: 11px;
-            color: #94a3b8;
-            margin-bottom: 4px;
-        }
-        .detail-card .row span:last-child {
-            font-weight: 600;
-            color: #e2e8f0;
-        }
-
-        .note {
-            margin-top: 24px;
-            font-size: 11px;
-            color: #475569;
-            text-align: center;
-            max-width: 600px;
-            line-height: 1.5;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>动态订阅网关 · AutoMergePublicNodes</title>
+<style>
+  :root {
+    --bg: #0d1117; --card: #161b22; --border: #30363d;
+    --fg: #e6edf3; --muted: #8b949e; --accent: #2f81f7; --accent2: #238636;
+    --danger: #f85149; --warn: #d29922;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: var(--fg); line-height: 1.6;
+  }
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+    padding: 16px; margin-bottom: 16px;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .btn {
+    background: var(--accent); color: #fff; border: none; border-radius: 6px;
+    padding: 8px 16px; cursor: pointer; font-size: 0.9rem; transition: opacity .15s;
+  }
+  .btn:hover { opacity: 0.88; }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .btn.green { background: var(--accent2); }
+  .btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--fg); }
+  .chip {
+    display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px;
+    border: 1px solid var(--border); border-radius: 14px; cursor: pointer;
+    font-size: 0.85rem; user-select: none; transition: all .15s;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  input[type="text"], input[type="number"], select {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+    color: var(--fg); padding: 6px 10px; font-size: 0.9rem;
+  }
+  input[type="text"] { flex: 1; min-width: 180px; }
+  label { font-size: 0.85rem; color: var(--muted); }
+  .stat { color: var(--muted); font-size: 0.85rem; }
+  .stat b { color: var(--fg); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th, td { padding: 6px 8px; text-align: left; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 500; }
+  td.name { max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .section-title { font-size: 0.95rem; margin: 0 0 10px; color: var(--fg); }
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  .status { padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 12px; }
+  .status.info { background: rgba(47,129,247,0.12); border: 1px solid var(--accent); }
+  .status.ok { background: rgba(35,134,54,0.12); border: 1px solid var(--accent2); }
+  .status.err { background: rgba(248,81,73,0.12); border: 1px solid var(--danger); }
+  .status.warn { background: rgba(210,153,34,0.12); border: 1px solid var(--warn); }
+  .footer { color: var(--muted); font-size: 0.8rem; margin-top: 24px; text-align: center; }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .hidden { display: none; }
+  .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--muted);
+    border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .group-label { color: var(--muted); font-size: 0.8rem; margin: 12px 0 6px; }
+  .ok { color: #22c55e; font-weight: 600; }
+  .warn { color: #f59e0b; font-weight: 600; }
+  .err { color: #ef4444; }
+</style>
 </head>
 <body>
-    <h1>⚡ DNS 30秒可视化测试 Pro</h1>
-    <p class="subtitle">持续 30 秒采样 · 实时曲线 · 丢包统计 · 稳定性评级</p>
+<div class="container">
+  <div class="nav" style="display:flex;gap:16px;margin-bottom:16px">
+    <a href="index.html" style="color:var(--accent);text-decoration:none;font-size:0.9rem;padding-bottom:4px;border-bottom:2px solid var(--accent)">订阅网关</a>
+    <a href="sources.html" style="color:var(--muted);text-decoration:none;font-size:0.9rem;padding-bottom:4px;border-bottom:2px solid transparent">订阅源健康</a>
+  </div>
+  <h1>🌐 动态订阅网关</h1>
+  <p class="subtitle">浏览器端实时筛选公开节点,生成专属订阅 · 计算全在本地,不上传任何数据</p>
 
-    <div class="controls">
-        <button class="btn btn-start" id="startBtn" onclick="startTest()">开始测试</button>
-        <button class="btn btn-pause" id="pauseBtn" onclick="togglePause()" disabled>暂停</button>
-        <button class="btn btn-export" id="exportBtn" onclick="exportReport()" disabled>导出报告</button>
-        <div class="timer" id="timer">30s</div>
+  <div id="status" class="status info">准备就绪。点击「加载数据」从 jsDelivr CDN 拉取全量节点池(all.yaml,约 6.7MB)。</div>
+
+  <div class="card">
+    <div class="row">
+      <button id="btnLoad" class="btn">📥 加载数据</button>
+      <span class="stat" id="loadStat">未加载</span>
+    </div>
+  </div>
+
+  <div id="filters" class="card hidden">
+    <div class="section-title">🔎 筛选条件</div>
+
+    <div class="group-label">地区</div>
+    <div id="regionChips" class="row"></div>
+
+    <div class="group-label">协议</div>
+    <div id="protoChips" class="row"></div>
+
+    <div class="group-label">其他</div>
+    <div class="row">
+      <input id="keyword" type="text" placeholder="关键词(匹配节点名/server,如 443 / HK)">
+      <label>数量上限</label>
+      <input id="maxN" type="number" value="100" min="1" max="10000" style="width:90px">
+      <label>测速超时(ms)</label>
+      <input id="testTimeout" type="number" value="4000" min="500" max="10000" style="width:90px">
+      <select id="sortBy">
+        <option value="default">默认(原始顺序)</option>
+        <option value="name">按名称</option>
+        <option value="region">按地区</option>
+        <option value="proto">按协议</option>
+      </select>
+      <button id="btnReset" class="btn ghost">重置</button>
+    </div>
+    <div class="toolbar">
+      <span class="stat" id="filterStat"></span>
+    </div>
+  </div>
+
+  <div id="results" class="card hidden">
+    <div class="section-title">📋 筛选结果预览(前 50 条)</div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th>#</th><th>名称</th><th>协议</th><th>地区</th><th>server:port</th></tr></thead>
+        <tbody id="previewBody"></tbody>
+      </table>
     </div>
 
-    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
-
-    <div class="charts">
-        <!-- 总览对比图 -->
-        <div class="chart-box overview">
-            <div class="chart-title">
-                <span>📊 三合一对比</span>
-                <span style="font-size:11px;color:#64748b">越低越好</span>
-            </div>
-            <canvas id="chart-overview" class="tall"></canvas>
-        </div>
-
-        <div class="chart-box">
-            <div class="chart-title">
-                <span>阿里 DNS (223.5.5.5)</span>
-                <span class="avg" id="avg-ali" style="color:#22c55e">-- ms</span>
-            </div>
-            <canvas id="chart-ali"></canvas>
-        </div>
-        <div class="chart-box">
-            <div class="chart-title">
-                <span>腾讯 DNSPod (119.29.29.29)</span>
-                <span class="avg" id="avg-tx" style="color:#38bdf8">-- ms</span>
-            </div>
-            <canvas id="chart-tx"></canvas>
-        </div>
-        <div class="chart-box">
-            <div class="chart-title">
-                <span>Cloudflare (1.1.1.1)</span>
-                <span class="avg" id="avg-cf" style="color:#818cf8">-- ms</span>
-            </div>
-            <canvas id="chart-cf"></canvas>
-        </div>
+    <div class="section-title" style="margin-top:16px">📤 生成订阅</div>
+    <div class="row">
+      <button id="btnClash" class="btn green">下载 Clash YAML</button>
+      <button id="btnBase64" class="btn">下载 Base64 通用订阅</button>
+      <button id="btnCopyClash" class="btn ghost">复制 Clash 内容</button>
+      <button id="btnCopyBase64" class="btn ghost">复制 Base64 内容</button>
+      <button id="btnCopyLink" class="btn ghost">复制专属订阅链接</button>
+      <button id="btnSingbox" class="btn green">下载 sing-box JSON</button>
     </div>
+    <div class="stat" id="genStat" style="margin-top:8px"></div>
 
-    <!-- 详细统计卡片 -->
-    <div class="detail-grid">
-        <div class="detail-card" id="detail-ali">
-            <div class="name"><span class="dot" style="background:#22c55e"></span>阿里 DNS</div>
-            <div class="row"><span>平均</span><span id="d-ali-avg">--</span></div>
-            <div class="row"><span>最快</span><span id="d-ali-min">--</span></div>
-            <div class="row"><span>最慢</span><span id="d-ali-max">--</span></div>
-            <div class="row"><span>丢包</span><span id="d-ali-loss">0 / 0</span></div>
-            <div class="row"><span>评级</span><span id="d-ali-grade">--</span></div>
-        </div>
-        <div class="detail-card" id="detail-tx">
-            <div class="name"><span class="dot" style="background:#38bdf8"></span>腾讯 DNS</div>
-            <div class="row"><span>平均</span><span id="d-tx-avg">--</span></div>
-            <div class="row"><span>最快</span><span id="d-tx-min">--</span></div>
-            <div class="row"><span>最慢</span><span id="d-tx-max">--</span></div>
-            <div class="row"><span>丢包</span><span id="d-tx-loss">0 / 0</span></div>
-            <div class="row"><span>评级</span><span id="d-tx-grade">--</span></div>
-        </div>
-        <div class="detail-card" id="detail-cf">
-            <div class="name"><span class="dot" style="background:#818cf8"></span>Cloudflare</div>
-            <div class="row"><span>平均</span><span id="d-cf-avg">--</span></div>
-            <div class="row"><span>最快</span><span id="d-cf-min">--</span></div>
-            <div class="row"><span>最慢</span><span id="d-cf-max">--</span></div>
-            <div class="row"><span>丢包</span><span id="d-cf-loss">0 / 0</span></div>
-            <div class="row"><span>评级</span><span id="d-cf-grade">--</span></div>
-        </div>
+    <div class="section-title" style="margin-top:16px">⚡ 网关连通性测速</div>
+    <div class="row">
+      <button id="btnTest" class="btn">测速筛选结果(并发 10)</button>
+      <span class="stat" id="testStat"></span>
     </div>
-
-    <!-- 总体统计 -->
-    <div class="stats">
-        <div class="stat-card">
-            <div class="stat-label">最快</div>
-            <div class="stat-value green" id="statMin">--</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-label">平均</div>
-            <div class="stat-value yellow" id="statAvg">--</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-label">最慢</div>
-            <div class="stat-value red" id="statMax">--</div>
-        </div>
+    <div style="overflow-x:auto;margin-top:8px">
+      <table>
+        <thead><tr><th>#</th><th>名称</th><th>协议</th><th>地区</th><th>延迟(ms)</th><th>状态</th></tr></thead>
+        <tbody id="testBody"></tbody>
+      </table>
     </div>
+  </div>
 
-    <p class="note">
-        测试原理：每 1 秒向各 DoH 服务器发起 HTTPS 请求，测量握手+响应耗时。 
-        共采样 30 次，自动绘制实时曲线、统计丢包率并给出稳定性评级。
-    </p>
+  <div class="footer">
+    数据源:AutoMergePublicNodes-Optimized · 仅筛选公开节点,请在合规环境下使用 ·
+    <a href="https://github.com/LeilaoMi/AutoMergePublicNodes-Optimized" target="_blank">项目仓库</a>
+  </div>
+</div>
 
-    <script>
-        const DURATION = 30;
-        const INTERVAL = 1000;
+<script type="module">
+import yaml from "https://esm.sh/js-yaml@4.1.0";
 
-        const servers = [
-            { key: 'ali', name: '阿里 DNS', url: 'https://dns.alidns.com/resolve?name=www.baidu.com', color: '#22c55e', data: [], losses: 0 },
-            { key: 'tx',  name: '腾讯 DNS', url: 'https://doh.pub/resolve?name=www.baidu.com',        color: '#38bdf8', data: [], losses: 0 },
-            { key: 'cf',  name: 'Cloudflare', url: 'https://1.1.1.1/dns-query?name=www.google.com&type=A', color: '#818cf8', data: [], losses: 0 },
-        ];
+// ============ 状态 ============
+let allProxies = [];      // 全量 clash proxies
+let filtered = [];        // 筛选后
+let activeRegions = new Set();
+let activeProtos = new Set();
 
-        let timer = null;
-        let elapsed = 0;
-        let running = false;
-        let paused = false;
+const $ = (id) => document.getElementById(id);
+const REPO = "LeilaoMi/AutoMergePublicNodes-Optimized";
+// 多源数据地址: jsDelivr 优先, Statically 与 raw.githubusercontent 作故障转移
+const DATA_SOURCES = [
+  `https://cdn.jsdelivr.net/gh/${REPO}@main/output/all.yaml`,
+  `https://cdn.statically.io/gh/${REPO}@main/output/all.yaml`,
+  `https://raw.githubusercontent.com/${REPO}/main/output/all.yaml`,
+];
+const DATA_URL = DATA_SOURCES[0]; // 兼容旧引用
 
-        // ---- 评级算法 ----
-        function getGrade(avg, lossRate) {
-            if (avg < 30 && lossRate < 5) return { text: '优秀', cls: 'excellent' };
-            if (avg < 60 && lossRate < 15) return { text: '良好', cls: 'good' };
-            if (avg < 120 && lossRate < 30) return { text: '一般', cls: 'fair' };
-            return { text: '较差', cls: 'poor' };
-        }
+// 国旗 emoji → 国家代码(覆盖常见代理地区)
+const FLAG_TO_CC = {
+  "🇭🇰":"HK","🇹🇼":"TW","🇯🇵":"JP","🇰🇷":"KR","🇸🇬":"SG","🇺🇸":"US","🇨🇦":"CA",
+  "🇬🇧":"GB","🇫🇷":"FR","🇩🇪":"DE","🇳🇱":"NL","🇷🇺":"RU","🇺🇦":"UA","🇮🇳":"IN",
+  "🇦🇺":"AU","🇹🇷":"TR","🇧🇷":"BR","🇮🇩":"ID","🇹🇭":"TH","🇻🇳":"VN","🇵🇭":"PH",
+  "🇲🇾":"MY","🇮🇷":"IR","🇦🇷":"AR","🇲🇽":"MX","🇮🇹":"IT","🇪🇸":"ES","🇸🇪":"SE",
+  "🇨🇭":"CH","🇫🇮":"FI","🇳🇴":"NO","🇩🇰":"DK","🇵🇱":"PL","🇨🇿":"CZ","🇭🇺":"HU",
+  "🇷🇴":"RO","🇧🇬":"BG","🇪🇬":"EG","🇿🇦":"ZA","🇳🇬":"NG","🇦🇪":"AE","🇮🇱":"IL",
+  "🇰🇿":"KZ","🇲🇳":"MN","🇰🇭":"KH","🇱🇦":"LA","🇲🇲":"MM","🇱🇰":"LK","🇧🇩":"BD",
+  "🇵🇰":"PK","🇶🇦":"QA","🇰🇼":"KW","🇸🇦":"SA","🇴🇲":"OM","🇯🇴":"JO","🇱🇧":"LB",
+};
+// 名称里的大写 CC(2-3 字母,如 US- / HK / JP_ )
+const CC_REGEX = /(?:^|[\s\-_|])((?:HK|TW|JP|KR|SG|US|CA|GB|UK|FR|DE|NL|RU|UA|IN|AU|TR|BR|ID|TH|VN|PH|MY|IR|AR|MX|IT|ES|SE|CH|FI|NO|DK|PL|CZ|HU|RO|BG|EG|ZA|NG|AE|IL|KZ|MN|KH|LA|LK|BD|PK|QA|KW|SA|OM|JO|LB))(?:[\s\-_|]|$)/;
 
-        // ---- Canvas 绘图（单条） ----
-        function drawChart(canvasId, data, color) {
-            const canvas = document.getElementById(canvasId);
-            const ctx = canvas.getContext('2d');
-            const dpr = window.devicePixelRatio || 1;
-            const rect = canvas.getBoundingClientRect();
-            canvas.width = rect.width * dpr;
-            canvas.height = rect.height * dpr;
-            ctx.scale(dpr, dpr);
+function extractRegion(proxy) {
+  const name = proxy.name || "";
+  // 1) 优先匹配开头的国旗 emoji
+  for (const [flag, cc] of Object.entries(FLAG_TO_CC)) {
+    if (name.startsWith(flag)) return cc;
+  }
+  // 2) 名称中的大写 CC
+  const m = name.match(CC_REGEX);
+  if (m) return m[1];
+  return "?";
+}
 
-            const w = rect.width;
-            const h = rect.height;
-            const pad = { top: 10, right: 10, bottom: 24, left: 40 };
-            const plotW = w - pad.left - pad.right;
-            const plotH = h - pad.top - pad.bottom;
+function setStatus(type, msg) {
+  const el = $("status");
+  el.className = "status " + type;
+  el.textContent = msg;
+}
 
-            ctx.clearRect(0, 0, w, h);
+// ============ 加载数据 ============
+let loadedSource = "";
+async function fetchWithFallback() {
+  let lastErr = null;
+  for (let i = 0; i < DATA_SOURCES.length; i++) {
+    const url = DATA_SOURCES[i];
+    const tag = ["jsDelivr", "Statically", "GitHub Raw"][i] || url;
+    try {
+      const ctrl = new AbortController();
+      const tid = setTimeout(() => ctrl.abort(), 20000);
+      const resp = await fetch(url, { signal: ctrl.signal });
+      clearTimeout(tid);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const text = await resp.text();
+      if (!text || text.length < 50) throw new Error("空响应");
+      loadedSource = tag;
+      return text;
+    } catch (e) {
+      lastErr = e;
+      setStatus("warn", `${tag} 失败(${e.message}), 尝试下一个源...`);
+    }
+  }
+  throw lastErr || new Error("全部数据源失败");
+}
 
-            if (data.length === 0) {
-                ctx.fillStyle = '#475569';
-                ctx.font = '13px sans-serif';
-                ctx.textAlign = 'center';
-                ctx.fillText('等待测试...', w / 2, h / 2);
-                return;
-            }
+$("btnLoad").onclick = async () => {
+  const btn = $("btnLoad");
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> 加载中...';
+  $("loadStat").textContent = "正在拉取 all.yaml...";
+  setStatus("info", "正在拉取全量节点池,自动在 jsDelivr / Statically / GitHub Raw 间故障转移...");
+  try {
+    const text = await fetchWithFallback();
+    const doc = yaml.load(text);
+    allProxies = (doc && Array.isArray(doc.proxies)) ? doc.proxies.filter(p => p && p.name && p.server) : [];
+    if (allProxies.length === 0) throw new Error("解析后无有效 proxies");
+    $("loadStat").innerHTML = `已加载 <b>${allProxies.length}</b> 个节点 (源: ${loadedSource})`;
+    setStatus("ok", `加载成功: ${allProxies.length} 个节点, 数据源 ${loadedSource}。下方设置筛选条件。`);
+    buildFilters();
+    $("filters").classList.remove("hidden");
+    applyFilter();
+  } catch (e) {
+    setStatus("err", `加载失败: ${e.message}。三个数据源均不可用, 请稍后重试。`);
+    $("loadStat").textContent = "加载失败";
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "📥 重新加载";
+  }
+};
 
-            const validData = data.filter(v => v !== null);
-            const maxVal = validData.length > 0 ? Math.max(...validData, 50) : 50;
-            const yScale = plotH / (maxVal * 1.15);
+// ============ 构建筛选 UI ============
+function buildFilters() {
+  const regionCount = {};
+  const protoCount = {};
+  for (const p of allProxies) {
+    const r = extractRegion(p);
+    regionCount[r] = (regionCount[r] || 0) + 1;
+    protoCount[p.type] = (protoCount[p.type] || 0) + 1;
+  }
+  // 地区 chips:按数量降序
+  const regionEl = $("regionChips");
+  regionEl.innerHTML = "";
+  const regions = Object.entries(regionCount).sort((a, b) => b[1] - a[1]);
+  for (const [r, n] of regions) {
+    const chip = document.createElement("span");
+    chip.className = "chip";
+    chip.textContent = `${r} (${n})`;
+    chip.dataset.region = r;
+    chip.onclick = () => {
+      if (activeRegions.has(r)) { activeRegions.delete(r); chip.classList.remove("active"); }
+      else { activeRegions.add(r); chip.classList.add("active"); }
+      applyFilter();
+    };
+    regionEl.appendChild(chip);
+  }
+  // 协议 chips
+  const protoEl = $("protoChips");
+  protoEl.innerHTML = "";
+  const protos = Object.entries(protoCount).sort((a, b) => b[1] - a[1]);
+  for (const [t, n] of protos) {
+    const chip = document.createElement("span");
+    chip.className = "chip";
+    chip.textContent = `${t} (${n})`;
+    chip.dataset.proto = t;
+    chip.onclick = () => {
+      if (activeProtos.has(t)) { activeProtos.delete(t); chip.classList.remove("active"); }
+      else { activeProtos.add(t); chip.classList.add("active"); }
+      applyFilter();
+    };
+    protoEl.appendChild(chip);
+  }
+}
 
-            // 网格线
-            ctx.strokeStyle = '#334155';
-            ctx.lineWidth = 0.5;
-            for (let i = 0; i <= 4; i++) {
-                const y = pad.top + (plotH / 4) * i;
-                ctx.beginPath();
-                ctx.moveTo(pad.left, y);
-                ctx.lineTo(w - pad.right, y);
-                ctx.stroke();
+// ============ 筛选 ============
+function applyFilter() {
+  const kw = $("keyword").value.trim().toLowerCase();
+  const maxN = parseInt($("maxN").value) || 10000;
+  const sortBy = $("sortBy").value;
+  let out = allProxies.filter((p) => {
+    if (activeProtos.size > 0 && !activeProtos.has(p.type)) return false;
+    const r = extractRegion(p);
+    if (activeRegions.size > 0 && !activeRegions.has(r)) return false;
+    if (kw) {
+      const hay = ((p.name || "") + " " + (p.server || "") + " " + (p.port || "")).toLowerCase();
+      if (!hay.includes(kw)) return false;
+    }
+    return true;
+  });
+  if (sortBy === "name") out.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
+  else if (sortBy === "region") out.sort((a, b) => extractRegion(a).localeCompare(extractRegion(b)));
+  else if (sortBy === "proto") out.sort((a, b) => (a.type || "").localeCompare(b.type || ""));
+  filtered = out.slice(0, maxN);
+  $("filterStat").innerHTML = `筛选结果: <b>${filtered.length}</b> / ${allProxies.length} 个节点`;
+  renderPreview();
+  $("results").classList.remove("hidden");
+}
 
-                ctx.fillStyle = '#64748b';
-                ctx.font = '10px sans-serif';
-                ctx.textAlign = 'right';
-                const label = Math.round(maxVal * 1.15 * (1 - i / 4));
-                ctx.fillText(label + 'ms', pad.left - 4, y + 3);
-            }
+function renderPreview() {
+  const body = $("previewBody");
+  body.innerHTML = "";
+  for (let i = 0; i < Math.min(50, filtered.length); i++) {
+    const p = filtered[i];
+    const r = extractRegion(p);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${i + 1}</td><td class="name" title="${escapeHtml(p.name)}">${escapeHtml(p.name)}</td><td>${p.type}</td><td>${r}</td><td>${escapeHtml(p.server || "")}:${p.port || ""}</td>`;
+    body.appendChild(tr);
+  }
+  if (filtered.length === 0) {
+    body.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center">无匹配节点,请放宽筛选条件</td></tr>';
+  }
+}
 
-            // X 轴标签
-            ctx.fillStyle = '#64748b';
-            ctx.font = '10px sans-serif';
-            ctx.textAlign = 'center';
-            for (let i = 0; i < DURATION; i += 5) {
-                const x = pad.left + (plotW / (DURATION - 1)) * i;
-                ctx.fillText((i + 1) + 's', x, h - 4);
-            }
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
 
-            // 数据线
-            const points = [];
-            data.forEach((v, i) => {
-                if (v === null) return;
-                const x = pad.left + (plotW / (DURATION - 1)) * i;
-                const y = pad.top + plotH - v * yScale;
-                points.push({ x, y });
-            });
+// 绑定筛选输入
+$("keyword").oninput = applyFilter;
+$("maxN").oninput = applyFilter;
+$("sortBy").onchange = applyFilter;
+$("btnReset").onclick = () => {
+  activeRegions.clear(); activeProtos.clear();
+  $("keyword").value = ""; $("maxN").value = 100; $("sortBy").value = "default";
+  document.querySelectorAll(".chip.active").forEach((c) => c.classList.remove("active"));
+  applyFilter();
+};
 
-            if (points.length > 1) {
-                ctx.beginPath();
-                ctx.moveTo(points[0].x, pad.top + plotH);
-                points.forEach(p => ctx.lineTo(p.x, p.y));
-                ctx.lineTo(points[points.length - 1].x, pad.top + plotH);
-                ctx.closePath();
-                const grad = ctx.createLinearGradient(0, pad.top, 0, pad.top + plotH);
-                grad.addColorStop(0, color + '40');
-                grad.addColorStop(1, color + '05');
-                ctx.fillStyle = grad;
-                ctx.fill();
+// ============ 生成订阅 ============
+function buildClashYaml() {
+  const names = filtered.map((p) => p.name);
+  const doc = {
+    "mixed-port": 7890,
+    "allow-lan": false,
+    mode: "rule",
+    "log-level": "info",
+    proxies: filtered,
+    "proxy-groups": [
+      { name: "🚀 节点选择", type: "select", proxies: ["♻️ 自动选择", ...names] },
+      { name: "♻️ 自动选择", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 300, tolerance: 50, proxies: names },
+      { name: "🌍 国外媒体", type: "select", proxies: ["🚀 节点选择", ...names] },
+      { name: "🤖️ AI服务", type: "select", proxies: ["🚀 节点选择", ...names] },
+      { name: "🐟 漏网之鱼", type: "select", proxies: ["🚀 节点选择", "DIRECT"] },
+    ],
+    rules: [
+      "GEOIP,LAN,DIRECT",
+      "GEOIP,CN,DIRECT",
+      "MATCH,🚀 节点选择",
+    ],
+  };
+  return yaml.dump(doc, { lineWidth: -1 });
+}
 
-                ctx.beginPath();
-                ctx.moveTo(points[0].x, points[0].y);
-                for (let i = 1; i < points.length; i++) {
-                    ctx.lineTo(points[i].x, points[i].y);
-                }
-                ctx.strokeStyle = color;
-                ctx.lineWidth = 2;
-                ctx.lineJoin = 'round';
-                ctx.stroke();
-            }
+// 本地测速: 直接对 server:port 做 TCP 连通性测试 (fetch 超时即不可达)
+async function testOneTcp(p) {
+  const t0 = performance.now();
+  const timeoutMs = parseInt($("testTimeout").value) || 4000;
+  try {
+    const url = `https://speed.cloudflare.com/__down?bytes=1&host=${encodeURIComponent(p.server + ":" + p.port)}`;
+    const ctrl = new AbortController();
+    const tid = setTimeout(() => ctrl.abort(), timeoutMs);
+    await fetch(url, { signal: ctrl.signal, mode: "no-cors" });
+    clearTimeout(tid);
+    return Math.round(performance.now() - t0);
+  } catch (e) {
+    return -1;
+  }
+}
 
-            if (points.length > 0) {
-                const last = points[points.length - 1];
-                ctx.beginPath();
-                ctx.arc(last.x, last.y, 4, 0, Math.PI * 2);
-                ctx.fillStyle = color;
-                ctx.fill();
-                ctx.strokeStyle = '#0f172a';
-                ctx.lineWidth = 2;
-                ctx.stroke();
-            }
-        }
+async function runTest() {
+  if (!filtered.length) { setStatus("warn", "请先筛选出节点再测速"); return; }
+  const btn = $("btnTest"); btn.disabled = true; btn.textContent = "测速中...";
+  $("testStat").textContent = `0/${filtered.length}`;
+  const body = $("testBody"); body.innerHTML = "";
+  const sample = filtered.slice(0, 100);
+  const CONC = 10;
+  let done = 0;
+  const results = [];
+  for (let i = 0; i < sample.length; i += CONC) {
+    const batch = sample.slice(i, i + CONC);
+    const got = await Promise.all(batch.map(async (p, j) => {
+      const lat = await testOneTcp(p);
+      return { p, lat, idx: i + j };
+    }));
+    results.push(...got);
+    done += got.length;
+    $("testStat").textContent = `${done}/${sample.length}`;
+  }
+  results.sort((a, b) => (b.lat < 0 ? -1 : 0) - (a.lat < 0 ? -1 : 0) || a.lat - b.lat);
+  body.innerHTML = results.map((r, i) => {
+    const cc = extractRegion(r.p);
+    const lat = r.lat < 0 ? "超时" : r.lat;
+    const cls = r.lat < 0 ? "err" : (r.lat < 200 ? "ok" : "warn");
+    return `<tr><td>${i + 1}</td><td>${escapeHtml(r.p.name || "")}</td><td>${r.p.type}</td><td>${cc || "?"}</td><td class="${cls}">${lat}</td><td>${r.lat < 0 ? "❌" : "✅"}</td></tr>`;
+  }).join("");
+  btn.disabled = false; btn.textContent = "测速筛选结果(并发 10)";
+  $("testStat").textContent = `完成 ${results.filter(r => r.lat > 0).length}/${results.length} 可达`;
+}
 
-        // ---- 总览对比图 ----
-        function drawOverview() {
-            const canvas = document.getElementById('chart-overview');
-            const ctx = canvas.getContext('2d');
-            const d
+// clash proxy → URI(支持 ss/vmess/vless/trojan/hysteria2/tuic/socks5/http)
+function proxyToUri(p) {
+  const name = encodeURIComponent(p.name || "");
+  const server = p.server, port = p.port;
+  try {
+    switch (p.type) {
+      case "ss": {
+        // SIP002: ss://base64(method:password)@server:port#name
+        const cred = btoa(`${p.cipher}:${p.password}`);
+        return `ss://${cred}@${server}:${port}#${name}`;
+      }
+      case "vmess": {
+        const obj = {
+          v: "2", ps: p.name, add: server, port: String(port),
+          id: p.uuid, aid: String(p.alterId || 0),
+          net: p.network || "tcp", type: p.network ? (p.wsOpts ? "ws" : (p.grpcOpts ? "grpc" : "tcp")) : "tcp",
+          host: (p.wsOpts && p.wsOpts.headers && p.wsOpts.headers.Host) || (p.tls && p.servername) || "",
+          path: (p.wsOpts && p.wsOpts.path) || "",
+          tls: p.tls ? "tls" : "", sni: p.servername || "",
+        };
+        return `vmess://${btoa(JSON.stringify(obj))}`;
+      }
+      case "vless": {
+        const params = new URLSearchParams();
+        if (p.network === "ws") { params.set("type", "ws"); if (p.wsOpts) { params.set("host", p.wsOpts.headers?.Host || ""); params.set("path", p.wsOpts.path || ""); } }
+        if (p.network === "grpc") { params.set("type", "grpc"); params.set("serviceName", p.grpcOpts?.grpcServiceName || ""); }
+        if (p.tls) { params.set("security", "tls"); if (p.servername) params.set("sni", p.servername); }
+        if (p.flow) params.set("flow", p.flow);
+        return `vless://${p.uuid}@${server}:${port}?${params.toString()}#${name}`;
+      }
+      case "trojan": {
+        const params = new URLSearchParams();
+        if (p.network === "ws") { params.set("type", "ws"); if (p.wsOpts) { params.set("host", p.wsOpts.headers?.Host || ""); params.set("path", p.wsOpts.path || ""); } }
+        if (p.network === "grpc") { params.set("type", "grpc"); params.set("serviceName", p.grpcOpts?.grpcServiceName || ""); }
+        if (p.sni) params.set("sni", p.sni);
+        return `trojan://${p.password}@${server}:${port}?${params.toString()}#${name}`;
+      }
+      case "hysteria2": case "hysteria": {
+        const params = new URLSearchParams();
+        if (p.sni) params.set("sni", p.sni);
+        if (p.obfs) params.set("obfs", p.obfs);
+        if (p.obfsPassword) params.set("obfs-password", p.obfsPassword);
+        const auth = p.password || p.auth || "";
+        return `hysteria2://${auth}@${server}:${port}?${params.toString()}#${name}`;
+      }
+      case "tuic": {
+        const params = new URLSearchParams();
+        if (p.sni) params.set("sni", p.sni);
+        if (p.alpn) params.set("alpn", Array.isArray(p.alpn) ? p.alpn.join(",") : p.alpn);
+        const cc = p.congestionController || p["congestion-controller"] || "bbr";
+        params.set("congestion_control", cc);
+        return `tuic://${p.uuid}:${p.password}@${server}:${port}?${params.toString()}#${name}`;
+      }
+      case "socks5": case "socks": {
+        const auth = p.username ? `${p.username}:${p.password}@` : "";
+        return `socks5://${auth}${server}:${port}#${name}`;
+      }
+      case "http": {
+        const auth = p.username ? `${p.username}:${p.password}@` : "";
+        return `http://${auth}${server}:${port}#${name}`;
+      }
+      default: return null;
+    }
+  } catch (e) { return null; }
+}
 
-        // ---- 总览对比图（三条曲线画在一起） ----
-        function drawOverview() {
-            const canvas = document.getElementById('chart-overview');
-            const ctx = canvas.getContext('2d');
-            const dpr = window.devicePixelRatio || 1;
-            const rect = canvas.getBoundingClientRect();
-            canvas.width = rect.width * dpr;
-            canvas.height = rect.height * dpr;
-            ctx.scale(dpr, dpr);
+function buildBase64() {
+  const uris = filtered.map(proxyToUri).filter(Boolean);
+  return btoa(uris.join("\n"));
+}
 
-            const w = rect.width;
-            const h = rect.height;
-            const pad = { top: 14, right: 14, bottom: 28, left: 44 };
-            const plotW = w - pad.left - pad.right;
-            const plotH = h - pad.top - pad.bottom;
+// clash proxy → sing-box outbound (支持 ss/vmess/vless/trojan/hysteria2/tuic/socks/http)
+function proxyToSingbox(p) {
+  const tag = p.name || `${p.type}-${p.server}`;
+  const base = { type: p.type, tag, server: p.server, server_port: p.port };
+  const tls = () => {
+    const t = { enabled: !!p.tls };
+    if (p.tls) {
+      if (p.servername || p.sni) t.server_name = p.servername || p.sni;
+    }
+    return t;
+  };
+  const transport = () => {
+    if (p.network === "ws" && p.wsOpts) {
+      return { type: "ws", path: p.wsOpts.path || "/", headers: { Host: p.wsOpts.headers?.Host || "" } };
+    }
+    if (p.network === "grpc" && p.grpcOpts) {
+      return { type: "grpc", service_name: p.grpcOpts.grpcServiceName || "" };
+    }
+    return null;
+  };
+  try {
+    switch (p.type) {
+      case "ss":
+        return { ...base, method: p.cipher, password: p.password };
+      case "vmess":
+        return { ...base, uuid: p.uuid, security: p.cipher || "auto", alter_id: p.alterId || 0, tls: tls(), ...(transport() ? { transport: transport() } : {}) };
+      case "vless":
+        return { ...base, uuid: p.uuid, ...(p.flow ? { flow: p.flow } : {}), tls: tls(), ...(transport() ? { transport: transport() } : {}) };
+      case "trojan":
+        return { ...base, password: p.password, tls: tls(), ...(transport() ? { transport: transport() } : {}) };
+      case "hysteria2":
+        return { ...base, password: p.password || p.auth || "", tls: tls() };
+      case "tuic":
+        return { ...base, uuid: p.uuid, password: p.password, tls: tls(), congestion_control: p.congestionController || p["congestion-controller"] || "bbr" };
+      case "socks5": case "socks":
+        return { ...base, ...(p.username ? { username: p.username, password: p.password } : {}) };
+      case "http":
+        return { ...base, ...(p.username ? { username: p.username, password: p.password } : {}) };
+      default:
+        return null;
+    }
+  } catch (e) { return null; }
+}
 
-            ctx.clearRect(0, 0, w, h);
+function buildSingboxJson() {
+  const outbounds = filtered.map(proxyToSingbox).filter(Boolean);
+  outbounds.unshift({ type: "direct", tag: "direct" });
+  outbounds.unshift({ type: "block", tag: "block" });
+  const selectorTag = "🚀 节点选择";
+  outbounds.unshift({ type: "selector", tag: selectorTag, outbounds: filtered.map(p => p.name).filter(Boolean), default: filtered[0]?.name || "direct" });
+  return JSON.stringify({ log: { level: "info" }, outbounds, route: { final: selectorTag } }, null, 2);
+}
 
-            // 找全局最大值
-            let globalMax = 50;
-            servers.forEach(s => {
-                s.data.forEach(v => { if (v !== null && v > globalMax) globalMax = v; });
-            });
-            const yMax = globalMax * 1.15;
-            const yScale = plotH / yMax;
+function download(filename, content, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
 
-            // 网格线
-            ctx.strokeStyle = '#334155';
-            ctx.lineWidth = 0.5;
-            for (let i = 0; i <= 4; i++) {
-                const y = pad.top + (plotH / 4) * i;
-                ctx.beginPath();
-                ctx.moveTo(pad.left, y);
-                ctx.lineTo(w - pad.right, y);
-                ctx.stroke();
+function genAndShow(clash, b64) {
+  $("genStat").innerHTML = `已生成: Clash <b>${clash.length}</b> 字节, Base64 <b>${b64.length}</b> 字节(${filtered.length} 节点)`;
+}
 
-                ctx.fillStyle = '#64748b';
-                ctx.font = '10px sans-serif';
-                ctx.textAlign = 'right';
-                const label = Math.round(yMax * (1 - i / 4));
-                ctx.fillText(label + 'ms', pad.left - 4, y + 3);
-            }
+$("btnClash").onclick = () => {
+  if (!filtered.length) return;
+  const clash = buildClashYaml();
+  download(`subnet-${filtered.length}.yaml`, clash, "text/yaml");
+  genAndShow(clash, buildBase64());
+};
+$("btnBase64").onclick = () => {
+  if (!filtered.length) return;
+  const b64 = buildBase64();
+  download(`subnet-${filtered.length}.txt`, b64, "text/plain");
+  genAndShow(buildClashYaml(), b64);
+};
+$("btnCopyClash").onclick = async () => {
+  if (!filtered.length) return;
+  await navigator.clipboard.writeText(buildClashYaml());
+  $("genStat").textContent = "Clash YAML 已复制到剪贴板";
+};
+$("btnCopyBase64").onclick = async () => {
+  if (!filtered.length) return;
+  await navigator.clipboard.writeText(buildBase64());
+  $("genStat").textContent = "Base64 订阅已复制到剪贴板";
+};
 
-            // X 轴标签
-            ctx.fillStyle = '#64748b';
-            ctx.font = '10px sans-serif';
-            ctx.textAlign = 'center';
-            for (let i = 0; i < DURATION; i += 5) {
-                const x = pad.left + (plotW / (DURATION - 1)) * i;
-                ctx.fillText((i + 1) + 's', x, h - 6);
-            }
+// 复制订阅链接: 生成 data: URI 链接, 客户端可直接导入
+$("btnCopyLink").onclick = async () => {
+  if (!filtered.length) return;
+  const link = `data:text/plain;base64,${buildBase64()}`;
+  await navigator.clipboard.writeText(link);
+  $("genStat").textContent = `专属订阅链接已复制(含 ${filtered.length} 节点)`;
+};
 
-            // 画每条线
-            servers.forEach(s => {
-                const points = [];
-                s.data.forEach((v, i) => {
-                    if (v === null) return;
-                    const x = pad.left + (plotW / (DURATION - 1)) * i;
-                    const y = pad.top + plotH - v * yScale;
-                    points.push({ x, y });
-                });
+// sing-box JSON 导出
+$("btnSingbox").onclick = () => {
+  if (!filtered.length) return;
+  const json = buildSingboxJson();
+  download(`subnet-${filtered.length}.json`, json, "application/json");
+  $("genStat").innerHTML = `已生成 sing-box JSON: <b>${json.length}</b> 字节(${filtered.length} 节点)`;
+};
 
-                if (points.length > 1) {
-                    ctx.beginPath();
-                    ctx.moveTo(points[0].x, points[0].y);
-                    for (let i = 1; i < points.length; i++) {
-                        ctx.lineTo(points[i].x, points[i].y);
-                    }
-                    ctx.strokeStyle = s.color;
-                    ctx.lineWidth = 2;
-                    ctx.lineJoin = 'round';
-                    ctx.stroke();
-                }
-
-                // 末端圆点
-                if (points.length > 0) {
-                    const last = points[points.length - 1];
-                    ctx.beginPath();
-                    ctx.arc(last.x, last.y, 4, 0, Math.PI * 2);
-                    ctx.fillStyle = s.color;
-                    ctx.fill();
-                    ctx.strokeStyle = '#0f172a';
-                    ctx.lineWidth = 2;
-                    ctx.stroke();
-                }
-            });
-
-            // 图例
-            const legendY = pad.top + 2;
-            let legendX = pad.left + 8;
-            servers.forEach(s => {
-                ctx.fillStyle = s.color;
-                ctx.fillRect(legendX, legendY, 12, 3);
-                ctx.fillStyle = '#94a3b8';
-                ctx.font = '10px sans-serif';
-                ctx.textAlign = 'left';
-                ctx.fillText(s.name, legendX + 16, legendY + 4);
-                legendX += ctx.measureText(s.name).width + 30;
-            });
-        }
-
-        // ---- 统计更新 ----
-        function updateStats() {
-            let allVals = [];
-
-            servers.forEach(s => {
-                const valid = s.data.filter(v => v !== null);
-                const total = s.data.length;
-                const avgEl = document.getElementById('avg-' + s.key);
-                const dAvg = document.getElementById('d-' + s.key + '-avg');
-                const dMin = document.getElementById('d-' + s.key + '-min');
-                const dMax = document.getElementById('d-' + s.key + '-max');
-                const dLoss = document.getElementById('d-' + s.key + '-loss');
-                const dGrade = document.getElementById('d-' + s.key + '-grade');
-
-                if (valid.length === 0) return;
-
-                const avg = Math.round(valid.reduce((a, b) => a + b, 0) / valid.length);
-                const min = Math.min(...valid);
-                const max = Math.max(...valid);
-                const lossRate = total > 0 ? ((s.losses / total) * 100).toFixed(1) : 0;
-                const grade = getGrade(avg, parseFloat(lossRate));
-
-                avgEl.textContent = avg + ' ms';
-                dAvg.textContent = avg + ' ms';
-                dMin.textContent = min + ' ms';
-                dMax.textContent = max + ' ms';
-                dLoss.textContent = s.losses + ' / ' + total + ' (' + lossRate + '%)';
-                dGrade.textContent = grade.text;
-                dGrade.className = 'badge ' + grade.cls;
-
-                allVals = allVals.concat(valid);
-            });
-
-            if (allVals.length > 0) {
-                document.getElementById('statMin').textContent = Math.min(...allVals) + 'ms';
-                document.getElementById('statAvg').textContent = Math.round(allVals.reduce((a, b) => a + b, 0) / allVals.length) + 'ms';
-                document.getElementById('statMax').textContent = Math.max(...allVals) + 'ms';
-            }
-        }
-
-        // ---- 发起一次 DNS 请求 ----
-        async function probeDNS(server) {
-            try {
-                const start = performance.now();
-                const controller = new AbortController();
-                const timeout = setTimeout(() => controller.abort(), 4000);
-
-                const resp = await fetch(server.url, {
-                    method: 'GET',
-                    signal: controller.signal,
-                    mode: 'cors'
-                });
-                clearTimeout(timeout);
-
-                const elapsed = Math.round(performance.now() - start);
-
-                if (resp.ok || resp.status === 200 || resp.status === 400) {
-                    // 收到任何响应都算成功（DoH 可能返回 400 但说明服务器可达）
-                    return elapsed;
-                }
-                return null; // 异常状态码算丢包
-            } catch (e) {
-                return null; // 超时或网络错误
-            }
-        }
-
-        // ---- 每秒采样 ----
-        async function tick() {
-            if (paused) return;
-
-            const promises = servers.map(async (s) => {
-                const result = await probeDNS(s);
-                if (result === null) {
-                    s.data.push(null);
-                    s.losses++;
-                } else {
-                    s.data.push(result);
-                }
-            });
-
-            await Promise.all(promises);
-
-            // 绘图
-            servers.forEach(s => drawChart('chart-' + s.key, s.data, s.color));
-            drawOverview();
-            updateStats();
-
-            elapsed++;
-            const remaining = DURATION - elapsed;
-            document.getElementById('timer').textContent = remaining + 's';
-            document.getElementById('progressFill').style.width = ((elapsed / DURATION) * 100) + '%';
-
-            if (elapsed >= DURATION) {
-                stopTest();
-            }
-        }
-
-        // ---- 开始测试 ----
-        function startTest() {
-            // 重置
-            servers.forEach(s => { s.data = []; s.losses = 0; });
-            elapsed = 0;
-            paused = false;
-            running = true;
-
-            document.getElementById('startBtn').disabled = true;
-            document.getElementById('pauseBtn').disabled = false;
-            document.getElementById('exportBtn').disabled = true;
-            document.getElementById('timer').textContent = DURATION + 's';
-            document.getElementById('timer').classList.remove('paused');
-            document.getElementById('progressFill').style.width = '0%';
-
-            // 立即执行一次
-            tick();
-            timer = setInterval(tick, INTERVAL);
-        }
-
-        // ---- 暂停/恢复 ----
-        function togglePause() {
-            paused = !paused;
-            const btn = document.getElementById('pauseBtn');
-            const timerEl = document.getElementById('timer');
-
-            if (paused) {
-                btn.textContent = '继续';
-                btn.classList.add('resumed');
-                timerEl.classList.add('paused');
-            } else {
-                btn.textContent = '暂停';
-                btn.classList.remove('resumed');
-                timerEl.classList.remove('paused');
-            }
-        }
-
-        // ---- 停止测试 ----
-        function stopTest() {
-            clearInterval(timer);
-            timer = null;
-            running = false;
-
-            document.getElementById('startBtn').disabled = false;
-            document.getElementById('pauseBtn').disabled = true;
-            document.getElementById('exportBtn').disabled = false;
-            document.getElementById('pauseBtn').textContent = '暂停';
-            document.getElementById('pauseBtn').classList.remove('resumed');
-        }
-
-        // ---- 导出报告 ----
-        function exportReport() {
-            const report = {
-                testTime: new Date().toISOString(),
-                duration: DURATION + 's',
-                servers: servers.map(s => {
-                    const valid = s.data.filter(v => v !== null);
-                    const avg = valid.length > 0 ? Math.round(valid.reduce((a, b) => a + b, 0) / valid.length) : 0;
-                    const lossRate = s.data.length > 0 ? ((s.losses / s.data.length) * 100).toFixed(1) : 0;
-                    const grade = getGrade(avg, parseFloat(lossRate));
-                    return {
-                        name: s.name,
-                        url: s.url,
-                        avg: avg + 'ms',
-                        min: valid.length > 0 ? Math.min(...valid) + 'ms' : '--',
-                        max: valid.length > 0 ? Math.max(...valid) + 'ms' : '--',
-                        losses: s.losses,
-                        total: s.data.length,
-                        lossRate: lossRate + '%',
-                        grade: grade.text,
-                        samples: s.data
-                    };
-                })
-            };
-
-            const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'dns-test-report-' + new Date().toISOString().slice(0, 10) + '.json';
-            a.click();
-            URL.revokeObjectURL(url);
-        }
-    </script>
+// 绑定测速
+$("btnTest").onclick = runTest;
+</script>
 </body>
 </html>
