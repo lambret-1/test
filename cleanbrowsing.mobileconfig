@@ -2,13 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>PayloadDescription</key>
+    <string>CleanBrowsing + Google + 腾讯 DNS 多DNS配置</string>
+    <key>PayloadDisplayName</key>
+    <string>Multi DNS (CleanBrowsing + Google + Tencent)</string>
+    <key>PayloadIdentifier</key>
+    <string>com.custom.profile.multidns</string>
+    <key>PayloadOrganization</key>
+    <string>Custom</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+
     <key>PayloadContent</key>
     <array>
+
+        <!-- 第一个 DNS：CleanBrowsing Family Filter -->
         <dict>
             <key>PayloadDescription</key>
-            <string>将系统 DNS 配置为 CleanBrowsing Family Filter（拦截成人内容、强制安全搜索）</string>
+            <string>CleanBrowsing Family Filter（拦截成人内容、强制安全搜索）</string>
             <key>PayloadDisplayName</key>
-            <string>CleanBrowsing Family DNS</string>
+            <string>CleanBrowsing Family</string>
             <key>PayloadIdentifier</key>
             <string>com.cleanbrowsing.dns.family</string>
             <key>PayloadType</key>
@@ -32,22 +51,67 @@
                 </array>
             </dict>
         </dict>
+
+        <!-- 第二个 DNS：Google Public DNS -->
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Google Public DNS（高速稳定）</string>
+            <key>PayloadDisplayName</key>
+            <string>Google DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.google.dns.public</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>C2D3E4F5-A6B7-8901-CDEF-234567890ABC</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ServerName</key>
+            <string>Google DNS</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.google/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>8.8.8.8</string>
+                    <string>8.8.4.4</string>
+                </array>
+            </dict>
+        </dict>
+
+        <!-- 第三个 DNS：腾讯 DNSPod -->
+        <dict>
+            <key>PayloadDescription</key>
+            <string>腾讯 DNSPod（国内加速）</string>
+            <key>PayloadDisplayName</key>
+            <string>腾讯 DNSPod</string>
+            <key>PayloadIdentifier</key>
+            <string>com.tencent.dnspod.public</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>D3E4F5A6-B7C8-9012-DEFA-345678901BCD</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ServerName</key>
+            <string>腾讯 DNSPod</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://doh.pub/dns-query</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>119.29.29.29</string>
+                    <string>182.254.116.116</string>
+                </array>
+            </dict>
+        </dict>
+
     </array>
-    <key>PayloadDescription</key>
-    <string>CleanBrowsing 家庭保护 DNS 配置</string>
-    <key>PayloadDisplayName</key>
-    <string>CleanBrowsing Family DNS</string>
-    <key>PayloadIdentifier</key>
-    <string>com.cleanbrowsing.profile.family</string>
-    <key>PayloadOrganization</key>
-    <string>CleanBrowsing</string>
-    <key>PayloadRemovalDisallowed</key>
-    <false/>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
 </dict>
 </plist>
