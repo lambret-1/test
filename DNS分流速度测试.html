@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DNS 分流速度测试</title>
+<style>
+  :root { --bg:#0f1220; --card:#1a1f33; --line:#2a3150; --txt:#e8ecf7; --sub:#9aa4c7; --ok:#37d67a; --warn:#ffb454; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--txt);
+         font-family:-apple-system,"PingFang SC",sans-serif; }
+  h1 { font-size:20px; margin:6px 0 2px; }
+  .tip { color:var(--sub); font-size:13px; line-height:1.6; margin-bottom:14px; }
+  button { width:100%; padding:14px; border:0; border-radius:12px; font-size:16px; font-weight:600;
+           color:#fff; background:linear-gradient(135deg,#4f7cff,#7b5cff); margin-bottom:16px; }
+  button:disabled { opacity:.5; }
+  .group { margin-bottom:18px; }
+  .gtitle { font-size:15px; font-weight:600; margin:0 0 8px; padding-left:8px; border-left:3px solid #4f7cff; }
+  .row { background:var(--card); border:1px solid var(--line); border-radius:12px;
+         padding:12px 14px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center; }
+  .name { font-size:14px; }
+  .name small { display:block; color:var(--sub); font-size:11px; margin-top:2px; }
+  .ms { font-size:20px; font-weight:700; font-variant-numeric:tabular-nums; min-width:90px; text-align:right; }
+  .best { color:var(--ok); }
+  .slow { color:var(--warn); }
+  .bar { height:6px; background:var(--line); border-radius:3px; margin:0 0 10px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:linear-gradient(90deg,#37d67a,#4f7cff); width:0; transition:width .4s; }
+  .foot { color:var(--sub); font-size:12px; line-height:1.7; margin-top:10px; }
+  .spin { display:inline-block; width:14px; height:14px; border:2px solid #ffffff33; border-top-color:#fff; border-radius:50%; animation:sp .7s linear infinite; vertical-align:-2px; }
+  @keyframes sp { to { transform:rotate(360deg); } }
+</style>
+</head>
+<body>
+  <h1>DNS 分流速度测试</h1>
+  <p class="tip">本页面通过 DNS-over-HTTPS (DoH) 真实发起解析请求，测量各 DNS 的往返延迟 (RTT)，用于验证描述文件里三条分流路径的实际快慢。结果越小说明解析越快。</p>
+  <button id="run" onclick="runAll()">开始测试</button>
+  <div id="result"></div>
+  <p class="foot">说明：延迟含 HTTPS 握手，已做预热并取多次中位数。若某项显示"失败"，多为该 DoH 服务器未开放跨域 (CORS) 或当前网络无法直连，不代表 DNS 本身有问题。建议在 Wi-Fi 和蜂窝网络下各测一次对比。</p>
+
+<script>
+const GROUPS = [
+  { title: "国内域名 -> 阿里 DNS", servers: [
+      { name: "阿里 DNS", ip: "223.5.5.5 / 223.6.6.6", url: "https://dns.alidns.com/dns-query",
+        test: ["bilibili.com", "qq.com", "taobao.com"] },
+      { name: "腾讯 DNSPod (对照)", ip: "119.29.29.29", url: "https://doh.pub/dns-query",
+        test: ["bilibili.com", "qq.com", "taobao.com"] }
+  ]},
+  { title: "国外域名 -> Cloudflare DNS", servers: [
+      { name: "Cloudflare", ip: "1.1.1.1 / 1.0.0.1", url: "https://cloudflare-dns.com/dns-query",
+        test: ["google.com", "github.com", "youtube.com"] },
+      { name: "Google DNS (对照)", ip: "8.8.8.8", url: "https://dns.google/dns-query",
+        test: ["google.com", "github.com", "youtube.com"] }
+  ]},
+  { title: "其余域名 -> AdGuard DNS", servers: [
+      { name: "AdGuard DNS", ip: "94.140.14.140", url: "https://dns.adguard-dns.com/dns-query",
+        test: ["example.com", "wikipedia.org", "adguard.com"] }
+  ]}
+];
+
+const REPEAT = 5;
+const WARMUP = 2;
+
+function buildQuery(domain) {
+  const id = (Math.random()*65535)|0;
+  const bytes = [ (id>>8)&255, id&255, 0x01,0x00, 0x00,0x01, 0,0, 0,0, 0,0 ];
+  domain.split(".").forEach(l => { bytes.push(l.length); for(const c of l) bytes.push(c.charCodeAt(0)); });
+  bytes.push(0, 0x00,0x01, 0x00,0x01);
+  let bin = ""; bytes.forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+}
+
+async function dohOnce(url, domain) {
+  const dns = buildQuery(domain);
+  const full = url + (url.indexOf("?")>=0 ? "&" : "?") + "dns=" + dns;
+  const t0 = performance.now();
+  const r = await fetch(full, { method:"GET", headers:{ "Accept":"application/dns-message" }, cache:"no-store" });
+  await r.arrayBuffer();
+  return performance.now() - t0;
+}
+
+function median(a){ const s=a.slice().sort((x,y)=>x-y); const m=s.length>>1; return s.length%2 ? s[m] : (s[m-1]+s[m])/2; }
+
+async function measure(srv) {
+  for (let i=0;i<WARMUP;i++) { try { await dohOnce(srv.url, srv.test[0]); } catch(e){} }
+  const list = [];
+  for (let i=0;i<REPEAT;i++) {
+    const domain = srv.test[i % srv.test.length];
+    try { list.push(await dohOnce(srv.url, domain)); } catch(e){}
+  }
+  if (!list.length) return null;
+  return Math.round(median(list));
+}
+
+function render(){
+  let h = "";
+  GROUPS.forEach((g,gi)=>{
+    h += '<div class="group"><p class="gtitle">'+g.title+'</p>';
+    g.servers.forEach((s,si)=>{
+      h += '<div class="row"><div class="name">'+s.name+'<small>'+s.ip+'</small></div>'+
+           '<div class="ms" id="ms-'+gi+'-'+si+'">-</div></div>'+
+           '<div class="bar"><i id="bar-'+gi+'-'+si+'"></i></div>';
+    });
+    h += '</div>';
+  });
+  document.getElementById("result").innerHTML = h;
+}
+
+async function runAll(){
+  render();
+  const btn = document.getElementById("run");
+  btn.disabled = true; btn.innerHTML = '<span class="spin"></span> 测试中，请稍候...';
+  const allMs = [];
+  for (let gi=0; gi<GROUPS.length; gi++){
+    for (let si=0; si<GROUPS[gi].servers.length; si++){
+      const el = document.getElementById("ms-"+gi+"-"+si);
+      el.innerHTML = '<span class="spin"></span>';
+      const v = await measure(GROUPS[gi].servers[si]);
+      allMs.push({gi,si,v});
+      el.textContent = v===null ? "失败" : v+" ms";
+    }
+  }
+  const ok = allMs.filter(x=>x.v!==null);
+  if (ok.length){
+    const maxv = Math.max.apply(null, ok.map(x=>x.v));
+    GROUPS.forEach((g,gi)=>{
+      const vs = ok.filter(x=>x.gi===gi).map(x=>x.v);
+      const min = vs.length ? Math.min.apply(null, vs) : null;
+      g.servers.forEach((s,si)=>{
+        const e = document.getElementById("ms-"+gi+"-"+si);
+        const cur = ok.filter(x=>x.gi===gi&&x.si===si)[0];
+        if(!cur||cur.v===null){ e.classList.add("slow"); return; }
+        if(cur.v===min) e.classList.add("best");
+        else if(cur.v===maxv && ok.length>1) e.classList.add("slow");
+        document.getElementById("bar-"+gi+"-"+si).style.width = Math.round(cur.v/maxv*100)+"%";
+      });
+    });
+  }
+  btn.disabled = false; btn.textContent = "重新测试";
+}
+
+window.addEventListener("load", render);
+</script>
+</body>
+</html>
