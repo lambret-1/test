@@ -25,27 +25,38 @@
         }
         .subtitle { color: #64748b; font-size: 13px; margin-bottom: 24px; }
 
-        /* 顶部控制区 */
         .controls {
             display: flex;
             align-items: center;
-            gap: 16px;
-            margin-bottom: 24px;
+            gap: 12px;
+            margin-bottom: 20px;
             flex-wrap: wrap;
             justify-content: center;
         }
         .btn {
-            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
             color: #fff;
             border: none;
-            padding: 10px 28px;
+            padding: 10px 24px;
             border-radius: 10px;
             font-size: 15px;
             cursor: pointer;
             transition: transform 0.15s, box-shadow 0.15s;
         }
-        .btn:hover { transform: scale(1.04); box-shadow: 0 4px 20px rgba(99,102,241,0.4); }
+        .btn:hover { transform: scale(1.04); }
         .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .btn-start {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        }
+        .btn-start:hover { box-shadow: 0 4px 20px rgba(99,102,241,0.4); }
+        .btn-pause {
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+        }
+        .btn-pause:hover { box-shadow: 0 4px 20px rgba(245,158,11,0.4); }
+        .btn-pause.resumed {
+            background: linear-gradient(135deg, #22c55e, #10b981);
+        }
+        .btn-pause.resumed:hover { box-shadow: 0 4px 20px rgba(34,197,94,0.4); }
+
         .timer {
             font-size: 32px;
             font-weight: 700;
@@ -54,6 +65,8 @@
             min-width: 80px;
             text-align: center;
         }
+        .timer.paused { color: #f59e0b; }
+
         .progress-bar {
             width: 100%;
             max-width: 560px;
@@ -68,10 +81,9 @@
             width: 0%;
             background: linear-gradient(90deg, #3b82f6, #8b5cf6);
             border-radius: 3px;
-            transition: width 0.3s linear;
+            transition: width 1s linear;
         }
 
-        /* 图表区 */
         .charts { width: 100%; max-width: 560px; display: flex; flex-direction: column; gap: 20px; }
         .chart-box {
             background: #1e293b;
@@ -91,7 +103,6 @@
         .chart-title .avg { font-size: 18px; font-weight: 700; }
         canvas { width: 100% !important; height: 160px !important; }
 
-        /* 统计卡片 */
         .stats {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -128,7 +139,8 @@
     <p class="subtitle">持续 30 秒采样，实时绘制延迟曲线</p>
 
     <div class="controls">
-        <button class="btn" id="startBtn" onclick="startTest()">开始测试</button>
+        <button class="btn btn-start" id="startBtn" onclick="startTest()">开始测试</button>
+        <button class="btn btn-pause" id="pauseBtn" onclick="togglePause()" disabled>暂停</button>
         <div class="timer" id="timer">30s</div>
     </div>
 
@@ -175,7 +187,7 @@
 
     <p class="note">
         测试原理：每 1 秒向各 DoH 服务器发起 HTTPS 请求，测量握手+响应耗时。 
-        共采样 30 次，自动绘制实时曲线并计算统计值。
+        共采样 30 次，自动绘制实时曲线并计算统计值。支持暂停/继续。
     </p>
 
     <script>
@@ -191,6 +203,7 @@
         let timer = null;
         let elapsed = 0;
         let running = false;
+        let paused = false;
 
         // ---- Canvas 绘图 ----
         function drawChart(canvasId, data, color) {
@@ -218,7 +231,8 @@
                 return;
             }
 
-            const maxVal = Math.max(...data.filter(v => v !== null), 50);
+            const validData = data.filter(v => v !== null);
+            const maxVal = validData.length > 0 ? Math.max(...validData, 50) : 50;
             const yScale = plotH / (maxVal * 1.15);
 
             // 网格线
@@ -257,7 +271,6 @@
             });
 
             if (points.length > 1) {
-                // 填充区域
                 ctx.beginPath();
                 ctx.moveTo(points[0].x, pad.top + plotH);
                 points.forEach(p => ctx.lineTo(p.x, p.y));
@@ -269,7 +282,6 @@
                 ctx.fillStyle = grad;
                 ctx.fill();
 
-                // 线条
                 ctx.beginPath();
                 ctx.moveTo(points[0].x, points[0].y);
                 for (let i = 1; i < points.length; i++) {
@@ -281,7 +293,6 @@
                 ctx.stroke();
             }
 
-            // 最新点
             if (points.length > 0) {
                 const last = points[points.length - 1];
                 ctx.beginPath();
@@ -307,6 +318,8 @@
 
         // ---- 一轮测试 ----
         async function tick() {
+            if (paused) return;
+
             if (elapsed >= DURATION) {
                 stopTest();
                 return;
@@ -317,7 +330,6 @@
                 s.data.push(ms);
                 drawChart('chart-' + s.key, s.data, s.color);
 
-                // 更新平均值
                 const valid = s.data.filter(v => v !== null);
                 if (valid.length > 0) {
                     const avg = Math.round(valid.reduce((a, b) => a + b, 0) / valid.length);
@@ -340,16 +352,22 @@
             document.getElementById('statMax').textContent = Math.max(...all) + ' ms';
         }
 
-        // ---- 开始 / 停止 ----
+        // ---- 开始 ----
         function startTest() {
             if (running) return;
             running = true;
+            paused = false;
             elapsed = 0;
 
             servers.forEach(s => s.data = []);
+
             document.getElementById('startBtn').disabled = true;
             document.getElementById('startBtn').textContent = '测试中...';
+            document.getElementById('pauseBtn').disabled = false;
+            document.getElementById('pauseBtn').textContent = '暂停';
+            document.getElementById('pauseBtn').classList.remove('resumed');
             document.getElementById('timer').textContent = DURATION + 's';
+            document.getElementById('timer').classList.remove('paused');
             document.getElementById('progressFill').style.width = '0%';
 
             ['ali', 'tx', 'cf'].forEach(k => {
@@ -364,12 +382,38 @@
             timer = setInterval(tick, INTERVAL);
         }
 
+        // ---- 暂停 / 继续 ----
+        function togglePause() {
+            if (!running) return;
+
+            paused = !paused;
+            const pauseBtn = document.getElementById('pauseBtn');
+            const timerEl = document.getElementById('timer');
+
+            if (paused) {
+                pauseBtn.textContent = '继续';
+                pauseBtn.classList.add('resumed');
+                timerEl.classList.add('paused');
+            } else {
+                pauseBtn.textContent = '暂停';
+                pauseBtn.classList.remove('resumed');
+                timerEl.classList.remove('paused');
+            }
+        }
+
+        // ---- 停止 ----
         function stopTest() {
             clearInterval(timer);
             running = false;
+            paused = false;
+
             document.getElementById('startBtn').disabled = false;
             document.getElementById('startBtn').textContent = '重新测试';
+            document.getElementById('pauseBtn').disabled = true;
+            document.getElementById('pauseBtn').textContent = '暂停';
+            document.getElementById('pauseBtn').classList.remove('resumed');
             document.getElementById('timer').textContent = '完成';
+            document.getElementById('timer').classList.remove('paused');
         }
 
         // 初始化空图表
