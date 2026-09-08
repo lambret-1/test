@@ -1,608 +1,103 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>动态订阅网关 · AutoMergePublicNodes</title>
-<style>
-  :root {
-    --bg: #0d1117; --card: #161b22; --border: #30363d;
-    --fg: #e6edf3; --muted: #8b949e; --accent: #2f81f7; --accent2: #238636;
-    --danger: #f85149; --warn: #d29922;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-    background: var(--bg); color: var(--fg); line-height: 1.6;
-  }
-  .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
-  h1 { font-size: 1.6rem; margin: 0 0 4px; }
-  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 20px; }
-  .card {
-    background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-    padding: 16px; margin-bottom: 16px;
-  }
-  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .btn {
-    background: var(--accent); color: #fff; border: none; border-radius: 6px;
-    padding: 8px 16px; cursor: pointer; font-size: 0.9rem; transition: opacity .15s;
-  }
-  .btn:hover { opacity: 0.88; }
-  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
-  .btn.green { background: var(--accent2); }
-  .btn.ghost { background: transparent; border: 1px solid var(--border); color: var(--fg); }
-  .chip {
-    display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px;
-    border: 1px solid var(--border); border-radius: 14px; cursor: pointer;
-    font-size: 0.85rem; user-select: none; transition: all .15s;
-  }
-  .chip:hover { border-color: var(--accent); }
-  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-  input[type="text"], input[type="number"], select {
-    background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
-    color: var(--fg); padding: 6px 10px; font-size: 0.9rem;
-  }
-  input[type="text"] { flex: 1; min-width: 180px; }
-  label { font-size: 0.85rem; color: var(--muted); }
-  .stat { color: var(--muted); font-size: 0.85rem; }
-  .stat b { color: var(--fg); }
-  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-  th, td { padding: 6px 8px; text-align: left; border-bottom: 1px solid var(--border); }
-  th { color: var(--muted); font-weight: 500; }
-  td.name { max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .section-title { font-size: 0.95rem; margin: 0 0 10px; color: var(--fg); }
-  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
-  .status { padding: 8px 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 12px; }
-  .status.info { background: rgba(47,129,247,0.12); border: 1px solid var(--accent); }
-  .status.ok { background: rgba(35,134,54,0.12); border: 1px solid var(--accent2); }
-  .status.err { background: rgba(248,81,73,0.12); border: 1px solid var(--danger); }
-  .status.warn { background: rgba(210,153,34,0.12); border: 1px solid var(--warn); }
-  .footer { color: var(--muted); font-size: 0.8rem; margin-top: 24px; text-align: center; }
-  .footer a { color: var(--accent); text-decoration: none; }
-  .hidden { display: none; }
-  .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--muted);
-    border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .group-label { color: var(--muted); font-size: 0.8rem; margin: 12px 0 6px; }
-  .ok { color: #22c55e; font-weight: 600; }
-  .warn { color: #f59e0b; font-weight: 600; }
-  .err { color: #ef4444; }
-</style>
-</head>
-<body>
-<div class="container">
-  <div class="nav" style="display:flex;gap:16px;margin-bottom:16px">
-    <a href="index.html" style="color:var(--accent);text-decoration:none;font-size:0.9rem;padding-bottom:4px;border-bottom:2px solid var(--accent)">订阅网关</a>
-    <a href="sources.html" style="color:var(--muted);text-decoration:none;font-size:0.9rem;padding-bottom:4px;border-bottom:2px solid transparent">订阅源健康</a>
-  </div>
-  <h1>🌐 动态订阅网关</h1>
-  <p class="subtitle">浏览器端实时筛选公开节点,生成专属订阅 · 计算全在本地,不上传任何数据</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      ;(() => {
+        const root = document.documentElement
+        let frameId = 0
 
-  <div id="status" class="status info">准备就绪。点击「加载数据」从 jsDelivr CDN 拉取全量节点池(all.yaml,约 6.7MB)。</div>
+        const syncAppHeight = () => {
+          const viewportHeight = Math.max(
+            root.clientHeight || 0,
+            window.innerHeight || 0,
+            Math.round(window.visualViewport?.height || 0)
+          )
 
-  <div class="card">
-    <div class="row">
-      <button id="btnLoad" class="btn">📥 加载数据</button>
-      <span class="stat" id="loadStat">未加载</span>
-    </div>
-  </div>
+          if (viewportHeight > 0) {
+            root.style.setProperty('--app-height', `${viewportHeight}px`)
+          }
+        }
 
-  <div id="filters" class="card hidden">
-    <div class="section-title">🔎 筛选条件</div>
+        const scheduleSync = () => {
+          if (frameId) {
+            cancelAnimationFrame(frameId)
+          }
+          frameId = requestAnimationFrame(syncAppHeight)
+        }
 
-    <div class="group-label">地区</div>
-    <div id="regionChips" class="row"></div>
+        scheduleSync()
+        ;[120, 360, 800, 1400].forEach((delay) => {
+          window.setTimeout(scheduleSync, delay)
+        })
 
-    <div class="group-label">协议</div>
-    <div id="protoChips" class="row"></div>
+        window.addEventListener('load', scheduleSync, { passive: true })
+        window.addEventListener('pageshow', scheduleSync, { passive: true })
+        window.addEventListener('resize', scheduleSync, { passive: true })
+        window.addEventListener('orientationchange', scheduleSync, { passive: true })
+        window.visualViewport?.addEventListener('resize', scheduleSync, { passive: true })
+        window.visualViewport?.addEventListener('scroll', scheduleSync, { passive: true })
+      })()
+    </script>
 
-    <div class="group-label">其他</div>
-    <div class="row">
-      <input id="keyword" type="text" placeholder="关键词(匹配节点名/server,如 443 / HK)">
-      <label>数量上限</label>
-      <input id="maxN" type="number" value="100" min="1" max="10000" style="width:90px">
-      <label>测速超时(ms)</label>
-      <input id="testTimeout" type="number" value="4000" min="500" max="10000" style="width:90px">
-      <select id="sortBy">
-        <option value="default">默认(原始顺序)</option>
-        <option value="name">按名称</option>
-        <option value="region">按地区</option>
-        <option value="proto">按协议</option>
-      </select>
-      <button id="btnReset" class="btn ghost">重置</button>
-    </div>
-    <div class="toolbar">
-      <span class="stat" id="filterStat"></span>
-    </div>
-  </div>
-
-  <div id="results" class="card hidden">
-    <div class="section-title">📋 筛选结果预览(前 50 条)</div>
-    <div style="overflow-x:auto">
-      <table>
-        <thead><tr><th>#</th><th>名称</th><th>协议</th><th>地区</th><th>server:port</th></tr></thead>
-        <tbody id="previewBody"></tbody>
-      </table>
-    </div>
-
-    <div class="section-title" style="margin-top:16px">📤 生成订阅</div>
-    <div class="row">
-      <button id="btnClash" class="btn green">下载 Clash YAML</button>
-      <button id="btnBase64" class="btn">下载 Base64 通用订阅</button>
-      <button id="btnCopyClash" class="btn ghost">复制 Clash 内容</button>
-      <button id="btnCopyBase64" class="btn ghost">复制 Base64 内容</button>
-      <button id="btnCopyLink" class="btn ghost">复制专属订阅链接</button>
-      <button id="btnSingbox" class="btn green">下载 sing-box JSON</button>
-    </div>
-    <div class="stat" id="genStat" style="margin-top:8px"></div>
-
-    <div class="section-title" style="margin-top:16px">⚡ 网关连通性测速</div>
-    <div class="row">
-      <button id="btnTest" class="btn">测速筛选结果(并发 10)</button>
-      <span class="stat" id="testStat"></span>
-    </div>
-    <div style="overflow-x:auto;margin-top:8px">
-      <table>
-        <thead><tr><th>#</th><th>名称</th><th>协议</th><th>地区</th><th>延迟(ms)</th><th>状态</th></tr></thead>
-        <tbody id="testBody"></tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="footer">
-    数据源:AutoMergePublicNodes-Optimized · 仅筛选公开节点,请在合规环境下使用 ·
-    <a href="https://github.com/LeilaoMi/AutoMergePublicNodes-Optimized" target="_blank">项目仓库</a>
-  </div>
-</div>
-
-<script type="module">
-import yaml from "https://esm.sh/js-yaml@4.1.0";
-
-// ============ 状态 ============
-let allProxies = [];      // 全量 clash proxies
-let filtered = [];        // 筛选后
-let activeRegions = new Set();
-let activeProtos = new Set();
-
-const $ = (id) => document.getElementById(id);
-const REPO = "LeilaoMi/AutoMergePublicNodes-Optimized";
-// 多源数据地址: jsDelivr 优先, Statically 与 raw.githubusercontent 作故障转移
-const DATA_SOURCES = [
-  `https://cdn.jsdelivr.net/gh/${REPO}@main/output/all.yaml`,
-  `https://cdn.statically.io/gh/${REPO}@main/output/all.yaml`,
-  `https://raw.githubusercontent.com/${REPO}/main/output/all.yaml`,
-];
-const DATA_URL = DATA_SOURCES[0]; // 兼容旧引用
-
-// 国旗 emoji → 国家代码(覆盖常见代理地区)
-const FLAG_TO_CC = {
-  "🇭🇰":"HK","🇹🇼":"TW","🇯🇵":"JP","🇰🇷":"KR","🇸🇬":"SG","🇺🇸":"US","🇨🇦":"CA",
-  "🇬🇧":"GB","🇫🇷":"FR","🇩🇪":"DE","🇳🇱":"NL","🇷🇺":"RU","🇺🇦":"UA","🇮🇳":"IN",
-  "🇦🇺":"AU","🇹🇷":"TR","🇧🇷":"BR","🇮🇩":"ID","🇹🇭":"TH","🇻🇳":"VN","🇵🇭":"PH",
-  "🇲🇾":"MY","🇮🇷":"IR","🇦🇷":"AR","🇲🇽":"MX","🇮🇹":"IT","🇪🇸":"ES","🇸🇪":"SE",
-  "🇨🇭":"CH","🇫🇮":"FI","🇳🇴":"NO","🇩🇰":"DK","🇵🇱":"PL","🇨🇿":"CZ","🇭🇺":"HU",
-  "🇷🇴":"RO","🇧🇬":"BG","🇪🇬":"EG","🇿🇦":"ZA","🇳🇬":"NG","🇦🇪":"AE","🇮🇱":"IL",
-  "🇰🇿":"KZ","🇲🇳":"MN","🇰🇭":"KH","🇱🇦":"LA","🇲🇲":"MM","🇱🇰":"LK","🇧🇩":"BD",
-  "🇵🇰":"PK","🇶🇦":"QA","🇰🇼":"KW","🇸🇦":"SA","🇴🇲":"OM","🇯🇴":"JO","🇱🇧":"LB",
-};
-// 名称里的大写 CC(2-3 字母,如 US- / HK / JP_ )
-const CC_REGEX = /(?:^|[\s\-_|])((?:HK|TW|JP|KR|SG|US|CA|GB|UK|FR|DE|NL|RU|UA|IN|AU|TR|BR|ID|TH|VN|PH|MY|IR|AR|MX|IT|ES|SE|CH|FI|NO|DK|PL|CZ|HU|RO|BG|EG|ZA|NG|AE|IL|KZ|MN|KH|LA|LK|BD|PK|QA|KW|SA|OM|JO|LB))(?:[\s\-_|]|$)/;
-
-function extractRegion(proxy) {
-  const name = proxy.name || "";
-  // 1) 优先匹配开头的国旗 emoji
-  for (const [flag, cc] of Object.entries(FLAG_TO_CC)) {
-    if (name.startsWith(flag)) return cc;
-  }
-  // 2) 名称中的大写 CC
-  const m = name.match(CC_REGEX);
-  if (m) return m[1];
-  return "?";
-}
-
-function setStatus(type, msg) {
-  const el = $("status");
-  el.className = "status " + type;
-  el.textContent = msg;
-}
-
-// ============ 加载数据 ============
-let loadedSource = "";
-async function fetchWithFallback() {
-  let lastErr = null;
-  for (let i = 0; i < DATA_SOURCES.length; i++) {
-    const url = DATA_SOURCES[i];
-    const tag = ["jsDelivr", "Statically", "GitHub Raw"][i] || url;
-    try {
-      const ctrl = new AbortController();
-      const tid = setTimeout(() => ctrl.abort(), 20000);
-      const resp = await fetch(url, { signal: ctrl.signal });
-      clearTimeout(tid);
-      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      const text = await resp.text();
-      if (!text || text.length < 50) throw new Error("空响应");
-      loadedSource = tag;
-      return text;
-    } catch (e) {
-      lastErr = e;
-      setStatus("warn", `${tag} 失败(${e.message}), 尝试下一个源...`);
-    }
-  }
-  throw lastErr || new Error("全部数据源失败");
-}
-
-$("btnLoad").onclick = async () => {
-  const btn = $("btnLoad");
-  btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span> 加载中...';
-  $("loadStat").textContent = "正在拉取 all.yaml...";
-  setStatus("info", "正在拉取全量节点池,自动在 jsDelivr / Statically / GitHub Raw 间故障转移...");
-  try {
-    const text = await fetchWithFallback();
-    const doc = yaml.load(text);
-    allProxies = (doc && Array.isArray(doc.proxies)) ? doc.proxies.filter(p => p && p.name && p.server) : [];
-    if (allProxies.length === 0) throw new Error("解析后无有效 proxies");
-    $("loadStat").innerHTML = `已加载 <b>${allProxies.length}</b> 个节点 (源: ${loadedSource})`;
-    setStatus("ok", `加载成功: ${allProxies.length} 个节点, 数据源 ${loadedSource}。下方设置筛选条件。`);
-    buildFilters();
-    $("filters").classList.remove("hidden");
-    applyFilter();
-  } catch (e) {
-    setStatus("err", `加载失败: ${e.message}。三个数据源均不可用, 请稍后重试。`);
-    $("loadStat").textContent = "加载失败";
-  } finally {
-    btn.disabled = false;
-    btn.textContent = "📥 重新加载";
-  }
-};
-
-// ============ 构建筛选 UI ============
-function buildFilters() {
-  const regionCount = {};
-  const protoCount = {};
-  for (const p of allProxies) {
-    const r = extractRegion(p);
-    regionCount[r] = (regionCount[r] || 0) + 1;
-    protoCount[p.type] = (protoCount[p.type] || 0) + 1;
-  }
-  // 地区 chips:按数量降序
-  const regionEl = $("regionChips");
-  regionEl.innerHTML = "";
-  const regions = Object.entries(regionCount).sort((a, b) => b[1] - a[1]);
-  for (const [r, n] of regions) {
-    const chip = document.createElement("span");
-    chip.className = "chip";
-    chip.textContent = `${r} (${n})`;
-    chip.dataset.region = r;
-    chip.onclick = () => {
-      if (activeRegions.has(r)) { activeRegions.delete(r); chip.classList.remove("active"); }
-      else { activeRegions.add(r); chip.classList.add("active"); }
-      applyFilter();
-    };
-    regionEl.appendChild(chip);
-  }
-  // 协议 chips
-  const protoEl = $("protoChips");
-  protoEl.innerHTML = "";
-  const protos = Object.entries(protoCount).sort((a, b) => b[1] - a[1]);
-  for (const [t, n] of protos) {
-    const chip = document.createElement("span");
-    chip.className = "chip";
-    chip.textContent = `${t} (${n})`;
-    chip.dataset.proto = t;
-    chip.onclick = () => {
-      if (activeProtos.has(t)) { activeProtos.delete(t); chip.classList.remove("active"); }
-      else { activeProtos.add(t); chip.classList.add("active"); }
-      applyFilter();
-    };
-    protoEl.appendChild(chip);
-  }
-}
-
-// ============ 筛选 ============
-function applyFilter() {
-  const kw = $("keyword").value.trim().toLowerCase();
-  const maxN = parseInt($("maxN").value) || 10000;
-  const sortBy = $("sortBy").value;
-  let out = allProxies.filter((p) => {
-    if (activeProtos.size > 0 && !activeProtos.has(p.type)) return false;
-    const r = extractRegion(p);
-    if (activeRegions.size > 0 && !activeRegions.has(r)) return false;
-    if (kw) {
-      const hay = ((p.name || "") + " " + (p.server || "") + " " + (p.port || "")).toLowerCase();
-      if (!hay.includes(kw)) return false;
-    }
-    return true;
-  });
-  if (sortBy === "name") out.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
-  else if (sortBy === "region") out.sort((a, b) => extractRegion(a).localeCompare(extractRegion(b)));
-  else if (sortBy === "proto") out.sort((a, b) => (a.type || "").localeCompare(b.type || ""));
-  filtered = out.slice(0, maxN);
-  $("filterStat").innerHTML = `筛选结果: <b>${filtered.length}</b> / ${allProxies.length} 个节点`;
-  renderPreview();
-  $("results").classList.remove("hidden");
-}
-
-function renderPreview() {
-  const body = $("previewBody");
-  body.innerHTML = "";
-  for (let i = 0; i < Math.min(50, filtered.length); i++) {
-    const p = filtered[i];
-    const r = extractRegion(p);
-    const tr = document.createElement("tr");
-    tr.innerHTML = `<td>${i + 1}</td><td class="name" title="${escapeHtml(p.name)}">${escapeHtml(p.name)}</td><td>${p.type}</td><td>${r}</td><td>${escapeHtml(p.server || "")}:${p.port || ""}</td>`;
-    body.appendChild(tr);
-  }
-  if (filtered.length === 0) {
-    body.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center">无匹配节点,请放宽筛选条件</td></tr>';
-  }
-}
-
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-}
-
-// 绑定筛选输入
-$("keyword").oninput = applyFilter;
-$("maxN").oninput = applyFilter;
-$("sortBy").onchange = applyFilter;
-$("btnReset").onclick = () => {
-  activeRegions.clear(); activeProtos.clear();
-  $("keyword").value = ""; $("maxN").value = 100; $("sortBy").value = "default";
-  document.querySelectorAll(".chip.active").forEach((c) => c.classList.remove("active"));
-  applyFilter();
-};
-
-// ============ 生成订阅 ============
-function buildClashYaml() {
-  const names = filtered.map((p) => p.name);
-  const doc = {
-    "mixed-port": 7890,
-    "allow-lan": false,
-    mode: "rule",
-    "log-level": "info",
-    proxies: filtered,
-    "proxy-groups": [
-      { name: "🚀 节点选择", type: "select", proxies: ["♻️ 自动选择", ...names] },
-      { name: "♻️ 自动选择", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 300, tolerance: 50, proxies: names },
-      { name: "🌍 国外媒体", type: "select", proxies: ["🚀 节点选择", ...names] },
-      { name: "🤖️ AI服务", type: "select", proxies: ["🚀 节点选择", ...names] },
-      { name: "🐟 漏网之鱼", type: "select", proxies: ["🚀 节点选择", "DIRECT"] },
-    ],
-    rules: [
-      "GEOIP,LAN,DIRECT",
-      "GEOIP,CN,DIRECT",
-      "MATCH,🚀 节点选择",
-    ],
-  };
-  return yaml.dump(doc, { lineWidth: -1 });
-}
-
-// 本地测速: 直接对 server:port 做 TCP 连通性测试 (fetch 超时即不可达)
-async function testOneTcp(p) {
-  const t0 = performance.now();
-  const timeoutMs = parseInt($("testTimeout").value) || 4000;
-  try {
-    const url = `https://speed.cloudflare.com/__down?bytes=1&host=${encodeURIComponent(p.server + ":" + p.port)}`;
-    const ctrl = new AbortController();
-    const tid = setTimeout(() => ctrl.abort(), timeoutMs);
-    await fetch(url, { signal: ctrl.signal, mode: "no-cors" });
-    clearTimeout(tid);
-    return Math.round(performance.now() - t0);
-  } catch (e) {
-    return -1;
-  }
-}
-
-async function runTest() {
-  if (!filtered.length) { setStatus("warn", "请先筛选出节点再测速"); return; }
-  const btn = $("btnTest"); btn.disabled = true; btn.textContent = "测速中...";
-  $("testStat").textContent = `0/${filtered.length}`;
-  const body = $("testBody"); body.innerHTML = "";
-  const sample = filtered.slice(0, 100);
-  const CONC = 10;
-  let done = 0;
-  const results = [];
-  for (let i = 0; i < sample.length; i += CONC) {
-    const batch = sample.slice(i, i + CONC);
-    const got = await Promise.all(batch.map(async (p, j) => {
-      const lat = await testOneTcp(p);
-      return { p, lat, idx: i + j };
-    }));
-    results.push(...got);
-    done += got.length;
-    $("testStat").textContent = `${done}/${sample.length}`;
-  }
-  results.sort((a, b) => (b.lat < 0 ? -1 : 0) - (a.lat < 0 ? -1 : 0) || a.lat - b.lat);
-  body.innerHTML = results.map((r, i) => {
-    const cc = extractRegion(r.p);
-    const lat = r.lat < 0 ? "超时" : r.lat;
-    const cls = r.lat < 0 ? "err" : (r.lat < 200 ? "ok" : "warn");
-    return `<tr><td>${i + 1}</td><td>${escapeHtml(r.p.name || "")}</td><td>${r.p.type}</td><td>${cc || "?"}</td><td class="${cls}">${lat}</td><td>${r.lat < 0 ? "❌" : "✅"}</td></tr>`;
-  }).join("");
-  btn.disabled = false; btn.textContent = "测速筛选结果(并发 10)";
-  $("testStat").textContent = `完成 ${results.filter(r => r.lat > 0).length}/${results.length} 可达`;
-}
-
-// clash proxy → URI(支持 ss/vmess/vless/trojan/hysteria2/tuic/socks5/http)
-function proxyToUri(p) {
-  const name = encodeURIComponent(p.name || "");
-  const server = p.server, port = p.port;
-  try {
-    switch (p.type) {
-      case "ss": {
-        // SIP002: ss://base64(method:password)@server:port#name
-        const cred = btoa(`${p.cipher}:${p.password}`);
-        return `ss://${cred}@${server}:${port}#${name}`;
+    <meta charset="UTF-8" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" href="./icon512_maskable.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./icon512_maskable.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="./icon512_maskable.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"
+    />
+    <title>é¦èè§é¢</title>
+    <link href="./static/video-js.min.css" rel="stylesheet" />
+    <link href="./static/tac/css/tac.css" rel="stylesheet" />
+    <script src="./static/video.min.js"></script>
+    <script src="./static/tac/js/tac.min.js"></script>
+    <script src="./static/config.js"></script>
+    <style>
+      .hotup {
+        height: 0 !important;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: hidden;
       }
-      case "vmess": {
-        const obj = {
-          v: "2", ps: p.name, add: server, port: String(port),
-          id: p.uuid, aid: String(p.alterId || 0),
-          net: p.network || "tcp", type: p.network ? (p.wsOpts ? "ws" : (p.grpcOpts ? "grpc" : "tcp")) : "tcp",
-          host: (p.wsOpts && p.wsOpts.headers && p.wsOpts.headers.Host) || (p.tls && p.servername) || "",
-          path: (p.wsOpts && p.wsOpts.path) || "",
-          tls: p.tls ? "tls" : "", sni: p.servername || "",
-        };
-        return `vmess://${btoa(JSON.stringify(obj))}`;
+
+      /* body {
+        border: 1px solid rgba(0, 0, 0, 0) !important;
+      } */
+
+      /* body::before {
+        border: 1px solid rgba(0, 0, 0, 0) !important;
+        content: '';
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9999;
+      } */
+
+      /* #app {
+        border: 1px solid rgba(255, 255, 255, 0) !important;
+      } */
+
+      html {
+        border: 1px solid rgba(0, 255, 0, 0) !important;
       }
-      case "vless": {
-        const params = new URLSearchParams();
-        if (p.network === "ws") { params.set("type", "ws"); if (p.wsOpts) { params.set("host", p.wsOpts.headers?.Host || ""); params.set("path", p.wsOpts.path || ""); } }
-        if (p.network === "grpc") { params.set("type", "grpc"); params.set("serviceName", p.grpcOpts?.grpcServiceName || ""); }
-        if (p.tls) { params.set("security", "tls"); if (p.servername) params.set("sni", p.servername); }
-        if (p.flow) params.set("flow", p.flow);
-        return `vless://${p.uuid}@${server}:${port}?${params.toString()}#${name}`;
-      }
-      case "trojan": {
-        const params = new URLSearchParams();
-        if (p.network === "ws") { params.set("type", "ws"); if (p.wsOpts) { params.set("host", p.wsOpts.headers?.Host || ""); params.set("path", p.wsOpts.path || ""); } }
-        if (p.network === "grpc") { params.set("type", "grpc"); params.set("serviceName", p.grpcOpts?.grpcServiceName || ""); }
-        if (p.sni) params.set("sni", p.sni);
-        return `trojan://${p.password}@${server}:${port}?${params.toString()}#${name}`;
-      }
-      case "hysteria2": case "hysteria": {
-        const params = new URLSearchParams();
-        if (p.sni) params.set("sni", p.sni);
-        if (p.obfs) params.set("obfs", p.obfs);
-        if (p.obfsPassword) params.set("obfs-password", p.obfsPassword);
-        const auth = p.password || p.auth || "";
-        return `hysteria2://${auth}@${server}:${port}?${params.toString()}#${name}`;
-      }
-      case "tuic": {
-        const params = new URLSearchParams();
-        if (p.sni) params.set("sni", p.sni);
-        if (p.alpn) params.set("alpn", Array.isArray(p.alpn) ? p.alpn.join(",") : p.alpn);
-        const cc = p.congestionController || p["congestion-controller"] || "bbr";
-        params.set("congestion_control", cc);
-        return `tuic://${p.uuid}:${p.password}@${server}:${port}?${params.toString()}#${name}`;
-      }
-      case "socks5": case "socks": {
-        const auth = p.username ? `${p.username}:${p.password}@` : "";
-        return `socks5://${auth}${server}:${port}#${name}`;
-      }
-      case "http": {
-        const auth = p.username ? `${p.username}:${p.password}@` : "";
-        return `http://${auth}${server}:${port}#${name}`;
-      }
-      default: return null;
-    }
-  } catch (e) { return null; }
-}
+    </style>
+    
+  </head>
 
-function buildBase64() {
-  const uris = filtered.map(proxyToUri).filter(Boolean);
-  return btoa(uris.join("\n"));
-}
+  <body>
+    <div id="app"></div>
 
-// clash proxy → sing-box outbound (支持 ss/vmess/vless/trojan/hysteria2/tuic/socks/http)
-function proxyToSingbox(p) {
-  const tag = p.name || `${p.type}-${p.server}`;
-  const base = { type: p.type, tag, server: p.server, server_port: p.port };
-  const tls = () => {
-    const t = { enabled: !!p.tls };
-    if (p.tls) {
-      if (p.servername || p.sni) t.server_name = p.servername || p.sni;
-    }
-    return t;
-  };
-  const transport = () => {
-    if (p.network === "ws" && p.wsOpts) {
-      return { type: "ws", path: p.wsOpts.path || "/", headers: { Host: p.wsOpts.headers?.Host || "" } };
-    }
-    if (p.network === "grpc" && p.grpcOpts) {
-      return { type: "grpc", service_name: p.grpcOpts.grpcServiceName || "" };
-    }
-    return null;
-  };
-  try {
-    switch (p.type) {
-      case "ss":
-        return { ...base, method: p.cipher, password: p.password };
-      case "vmess":
-        return { ...base, uuid: p.uuid, security: p.cipher || "auto", alter_id: p.alterId || 0, tls: tls(), ...(transport() ? { transport: transport() } : {}) };
-      case "vless":
-        return { ...base, uuid: p.uuid, ...(p.flow ? { flow: p.flow } : {}), tls: tls(), ...(transport() ? { transport: transport() } : {}) };
-      case "trojan":
-        return { ...base, password: p.password, tls: tls(), ...(transport() ? { transport: transport() } : {}) };
-      case "hysteria2":
-        return { ...base, password: p.password || p.auth || "", tls: tls() };
-      case "tuic":
-        return { ...base, uuid: p.uuid, password: p.password, tls: tls(), congestion_control: p.congestionController || p["congestion-controller"] || "bbr" };
-      case "socks5": case "socks":
-        return { ...base, ...(p.username ? { username: p.username, password: p.password } : {}) };
-      case "http":
-        return { ...base, ...(p.username ? { username: p.username, password: p.password } : {}) };
-      default:
-        return null;
-    }
-  } catch (e) { return null; }
-}
-
-function buildSingboxJson() {
-  const outbounds = filtered.map(proxyToSingbox).filter(Boolean);
-  outbounds.unshift({ type: "direct", tag: "direct" });
-  outbounds.unshift({ type: "block", tag: "block" });
-  const selectorTag = "🚀 节点选择";
-  outbounds.unshift({ type: "selector", tag: selectorTag, outbounds: filtered.map(p => p.name).filter(Boolean), default: filtered[0]?.name || "direct" });
-  return JSON.stringify({ log: { level: "info" }, outbounds, route: { final: selectorTag } }, null, 2);
-}
-
-function download(filename, content, mime) {
-  const blob = new Blob([content], { type: mime });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url; a.download = filename;
-  document.body.appendChild(a); a.click();
-  document.body.removeChild(a);
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-}
-
-function genAndShow(clash, b64) {
-  $("genStat").innerHTML = `已生成: Clash <b>${clash.length}</b> 字节, Base64 <b>${b64.length}</b> 字节(${filtered.length} 节点)`;
-}
-
-$("btnClash").onclick = () => {
-  if (!filtered.length) return;
-  const clash = buildClashYaml();
-  download(`subnet-${filtered.length}.yaml`, clash, "text/yaml");
-  genAndShow(clash, buildBase64());
-};
-$("btnBase64").onclick = () => {
-  if (!filtered.length) return;
-  const b64 = buildBase64();
-  download(`subnet-${filtered.length}.txt`, b64, "text/plain");
-  genAndShow(buildClashYaml(), b64);
-};
-$("btnCopyClash").onclick = async () => {
-  if (!filtered.length) return;
-  await navigator.clipboard.writeText(buildClashYaml());
-  $("genStat").textContent = "Clash YAML 已复制到剪贴板";
-};
-$("btnCopyBase64").onclick = async () => {
-  if (!filtered.length) return;
-  await navigator.clipboard.writeText(buildBase64());
-  $("genStat").textContent = "Base64 订阅已复制到剪贴板";
-};
-
-// 复制订阅链接: 生成 data: URI 链接, 客户端可直接导入
-$("btnCopyLink").onclick = async () => {
-  if (!filtered.length) return;
-  const link = `data:text/plain;base64,${buildBase64()}`;
-  await navigator.clipboard.writeText(link);
-  $("genStat").textContent = `专属订阅链接已复制(含 ${filtered.length} 节点)`;
-};
-
-// sing-box JSON 导出
-$("btnSingbox").onclick = () => {
-  if (!filtered.length) return;
-  const json = buildSingboxJson();
-  download(`subnet-${filtered.length}.json`, json, "application/json");
-  $("genStat").innerHTML = `已生成 sing-box JSON: <b>${json.length}</b> 字节(${filtered.length} 节点)`;
-};
-
-// 绑定测速
-$("btnTest").onclick = runTest;
-</script>
-</body>
+    <script crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-Bq0NXmRa.js"></script>
+    <script crossorigin id="vite-legacy-entry" data-src="./assets/index-legacy-Dg8aav6i.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+      <script defer data-domain="h5.xj" src="https://tj.devvv.cc/js/script.js"></script>
+  </body>
 </html>
