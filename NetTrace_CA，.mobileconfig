@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>NetTraceCA.cer</string>
+			<key>PayloadContent</key>
+			<data>
+MIIDAzCCAeugAwIBAgIIKNyF1rH6YewwDQYJKoZIhvcNAQELBQAwLzERMA8GA1UECgwITmV0VHJhY2UxGjAYBgNVBAMMEU5ldFRyYWNlIExvY2FsIENBMB4XDTI2MDkwNzE1MjgyMloXDTM2MDkwNTE1MjgyMlowLzERMA8GA1UECgwITmV0VHJhY2UxGjAYBgNVBAMMEU5ldFRyYWNlIExvY2FsIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAurXLm4TRbSsMOH7DCQntabZSmZkEBJshCseDj65XveUpfRNwX4nrxcLW0OSqpGdHo2gKcL9j+bwe5D5gJohJTMmiCDBmDS2Oej1hvMoMSNsmWoftF62mVntliZW1CMwgrUwPWhiKH2YHFXWSzdWdUbxD+e5hIM6FTdbHnAJQhv9dcWv5rh1ytfHmYV+ELFgXAqozPpZdTf43tHeZov+3AJz56hzso0qJg+4jilf9d44NqP/mymQvbhlBYrkKyBx7AkfWxKr+Ul878fbbBdwACEN7+2McF21uP60PYwfhEAbEi24hrYctcXcJGAS1MEu6kQmcSGaPnfrh2OIteg7B/QIDAQABoyMwITAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAQEAKg0kWJHP2leP/eZNJmPdxLj+eJklpt4s4DeoyGhXCpzx1k6ZIXXTfORYMtiKLceCwdNgSeuEua6OKN/HUQWcto+v2udK2VlByvaoZa0NP2TqL8A4oaU2X8NWYpu9z7EFPaM9gbX9vRUTr4vpgTbaPcA5aIvs6jPgL01fpxOhgzt+Q8tAU3a57T6Jn1AWadCjXXvqhxJIoM/NJXfMzBr5XW34bfvqM/inW3hO2LIsNv5W1okHOh3Q/OStOKorq2sJdIzfZUWZCWSExLJ67MHpTfIhHj+YNCVlG2jOCuEHx1ldqlMZMleBhcgjvN1/Dc5oM55u0L7tywtdnAAfL7PGNw==
+			</data>
+			<key>PayloadDescription</key>
+			<string>NetTrace CA 根证书，用于 HTTPS 抓包解密</string>
+			<key>PayloadDisplayName</key>
+			<string>NetTrace CA</string>
+			<key>PayloadIdentifier</key>
+			<string>com.nettrace.ca.cert</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.root</string>
+			<key>PayloadUUID</key>
+			<string>a499aeb0-b021-417d-90f5-9e02a8914d6a</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>NetTrace CA 根证书安装描述文件，安装后需在"证书信任设置"中开启完全信任</string>
+	<key>PayloadDisplayName</key>
+	<string>NetTrace CA 证书</string>
+	<key>PayloadIdentifier</key>
+	<string>com.nettrace.ca.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>939a424f-0855-47e9-94dd-59458a289480</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
