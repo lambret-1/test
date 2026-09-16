@@ -1,0 +1,2714 @@
+{
+  "retcode" : 0,
+  "errmsg" : "",
+  "data" : {
+    "csurl" : "https://fk.mogqorj.com/index/index/home?theme=409EFF&visiter_id=&visiter_name=&avatar=&business_id=3&groupid=0",
+    "urlHosts" : "litbir.com,xzjgz.com,ciscomfg.in,hm789.top",
+    "sitelogo" : "https://20260916.aqsmimg4250.sbs:9001/202306/7f/6648810256e18784abe8bbe27262547f.png",
+    "isclosed" : 0,
+    "inviteCodeAppid" : "10003",
+    "invite_bonus" : {
+      "reg2" : 0,
+      "play2" : 0,
+      "invite2" : 2,
+      "play0" : 0,
+      "reg1" : 0,
+      "playnum" : 1,
+      "play3" : 0,
+      "invite1" : 1,
+      "reg0" : 0,
+      "play1" : 0,
+      "invite3" : 3,
+      "reg3" : 0
+    },
+    "appver" : {
+      "AndroidHotUrl" : "https://rg0907.smddsc.com/5/jx/hot/production_e747248f1ce6dbd0d25f7397a31b6f1b.zip",
+      "AndroidHot" : 1,
+      "AndroidHotMd5" : "e747248f1ce6dbd0d25f7397a31b6f1b",
+      "iOsUrls" : [
+        "https://www.22.app/",
+        "https://www.22.app/",
+        "https://www.22.app/",
+        "https://www.22.app/",
+        "https://www.22.app/",
+        "https://www.22.app/",
+        "https://www.22.app/"
+      ],
+      "AppStoreMinVer" : "1.1.0",
+      "AppStoreUrl" : "WWW.22.APP",
+      "AppStoreVer" : "3.7.3",
+      "AndroidForce" : 0,
+      "AppStoreUrls" : [
+        "https://22.app/"
+      ],
+      "AndroidUrls" : [
+        "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+        "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+        "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+        "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk"
+      ],
+      "iOSForce" : 0,
+      "iOSUrl" : "https://WWW.22.APP",
+      "AndroidTips" : "更新说明（新版本:4.1.8）\n1:增加一小博大玩法,一份投入百倍收益\n2:优化播放线路\n3:修复其他已知问题\n4:如遇到安装过程中提示报毒，请您放心安装软件，我们的软件是完全无毒的\n5:如遇更新后；手机出现两个香蕉软件,请卸载老的,使用最新版本的香蕉软件。",
+      "iOSVer" : "3.7.9",
+      "AppStoreTips" : "有苹果App Store新版，马上去下载！\n1、已有商店版的也请下载最新款！\n2、享受极速看片 可保留旧版！",
+      "iOSTips" : "有苹果App Store新版，马上去下载！\n1、已有商店版的也请下载最新款！\n2、享受极速看片！",
+      "AndroidUrl" : "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+      "AndroidVer" : "3.1.7",
+      "AndroidHotVersion" : 52
+    },
+    "externalUrlDating" : "",
+    "globalData" : {
+      "hotcategories" : [
+        {
+          "url" : "vod/listing-0-0-0-0-0-0-2-0-0-0.html",
+          "catename" : "无码视频"
+        },
+        {
+          "url" : "vod/listing-4-0-0-0-0-0-2-0-0-0.html",
+          "catename" : "偷拍自拍"
+        },
+        {
+          "url" : "vod/listing-5-0-0-0-0-0-0-0-0-1.html",
+          "catename" : "制服诱惑"
+        },
+        {
+          "url" : "vod/listing-9-0-0-0-0-0-0-0-0-1.html",
+          "catename" : "素人出演"
+        },
+        {
+          "url" : "vod/listing-14-0-0-0-0-0-0-0-0-1.html",
+          "catename" : "经典三级"
+        },
+        {
+          "url" : "vod/listing-0-3-0-0-0-0-0-1-0-1.html",
+          "catename" : "中文字幕"
+        },
+        {
+          "url" : "vod/listing-7-3-0-0-0-0-0-0-0-1.html",
+          "catename" : "日本辣妹"
+        },
+        {
+          "url" : "vod/listing-11-0-0-0-0-0-0-0-0-1.html",
+          "catename" : "成人动漫"
+        },
+        {
+          "url" : "vod/listing-0-6-0-0-0-0-0-0-0-1.html",
+          "catename" : "欧美激情"
+        },
+        {
+          "url" : "vod/listing-0-5-0-0-0-0-0-0-2-1.html",
+          "catename" : "韩国热播"
+        },
+        {
+          "url" : "vod/listing-0-0-3-0-0-0-0-0-2-1.html",
+          "catename" : "2022新片"
+        },
+        {
+          "url" : "vod/listing-13-0-0-0-0-0-0-0-0-1.html",
+          "catename" : "变态另类"
+        }
+      ],
+      "aiundressvideo" : 50,
+      "popuptext" : "致广大蕉友，为响应国家两会政策，我们在此期间会加强防护，如果遇到网络错误加载失败等问题，请多试几次，我们会及时处理，凌晨后可能会涉及服务器维护，撸累了早点睡，感谢您对香蕉的大力支持！！！\\n关于收藏视频等问题，陆续恢复中，游客观看次数今日恢复，请您及时关注最新公告",
+      "qrlink" : "https://5oQ6.xjxj9.vip?inviteCode=5oQ6",
+      "popuptextnew_iOS" : {
+        "link" : "www.xjxjx42.org",
+        "urltext" : "点击此处更新最新版本",
+        "url" : "www.xjxjx42.org",
+        "text" : "尊敬的各位老爷：近期香蕉视频全面升级，请各位观众老爷留意更更新公告。注册即送3天VIP。请至官网下载www.xjxjx42.org。"
+      },
+      "popuptext_Android" : {
+        "link" : "www.xjxjx42.org",
+        "urltext" : "点击此处下载最新版。【重要提示】安装软件时请断开所有网络连接",
+        "url" : "https://bdcl.smddsc.com/xj/default/v5xj1_5.3.0.apk",
+        "text" : "<div style='text-align: center; margin: 0;'><div style='text-align: center; margin: 0;'><p style='font-size: 18px; color: red; margin: 5px; font-weight: 600;'>新版本全面上线</p></div><div style='margin-top: 5px;'> <p style='margin-bottom: 5px; color:#88729f; font-weight:500'>尊敬的老爷,香蕉推出全新版本<br><ul style='list-style-type: none; padding: 0; text-align: left; display: inline-block;'><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·跳过广告：<span style='font-weight: 400;color: #88729f'>VIP跳广告观影</span></li><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·全新主题：<span style='font-weight: 400;color: #88729f'>更加美观、易用</span></li><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·金币充值：<span style='font-weight: 400;color: #88729f'>累积充值多充多送</span></li><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·高清画质：<span style='font-weight: 400; color: #88729f'>极致视觉享受</span></li></ul></div> <div style='margin: 0px;'><a href='https://bdcl.smddsc.com/xj/default/v5xj1_5.3.0.apk' style='color: red; text-decoration: none; color: red;'>点此下载最新版</a></div> <div style='margin: 0px;'> <p style='margin: 5px 0;color:#88729f; font-weight:500'>祝您观影愉快，请至官网</p><p style='margin: 5px 0;'><a href='http://www.xjxjx42.org' style='color: 88729f; text-decoration: none;'>www.xjxjx42.org</a> </p> <p style='margin: 5px 0;'> </div></div>"
+      },
+      "iOS_adgroups" : {
+        "global_adgroup_ad18" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad2" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad7" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad19" : [
+          {
+            "type" : "game",
+            "pic" : "https://p10.ljbkvoe.com/20231002/hyggzz2.jpg",
+            "showweight" : ""
+          }
+        ],
+        "global_adgroup_ad4" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad1" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01CLOmhn1mH4xzI3gHx_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01CLOmhn1mH4xzI3gHx_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01nz7KDR3cZ4K2cOhS_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01nz7KDR3cZ4K2cOhS_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1290x2796.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21290x2796.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "6"
+          }
+        ],
+        "global_adgroup_ad6" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad15" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01Dkqiln1mH4xzTGPb3_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1080x720.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21080x720.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1080x720-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad16" : [
+          {
+            "showweight" : "",
+            "title" : "PG娱乐城",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01t5U3Jx1mH4y0Z3yEL_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "PG娱乐城",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01t5U3Jx1mH4y0Z3yEL_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "新葡京182",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01ZJGrIZrsnCB0PAye_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "新葡京182",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01ZJGrIZrsnCB0PAye_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "同城约炮",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "附近美女"
+          },
+          {
+            "showweight" : "",
+            "title" : "同城约炮",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "附近美女"
+          },
+          {
+            "showweight" : "",
+            "title" : "同城约炮",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "附近美女"
+          },
+          {
+            "showweight" : "",
+            "title" : "美女上门",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "学生兼职"
+          },
+          {
+            "showweight" : "",
+            "title" : "美女上门",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "学生兼职"
+          },
+          {
+            "showweight" : "",
+            "title" : "美女上门",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "学生兼职"
+          },
+          {
+            "showweight" : "",
+            "title" : "春药商城",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy192x192.gif",
+            "url" : "https://q8h3c3.top",
+            "intro" : "特色迷药"
+          },
+          {
+            "showweight" : "",
+            "title" : "迷情春药",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy2192x192.gif",
+            "url" : "https://q8h3c3.top",
+            "intro" : "催情迷药"
+          },
+          {
+            "showweight" : "",
+            "title" : "主播空降",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-192x192-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "intro" : "激情直播"
+          }
+        ],
+        "global_adgroup_ad3" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad8" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01mwZeow1mH4xzSEFZ6_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01mwZeow1mH4xzSEFZ6_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i3/O1CN01q4Jy4O3VNEC25uXA_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i3/O1CN01q4Jy4O3VNEC25uXA_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1032x600.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21032x600.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1032x600-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : "13"
+          }
+        ],
+        "global_adgroup_ad17" : [
+          {
+            "cycle" : "2",
+            "showweight" : null,
+            "title" : "恭喜用户小太阳在色诱直播做榜1大哥，一起来参与吧",
+            "pic" : ""
+          },
+          {
+            "cycle" : "5",
+            "showweight" : null,
+            "title" : "恭喜用户小太阳在香蕉娱乐中赢得了礼包大奖，一起来参与吧",
+            "pic" : ""
+          }
+        ],
+        "global_adgroup_ad5" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ]
+      },
+      "app_launch_type_adshow" : {
+        "iOS" : 0,
+        "Android" : 0
+      },
+      "aiundressvideox" : 99,
+      "appver" : {
+        "AndroidHotUrl" : "https://rg0907.smddsc.com/5/jx/hot/production_e747248f1ce6dbd0d25f7397a31b6f1b.zip",
+        "AndroidHot" : 1,
+        "AndroidHotMd5" : "e747248f1ce6dbd0d25f7397a31b6f1b",
+        "iOsUrls" : [
+          "https://www.22.app/",
+          "https://www.22.app/",
+          "https://www.22.app/",
+          "https://www.22.app/",
+          "https://www.22.app/",
+          "https://www.22.app/",
+          "https://www.22.app/"
+        ],
+        "AppStoreMinVer" : "1.1.0",
+        "AppStoreUrl" : "WWW.22.APP",
+        "AppStoreVer" : "3.7.3",
+        "AndroidForce" : 0,
+        "AppStoreUrls" : [
+          "https://22.app/"
+        ],
+        "AndroidUrls" : [
+          "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+          "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+          "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+          "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk"
+        ],
+        "iOSForce" : 0,
+        "iOSUrl" : "https://WWW.22.APP",
+        "AndroidTips" : "更新说明（新版本:4.1.8）\n1:增加一小博大玩法,一份投入百倍收益\n2:优化播放线路\n3:修复其他已知问题\n4:如遇到安装过程中提示报毒，请您放心安装软件，我们的软件是完全无毒的\n5:如遇更新后；手机出现两个香蕉软件,请卸载老的,使用最新版本的香蕉软件。",
+        "iOSVer" : "3.7.9",
+        "AppStoreTips" : "有苹果App Store新版，马上去下载！\n1、已有商店版的也请下载最新款！\n2、享受极速看片 可保留旧版！",
+        "iOSTips" : "有苹果App Store新版，马上去下载！\n1、已有商店版的也请下载最新款！\n2、享受极速看片！",
+        "AndroidUrl" : "https://z9y8x7.smddsc.com/yhd1b2/418-20230907.apk",
+        "AndroidVer" : "3.1.7",
+        "AndroidHotVersion" : 52
+      },
+      "Android_adgroups" : {
+        "global_adgroup_ad18" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad2" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad7" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad19" : [
+          {
+            "type" : "game",
+            "pic" : "https://p10.ljbkvoe.com/20231002/hyggzz2.jpg",
+            "showweight" : ""
+          }
+        ],
+        "global_adgroup_ad4" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad1" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01CLOmhn1mH4xzI3gHx_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01CLOmhn1mH4xzI3gHx_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01nz7KDR3cZ4K2cOhS_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01nz7KDR3cZ4K2cOhS_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1290-2796.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1290x2796.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21290x2796.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "6"
+          }
+        ],
+        "global_adgroup_ad6" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad15" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01Dkqiln1mH4xzTGPb3_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1080x720.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21080x720.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1080x720-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad16" : [
+          {
+            "showweight" : "",
+            "title" : "PG娱乐城",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01t5U3Jx1mH4y0Z3yEL_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "PG娱乐城",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01t5U3Jx1mH4y0Z3yEL_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "新葡京182",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01ZJGrIZrsnCB0PAye_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "新葡京182",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01ZJGrIZrsnCB0PAye_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "intro" : ""
+          },
+          {
+            "showweight" : "",
+            "title" : "同城约炮",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "附近美女"
+          },
+          {
+            "showweight" : "",
+            "title" : "同城约炮",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "附近美女"
+          },
+          {
+            "showweight" : "",
+            "title" : "同城约炮",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "附近美女"
+          },
+          {
+            "showweight" : "",
+            "title" : "美女上门",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "学生兼职"
+          },
+          {
+            "showweight" : "",
+            "title" : "美女上门",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "学生兼职"
+          },
+          {
+            "showweight" : "",
+            "title" : "美女上门",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-192-192.gif",
+            "url" : "https://t8k8z5.top",
+            "intro" : "学生兼职"
+          },
+          {
+            "showweight" : "",
+            "title" : "春药商城",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy192x192.gif",
+            "url" : "https://q8h3c3.top",
+            "intro" : "特色迷药"
+          },
+          {
+            "showweight" : "",
+            "title" : "迷情春药",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy2192x192.gif",
+            "url" : "https://q8h3c3.top",
+            "intro" : "催情迷药"
+          },
+          {
+            "showweight" : "",
+            "title" : "主播空降",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-192x192-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "intro" : "激情直播"
+          }
+        ],
+        "global_adgroup_ad3" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : ""
+          }
+        ],
+        "global_adgroup_ad8" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01mwZeow1mH4xzSEFZ6_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01mwZeow1mH4xzSEFZ6_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i3/O1CN01q4Jy4O3VNEC25uXA_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i3/O1CN01q4Jy4O3VNEC25uXA_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1032x600.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21032x600.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1032x600-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : "13"
+          }
+        ],
+        "global_adgroup_ad17" : [
+          {
+            "cycle" : "3",
+            "showweight" : null,
+            "title" : "恭喜用户小太阳在哪吒游戏中赢得了礼包大奖，一起来参与吧",
+            "pic" : ""
+          },
+          {
+            "cycle" : "6",
+            "showweight" : null,
+            "title" : "222恭喜用户小太阳在哪吒游戏中赢得了礼包大奖，一起来参与吧",
+            "pic" : ""
+          }
+        ],
+        "global_adgroup_ad5" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01bX40K01mH4xzUrOJM_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01lYdYjpEHFjC22t7m_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-222.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x222.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : ""
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x222-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : "光年直播"
+          }
+        ]
+      },
+      "videoReportDisabled" : 0,
+      "aiUndressStatus" : 1,
+      "potatolink" : "",
+      "sharetext" : "1、成人视频App香蕉视频，永久免费在线观看，无需翻墙！ \r\n2、超快加载，海量正版高清片源，支持后台缓存下载！ \r\n3、使用推广码 5oQ6 还可以获取专属观影特权！ \r\n下载请戳我 https://5oQ6.xjxj9.vip?inviteCode=5oQ6\r\n备用地址：https://1a2b3c.xmycjs.com\r\n（复制到浏览器打开，有部分浏览器打不开，请更换浏览器！）\r\n\r\n近期热门：警花事件，抖音大网红赵一菲，网红聂小雨等。\r\n火爆成人剧情大片：娜娜姐姐，玩偶姐姐，柚子猫，下面有根棒棒糖，妮可爱，吴梦梦等极品美女。",
+      "adrows" : [
+        {
+          "showweight" : null,
+          "title" : "活动海报",
+          "pic" : "https://20260916.aqsmimg4250.sbs:9001/201903/76/05c84f358ba76343702a792dac3cef76.png",
+          "pos" : "poster"
+        }
+      ],
+      "popuptextlist_Android" : [
+        {
+          "link" : "www.xjxjxj0.cc",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "来玩一把"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "www.xxjj20.cc",
+          "text" : "<p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>1 </span><font color='#787878'>邀请1位注册用户赠送</font><b style='color:#f00;'><big>1天VIP</big></b><font color='#787878'></font></p><p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>2 </span><font color='#787878'>邀请2位注册用户额外赠送</font><b style='color:#f00;'><big>2天VIP</big></b></p><p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>3 </span><font color='#787878'>邀请3位注册用户额外赠送</font><b style='color:#f00;'><big>3天VIP</big></b><font color='#787878'></font></p><p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>4 </span><font color='#787878'>邀请3位以上每增加一位新用户额外赠送</font><b style='color:#f00;'><big>3天VIP。</big></b><font color='#787878'>新用户注册时填写</font><b style='color:#f00;'><big>邀请码</big></b><font color='#787878'>，邀请注册成功联系客服领取</font></p>"
+        },
+        {
+          "link" : "https://t8k8z5.top",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "立即打开"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+          "text" : "<p><img src='https://img.zouohohnglnzh.xyz/images/6466112aab1a8c718c5ee742.gif' alt='' width='840' height='1200' /></p>"
+        },
+        {
+          "link" : "https://t8k8z5.top",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "立即打开"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "https://p10.ljbkvoe.com/20231002/yp540x720_2.gif",
+          "text" : "<p><img src='https://img.zouohohnglnzh.xyz/images/6466112aab1a8c718c5ee742.gif' alt='' width='840' height='1200' /></p>"
+        }
+      ],
+      "gameactivity_Android" : null,
+      "onegoStatus" : 0,
+      "gameslide_Android" : [
+        {
+          "link" : "https://www.xxjj0.live",
+          "type" : "game",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "游戏充值优惠"
+          },
+          "urltext" : "游戏充值",
+          "url" : "https://p9.ljbkvoe.com/20231002/leijichongz.jpg",
+          "text" : "支付优惠"
+        },
+        {
+          "link" : "https://www.xxjj0.live",
+          "type" : "game",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "游戏充值优惠"
+          },
+          "urltext" : "游戏充值",
+          "url" : "https://p9.ljbkvoe.com/20231002/wangzhi05.png",
+          "text" : "支付优惠"
+        }
+      ],
+      "gameactivity_iOS" : null,
+      "gameslide_iOS" : [
+        {
+          "link" : "https://www.xxjj0.live",
+          "type" : "game",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "游戏充值优惠"
+          },
+          "urltext" : "游戏充值",
+          "url" : "https://p9.ljbkvoe.com/20231002/leijichongz.jpg",
+          "text" : "支付优惠"
+        },
+        {
+          "link" : "https://www.xxjj0.live",
+          "type" : "game",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "游戏充值优惠"
+          },
+          "urltext" : "游戏充值",
+          "url" : "https://p9.ljbkvoe.com/20231002/wangzhi05.png",
+          "text" : "支付优惠"
+        }
+      ],
+      "csurl" : "https://fk.mogqorj.com/index/index/home?theme=409EFF&visiter_id=&visiter_name=&avatar=&business_id=3&groupid=0",
+      "adgroups" : {
+        "global_adgroup_ad1" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/1280*720-2.jpg",
+            "url" : "https://affomjy.cn/",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/1280*720.jpg",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/720-1280.png",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "6"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/1280*720.jpg",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "6"
+          }
+        ],
+        "global_adgroup_ad2" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-3.gif",
+            "url" : "https://20053.vip",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://61134.vip",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/600-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad3" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200.gif",
+            "url" : "https://affomjy.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/600-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad4" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-3.gif",
+            "url" : "https://0lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-4.gif",
+            "url" : "https://9lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/600-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-4.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad5" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-3.gif",
+            "url" : "https://0lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://9lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/600-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad6" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-4.gif",
+            "url" : "https://0lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://9lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-6.gif",
+            "url" : "https://9lii.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/600-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad7" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-5.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/600-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-4.gif",
+            "url" : "https://affomjy.cn/",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/600*200-5.gif",
+            "url" : "https://rdjwfov.cn/",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad8" : [
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/500*300.gif",
+            "url" : "https://20053.vip",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/500*300-2.gif",
+            "url" : "https://61134.vip",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://9zyy8.vhpog.com/owtp/yh3/500-300.gif",
+            "url" : "https://mmm.ihaocai.top/",
+            "countdown" : "13"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://www.xpicj1.cc/ouwentp/owyp/500*300-2.gif",
+            "url" : "https://20053.vip",
+            "countdown" : "13"
+          }
+        ],
+        "global_adgroup_ad15" : [
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i4/O1CN01Dkqiln1mH4xzTGPb3_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://312d.3120244.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01GrmgE3BQ0tG2BxBg_!!2221328234928-1-fleamarket.gif",
+            "url" : "https://322b.9918168.cc",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1080-720.gif",
+            "url" : "https://t8k8z5.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy1080x720.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://p10.ljbkvoe.com/20231002/cy21080x720.gif",
+            "url" : "https://q8h3c3.top",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : "",
+            "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1080x720-v1.gif",
+            "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad18" : [
+          {
+            "showweight" : null,
+            "pic" : "https://20260916.aqsmimg4250.sbs:9001/202408/f3/766d026a98c7dc1229287c03992446f3.png",
+            "url" : "https://web.tbbgames.co/mobile/downfile/index/gid/20.html",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://20260916.aqsmimg4250.sbs:9001/202408/c3/666caaee87b4157570b90e914d7f41c3.png",
+            "url" : "http://url.tbbgames.cc/upload/android/game_package1-31.apk",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://20260916.aqsmimg4250.sbs:9001/202408/bc/866caae6d234b610fb7224fdd37527bc.png",
+            "url" : "http://url.tbbgames.cc/upload/android/game_package5-31.apk",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://sxd.xpicj4.cc/20231002/yjfm.png",
+            "url" : "http://url.tbbgames.cc/upload/android/game_package23-31.apk",
+            "countdown" : "0"
+          },
+          {
+            "showweight" : null,
+            "pic" : "https://20260916.aqsmimg4250.sbs:9001/202408/10/766cddb919acec957aaf0015ea075910.png",
+            "url" : "http://url.tbbgames.cc/upload/android/game_package16-31.apk",
+            "countdown" : "0"
+          }
+        ],
+        "global_adgroup_ad19" : [
+          {
+            "pic" : "https://p6.ad710.com/20231002/hyggzz.jpg",
+            "showweight" : null
+          }
+        ]
+      },
+      "smscaptcha" : 1,
+      "skipAds" : 5,
+      "inviteCodeStatus" : 0,
+      "splashimage" : "",
+      "app_launch_times_adshow" : 1,
+      "popuptextlist_iOS" : [
+        {
+          "link" : "https://t8k8z5.top",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "立即打开"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "https://p10.ljbkvoe.com/20260912/yp1-540-720.gif",
+          "text" : "<p><img src='https://img.zouohohnglnzh.xyz/images/6466112aab1a8c718c5ee742.gif' alt='' width='840' height='1200' /></p>"
+        },
+        {
+          "link" : "https://t8k8z5.top",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "立即打开"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "https://p10.ljbkvoe.com/20231002/yp540x720_2.gif",
+          "text" : "<p><img src='https://img.zouohohnglnzh.xyz/images/6466112aab1a8c718c5ee742.gif' alt='' width='840' height='1200' /></p>"
+        }
+      ],
+      "gameslide_AndroidV2" : [
+        {
+          "id" : 1,
+          "text" : "充值优惠",
+          "link" : "",
+          "urltext" : "充值优惠",
+          "type" : "topup",
+          "actionbutton" : {
+            "id" : 1,
+            "text" : ""
+          },
+          "url" : "https://p9.ljbkvoe.com/20231002/leijichongz.jpg"
+        }
+      ],
+      "appstorelink" : "https://apps.apple.com/cn/app/cosmic-data-set/id6474727397",
+      "aiundress" : 25,
+      "gameDisabled" : 0,
+      "appdownurl" : "https://www.xjxj475.org",
+      "umengDeduct" : 0,
+      "appdownurl2" : "https://www.xjxj475.org",
+      "hotwords" : null,
+      "popuptext_iOS" : {
+        "link" : "www.xjxjx42.org",
+        "urltext" : "点击此处更新最新版本",
+        "url" : "www.xjxjx42.org",
+        "text" : "尊敬的各位老爷：近期香蕉视频全面升级，请各位观众老爷留意更更新公告。注册即送3天VIP。请至官网下载www.xjxjx42.org"
+      },
+      "liveStatus" : 0,
+      "sitelogo" : "https://20260916.aqsmimg4250.sbs:9001/202306/7f/6648810256e18784abe8bbe27262547f.png",
+      "popuptext_v2" : {
+        "link" : "www.xjdz44.one",
+        "text" : "本轮服务器升级产生了一点兼容问题，为了保障广大用户的数据安全，预计本日下午会产生部分重新登录问题，维护时间预计8小时，感谢广大蕉友的热心支持，香蕉将一如既往为您提供稳定优质的看片体验，VIP领取请直接至客服界面输入3天会员即可领取。"
+      },
+      "appdownurl3" : "",
+      "webreg" : 1,
+      "promotion_earn_dscr" : {
+        "point1_coin" : 10,
+        "illustrate" : "小明推广了10位用户，立即获得最高100金币。此活动可与我站不定期推出的其他邀请奖励活动叠加。",
+        "point1_text" : "推广一个用户注册奖励"
+      },
+      "popuptext_Android_purify" : {
+        "link" : "www.aixiangjiao.com",
+        "urltext" : "点击此处下载最新版。【重要提示】安装软件时请断开所有网络连接",
+        "url" : "https://todo.d.hhphxz.com/api/download?uuid=v5xj1",
+        "text" : "<div style='text-align: center; margin: 0;'><div style='margin-top: 5px;'><p style='margin-bottom: 5px; color:#88729f; font-weight:500'><br>爱香蕉，爱上相交<br><ul style='list-style-type: none; padding: 0; text-align: left; display: inline-block;'><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·跳过广告：<span style='font-weight: 400;color: #88729f'>VIP可跳广告观影</span></li><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·全新主题：<span style='font-weight: 400;color: #88729f'>更加美观种类更全</span></li><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·内容专享：<span style='font-weight: 400;color: #88729f'>优先享受独家内容</span></li><li style='font-weight: 600; font-size: 16px; color: #FF0000; margin: 5px 0;'>·高清画质：<span style='font-weight: 400; color: #88729f'>无码中文视觉享受</span></li></ul></div><div style='margin: 0px;'><a href='https://www.aixiangjiao.com'style='color: red; text-decoration: none; color: red;'>记住“爱香蕉”回家不迷路</a></div><div style='margin: 0px;'><p style='margin: 5px 0;color:#88729f; font-weight:500'>www.aixiangjiao.com</p><p style='margin: 5px 0;'></div></div>"
+      },
+      "h5old" : "",
+      "popuptextlist_Android_purify" : [
+        {
+          "link" : "www.xjxjxj0.cc",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "来玩一把"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "www.xxjj20.cc",
+          "text" : "<p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>1 </span><font color='#787878'>邀请1位注册用户赠送</font><b style='color:#f00;'><big>5天VIP</big></b><font color='#787878'></font></p><p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>2 </span><font color='#787878'>邀请2位注册用户额外赠送</font><b style='color:#f00;'><big>10天VIP</big></b></p><p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>3 </span><font color='#787878'>邀请3位注册用户额外赠送</font><b style='color:#f00;'><big>20天VIP</big></b><font color='#787878'></font></p><p style='margin: 0 0 0 0;'><span style='color:#F7BC94;font-weight :bold;font-size:22px;margin: 0 15px 0 0;'>4 </span><font color='#787878'>邀请3位以上每增加一位新用户额外赠送</font><b style='color:#f00;'><big>20天VIP。</big></b><font color='#787878'>新用户注册时填写</font><b style='color:#f00;'><big>邀请码</big></b><font color='#787878'>，邀请注册成功联系客服领取</font></p>"
+        },
+        {
+          "link" : "https://i9sas063.top:6612",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "立即打开"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "https://sxd.xpicj9.cc/20231002/xjyp2-540X720.gif",
+          "text" : "<p><img src='https://img.zouohohnglnzh.xyz/images/6466112aab1a8c718c5ee742.gif' alt='' width='840' height='1200' /></p>"
+        },
+        {
+          "link" : "https://i9sas063.top:6612",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "立即打开"
+          },
+          "urltext" : "点击此处获取",
+          "url" : "https://sxd.xpicj9.cc/20231002/xj2yp540-720.gif.gif",
+          "text" : "<p><img src='https://img.zouohohnglnzh.xyz/images/6466112aab1a8c718c5ee742.gif' alt='' width='840' height='1200' /></p>"
+        }
+      ],
+      "externalUrlDating" : "",
+      "popuptextslide_iOS" : [
+        {
+          "link" : "https://312d.3120244.cc",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "广告"
+          },
+          "urltext" : "立即获取",
+          "url" : "https://img.alicdn.com/imgextra/i4/O1CN01SVWRM61mH4xzGbTyJ_!!2221328234928-1-fleamarket.gif",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz21.one",
+          "type" : "game",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "游戏推荐"
+          },
+          "urltext" : "进入游戏",
+          "url" : "https://p0.ljbkvoe.com/20230725/yxtj.png",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz68.one",
+          "type" : "topup",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "VIP充值优惠"
+          },
+          "urltext" : "立即充值",
+          "url" : "https://p0.ljbkvoe.com/xjgg/ymvip.png",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz68.one",
+          "type" : "topup",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "游戏充值优惠"
+          },
+          "urltext" : "游戏充值",
+          "url" : "https://p0.ljbkvoe.com/20231002/wangzhi08.png",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz68.one",
+          "type" : "invite",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "注册奖励"
+          },
+          "urltext" : "立即注册",
+          "url" : "https://p0.ljbkvoe.com/xjgg/2023-07-20 20.19.01.jpg",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xxjj2.live",
+          "type" : "common",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "信息公告"
+          },
+          "urltext" : "关闭",
+          "url" : "https://p0.ljbkvoe.com/20231002/wangzhi3.png",
+          "text" : ""
+        }
+      ],
+      "hottags" : [
+        "丝袜",
+        "主播",
+        "制服",
+        "后入",
+        "巨乳",
+        "办公室",
+        "不雅",
+        "自拍",
+        "网红",
+        "主播",
+        "清纯",
+        "人妻"
+      ],
+      "popuptextslide_Android" : [
+        {
+          "link" : "https://312d.3120244.cc",
+          "type" : "link",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "广告"
+          },
+          "urltext" : "立即获取",
+          "url" : "https://img.alicdn.com/imgextra/i4/O1CN01SVWRM61mH4xzGbTyJ_!!2221328234928-1-fleamarket.gif",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz21.one",
+          "type" : "game",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "游戏推荐"
+          },
+          "urltext" : "进入游戏",
+          "url" : "https://p0.ljbkvoe.com/20230725/yxtj.png",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz21.one",
+          "type" : "topup",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "VIP充值优惠"
+          },
+          "urltext" : "立即充值",
+          "url" : "https://p0.ljbkvoe.com/xjgg/ymvip.png",
+          "text" : ""
+        },
+        {
+          "link" : "www.xxjj0.live",
+          "type" : "topup",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "游戏充值优惠"
+          },
+          "urltext" : "游戏充值",
+          "url" : "https://p0.ljbkvoe.com/20231002/wangzhi08.png",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xjdz21.one",
+          "type" : "invite",
+          "actionbutton" : {
+            "id" : 0,
+            "text" : "注册奖励"
+          },
+          "urltext" : "立即注册",
+          "url" : "https://p0.ljbkvoe.com/xjgg/2023-07-20 20.19.01.jpg",
+          "text" : ""
+        },
+        {
+          "link" : "https://www.xxjj2.live",
+          "type" : "common",
+          "actionbutton" : {
+            "id" : 100,
+            "text" : "信息公告"
+          },
+          "urltext" : "关闭",
+          "url" : "https://p0.ljbkvoe.com/20231002/wangzhi3.png",
+          "text" : ""
+        }
+      ],
+      "vodOrderStatus" : 0,
+      "appintervaltime" : 300,
+      "newurl" : "www.xjxjxj.co"
+    },
+    "notification_all" : {
+      "tab" : "1",
+      "gamecenter" : "1"
+    },
+    "inviteCodeUrl" : "https://open.gsjbyjy.com/codetrace/request",
+    "user" : {
+      "dueday" : "",
+      "sysgid" : null,
+      "newmsg" : null,
+      "nickname" : null,
+      "duetime" : "",
+      "gold_bean" : 0,
+      "gids" : null,
+      "mobi" : null,
+      "gicon" : "",
+      "avatar_url" : "https://20260916.aqsmimg4250.sbs:9001/sysavatar/noavatar.png",
+      "goldcoin" : 0,
+      "gender" : 0,
+      "uid" : 0,
+      "uniqkey" : "0",
+      "email" : null,
+      "isvip" : 0,
+      "gid" : null,
+      "avatar" : null,
+      "recommend_total" : 0,
+      "regtime" : "1970-01-01 08:00:00",
+      "username" : null
+    },
+    "playHeaders" : {
+
+    },
+    "closetips" : "系统维护中，时间9:00 - 9:30"
+  }
+}
