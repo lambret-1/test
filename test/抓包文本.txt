@@ -1,0 +1,5888 @@
+{
+  "retcode" : 0,
+  "errmsg" : "",
+  "data" : {
+    "pcsliderows" : [
+      {
+        "showweight" : null,
+        "title" : "诱异1",
+        "scene" : "web.url",
+        "url" : "https://www.EE5.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201812/42/25c27a3530bbef129e7bd866cc575d42.png"
+      },
+      {
+        "showweight" : null,
+        "title" : "诱异2",
+        "scene" : "web.url",
+        "url" : "https://www.EE5.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201812/be/75c27b00f513da632a54e3b43f2bb2be.png"
+      }
+    ],
+    "v2sliderows" : [
+      {
+        "showweight" : "",
+        "spid" : "549",
+        "title" : "香蕉秀",
+        "scene" : "special.detail",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/202403/ca/965fc03418d9f952ff3fb2d22bdbc4ca.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "约炮1",
+        "scene" : "web.url",
+        "url" : "https://u3m9v7.top",
+        "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-600.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "570",
+        "title" : "越南暗黑游",
+        "scene" : "special.detail",
+        "pic" : "https://p1.qikairui.com/20231002/ynhay.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "约炮2",
+        "scene" : "web.url",
+        "url" : "https://u3m9v7.top",
+        "pic" : "https://p10.ljbkvoe.com/20260912/yp1-1008-600.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "553",
+        "title" : "3月女郎",
+        "scene" : "special.detail",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/202603/0c/369ac2b0766ae31003e9a07bcfc3d40c.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "光年直播",
+        "scene" : "web.url",
+        "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+        "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x600-v1_2.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "552",
+        "title" : "新干线",
+        "scene" : "special.detail",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/202512/a5/36943c50850b2932d8e0ab40866f8ba5.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "大发娱乐",
+        "scene" : "web.url",
+        "url" : "https://jm4272.c3kz0an.me:52000/c556.html",
+        "pic" : "https://dq38rjje7qjm3.cloudfront.net/dfjd/1008x600.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "569",
+        "title" : "绿帽淫妻",
+        "scene" : "special.detail",
+        "pic" : "https://p1.qikairui.com/20231002/lmyq.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "887新葡京",
+        "scene" : "web.url",
+        "url" : "https://908b.3278418.cc",
+        "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01TbjRF37ZlbI22tDs_!!2221328234928-1-fleamarket.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "554",
+        "title" : "另类蕉合",
+        "scene" : "special.detail",
+        "pic" : "https://p1.qikairui.com/20231002/lljh.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "11V-PG娱乐城",
+        "scene" : "web.url",
+        "url" : "https://iit778.com",
+        "pic" : "https://monkey.cszpra.com/suutt600x350.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "556",
+        "title" : "乱蕉淫啪",
+        "scene" : "special.detail",
+        "pic" : "https://p1.qikairui.com/20231002/ljyp.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "永利皇宫",
+        "scene" : "web.url",
+        "url" : "https://312d.3120244.cc",
+        "pic" : "https://img.alicdn.com/imgextra/i1/O1CN01hPWstJ1mH4xzKrkKi_!!2221328234928-1-fleamarket.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "555",
+        "title" : "午夜寻欢",
+        "scene" : "special.detail",
+        "pic" : "https://p1.qikairui.com/20231002/wyxh.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "wg.   金沙",
+        "scene" : "web.url",
+        "url" : "https://jsss5797.k2nnk8s.vip:51666/2b69.html",
+        "pic" : "https://d3aljxtkxs3zbq.cloudfront.net/wgjs/600x350.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "571",
+        "title" : "香蕉精品",
+        "scene" : "special.detail",
+        "pic" : "https://2026060701.aqsmimg3459.sbs:19231/202605/3e/46a0dc41c37b4c127990d9fd0d87c53e.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "PG639",
+        "scene" : "web.url",
+        "url" : "https://639a.5324519.cc",
+        "pic" : "https://img.alicdn.com/imgextra/i2/O1CN01SPKWKzQ3OKD22tDs_!!2221328234928-1-fleamarket.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "551",
+        "title" : "蕉点盛筵",
+        "scene" : "special.detail",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/202512/d3/7693643ed9bed2007e0f5da9d2b73ed3.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "春药1",
+        "scene" : "web.url",
+        "url" : "https://q8h3c3.top",
+        "pic" : "https://p10.ljbkvoe.com/20231002/cy1008x600.gif"
+      },
+      {
+        "showweight" : "",
+        "spid" : "560",
+        "title" : "反差婊",
+        "scene" : "special.detail",
+        "pic" : "https://p1.qikairui.com/20231002/fcb.jpg"
+      },
+      {
+        "showweight" : "",
+        "title" : "光年直播",
+        "scene" : "web.url",
+        "url" : "https://o3ry6s5jih1g.jepomx.com/gn-mark/?channelCode=swdk6m",
+        "pic" : "https://gnian666.kyiqiwk.com/gif/gn-1008x600-v1_2.gif"
+      },
+      {
+        "showweight" : "",
+        "title" : "春药2",
+        "scene" : "web.url",
+        "url" : "https://q8h3c3.top",
+        "pic" : "https://p10.ljbkvoe.com/20231002/cy21008x600.gif"
+      }
+    ],
+    "mbsliderows" : [
+      {
+        "showweight" : null,
+        "title" : "活动",
+        "scene" : "web.url",
+        "url" : "https://www.EE5.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201904/c0/05ca8cfbacd106525510ca787295e8c0.png"
+      },
+      {
+        "showweight" : null,
+        "title" : "诱异1",
+        "scene" : "web.url",
+        "url" : "https://www.EE5.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201812/95/95c2246be06f5f5455d7e63307e5c595.png"
+      },
+      {
+        "showweight" : null,
+        "title" : "诱异2",
+        "scene" : "web.url",
+        "url" : "https://www.EE5.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201812/25/45c1112ff868b513d175b9f9ca748b25.png"
+      },
+      {
+        "showweight" : null,
+        "title" : "诱异你这在",
+        "scene" : "web.url",
+        "url" : "https://www.EE5.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201812/f5/95c2246dbd66ba90c8cb4c0c17b550f5.png"
+      }
+    ],
+    "c_vodrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85100",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85100/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-15 17:33:51",
+        "play_url" : "/vod/reqplay/85100",
+        "duration" : "1:57:21",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/a2/66aa910b552e5491671e7d24e66c7da2.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "103",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "310",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "286",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/a2/66aa910b552e5491671e7d24e66c7da2.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "1344",
+            "tagid" : "277",
+            "tagtype" : "1",
+            "tagname" : "少妇"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "MIAB-646",
+        "islimitv3" : "0",
+        "vodid" : "85100",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【中字高清】丰满的G罩杯激情乳摇-宍户里帆MIAB-646",
+        "updatetime" : "2026-09-16 16:28:16",
+        "downnum" : "31",
+        "actor_tags" : [
+          {
+            "itemcount" : "5",
+            "tagid" : "13888",
+            "tagtype" : "1",
+            "tagname" : "宍户里帆"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85084",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85084/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-13 23:16:54",
+        "play_url" : "/vod/reqplay/85084",
+        "duration" : "2:00:01",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/c9/96aa6be352b64750426f3e9928ce13c9.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 5,
+        "intro" : "",
+        "upnum" : "665",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1070",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/c9/96aa6be352b64750426f3e9928ce13c9.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.7",
+        "tags" : [
+          {
+            "itemcount" : "1504",
+            "tagid" : "89",
+            "tagtype" : "0",
+            "tagname" : "乱伦"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "35",
+            "tagid" : "12796",
+            "tagtype" : "0",
+            "tagname" : "儿媳"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "NSFS-508",
+        "islimitv3" : "0",
+        "vodid" : "85084",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【高清无码破坏版】可爱的儿媳的白皙身体被公公狠狠惩罚-水濑明里NSFS-508",
+        "updatetime" : "2026-09-14 15:40:50",
+        "downnum" : "54",
+        "actor_tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "13494",
+            "tagtype" : "1",
+            "tagname" : "水濑明里"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84947",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84947/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-01 13:47:56",
+        "play_url" : "/vod/reqplay/84947",
+        "duration" : "2:20:04",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/d1/16a9666d380e17744390078a4d4d11d1.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 5,
+        "intro" : "",
+        "upnum" : "390",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "2210",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/d1/16a9666d380e17744390078a4d4d11d1.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "1504",
+            "tagid" : "89",
+            "tagtype" : "0",
+            "tagname" : "乱伦"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "9",
+            "tagid" : "12231",
+            "tagtype" : "0",
+            "tagname" : "姐弟"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "CAWB-006",
+        "islimitv3" : "0",
+        "vodid" : "84947",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【正片】隔壁房间的虐待狂姐姐偷偷溜进我的房间榨干我-伊藤舞雪CAWB-006",
+        "updatetime" : "2026-09-12 17:10:52",
+        "downnum" : "67",
+        "actor_tags" : [
+          {
+            "itemcount" : "31",
+            "tagid" : "5693",
+            "tagtype" : "1",
+            "tagname" : "伊藤舞雪"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85057",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85057/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-09 00:28:50",
+        "play_url" : "/vod/reqplay/85057",
+        "duration" : "18:11",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/69/16aa0379ac628f1319cc6aaf33972b69.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "243",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "738",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "404",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/69/16aa0379ac628f1319cc6aaf33972b69.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.7",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85057",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【清纯少女】淫荡表妹成年献身，肉体献身想做哥哥的新娘",
+        "updatetime" : "2026-09-12 17:09:38",
+        "downnum" : "48",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84950",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84950/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-01 13:55:20",
+        "play_url" : "/vod/reqplay/84950",
+        "duration" : "2:17:09",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/5b/66a966886d6cb422db0a597754e4805b.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "",
+        "upnum" : "382",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "2372",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/5b/66a966886d6cb422db0a597754e4805b.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "2303",
+            "tagid" : "93",
+            "tagtype" : "1",
+            "tagname" : "人妻"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "1375",
+            "tagid" : "2997",
+            "tagtype" : "0",
+            "tagname" : "出轨"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "402",
+            "tagid" : "2101",
+            "tagtype" : "0",
+            "tagname" : "群交"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "NSFS-500",
+        "islimitv3" : "0",
+        "vodid" : "84950",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【正片】我老婆在公司旅行中成了所有人的玩物-十束るうNSFS-500",
+        "updatetime" : "2026-09-12 00:12:00",
+        "downnum" : "62",
+        "actor_tags" : [
+          {
+            "itemcount" : "1",
+            "tagid" : "14240",
+            "tagtype" : "1",
+            "tagname" : "十束るう"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84957",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84957/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-01 14:21:52",
+        "play_url" : "/vod/reqplay/84957",
+        "duration" : "2:00:28",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/cb/36a966ec13ad586137a6abe93b2768cb.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 6,
+        "intro" : "",
+        "upnum" : "662",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "3673",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/cb/36a966ec13ad586137a6abe93b2768cb.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "1504",
+            "tagid" : "89",
+            "tagtype" : "0",
+            "tagname" : "乱伦"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "4",
+            "tagid" : "1026",
+            "tagtype" : "0",
+            "tagname" : "侄女"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "WHAT-563",
+        "islimitv3" : "0",
+        "vodid" : "84957",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【中字高清】春药配上我侄女美丽的屁股-九野雏乃WHAT-563",
+        "updatetime" : "2026-09-11 15:53:59",
+        "downnum" : "68",
+        "actor_tags" : [
+          {
+            "itemcount" : "7",
+            "tagid" : "12937",
+            "tagtype" : "1",
+            "tagname" : "九野雏乃"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      }
+    ],
+    "tagvodrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/55723",
+        "episode_total" : "0",
+        "catename" : "素人出演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/55723/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2022-11-12 16:07:45",
+        "play_url" : "/vod/reqplay/55723",
+        "duration" : "24:30",
+        "playlist" : [
+
+        ],
+        "definition" : "3",
+        "coverx" : "202211/1d/9636f53e3d4b6892edcb36c754206d1d.jpg",
+        "isvip" : "0",
+        "yearname" : "2022",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 568,
+        "intro" : "",
+        "upnum" : "14896",
+        "yearid" : "16",
+        "view_price" : 1000000,
+        "downcount_total" : 3,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "32178",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202211/1d/9636f53e3d4b6892edcb36c754206d1d.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.5",
+        "tags" : [
+          {
+            "itemcount" : "1375",
+            "tagid" : "2997",
+            "tagtype" : "0",
+            "tagname" : "出轨"
+          },
+          {
+            "itemcount" : "13",
+            "tagid" : "11753",
+            "tagtype" : "0",
+            "tagname" : "婚纱"
+          },
+          {
+            "itemcount" : "616",
+            "tagid" : "83",
+            "tagtype" : "0",
+            "tagname" : "丝袜"
+          },
+          {
+            "itemcount" : "4084",
+            "tagid" : "95",
+            "tagtype" : "1",
+            "tagname" : "内射"
+          },
+          {
+            "itemcount" : "888",
+            "tagid" : "70",
+            "tagtype" : "1",
+            "tagname" : "偷情"
+          },
+          {
+            "itemcount" : "1",
+            "tagid" : "11754",
+            "tagtype" : "0",
+            "tagname" : "结婚"
+          },
+          {
+            "itemcount" : "428",
+            "tagid" : "1538",
+            "tagtype" : "0",
+            "tagname" : "不雅"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "55723",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "9",
+        "title" : "婚前内射，听天由命（张家界新娘版）",
+        "updatetime" : "2025-09-19 19:35:59",
+        "downnum" : "1809",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/63959",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/63959/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2024-06-07 16:49:03",
+        "play_url" : "/vod/reqplay/63959",
+        "duration" : "30:53",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202406/a4/56662c9423e7e875c1055083b3d588a4.jpg",
+        "isvip" : "1",
+        "yearname" : "2024",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 33,
+        "intro" : "",
+        "upnum" : "1878",
+        "yearid" : "14",
+        "view_price" : 1000000,
+        "downcount_total" : 1,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "7152",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202406/a4/56662c9423e7e875c1055083b3d588a4.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.2",
+        "tags" : [
+          {
+            "itemcount" : "6848",
+            "tagid" : "12",
+            "tagtype" : "0",
+            "tagname" : "少女"
+          },
+          {
+            "itemcount" : "891",
+            "tagid" : "321",
+            "tagtype" : "0",
+            "tagname" : "偷拍"
+          },
+          {
+            "itemcount" : "428",
+            "tagid" : "1538",
+            "tagtype" : "0",
+            "tagname" : "不雅"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "63959",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "商场试衣间偷拍，极品身材妹子",
+        "updatetime" : "2024-06-07 18:26:18",
+        "downnum" : "384",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/63150",
+        "episode_total" : "0",
+        "catename" : "素人出演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/63150/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2024-05-08 16:30:51",
+        "play_url" : "/vod/reqplay/63150",
+        "duration" : "08:22",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202405/4c/6663b370c7f8fe548989165fac13f64c.jpg",
+        "isvip" : "1",
+        "yearname" : "2024",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 25,
+        "intro" : "",
+        "upnum" : "774",
+        "yearid" : "14",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "5521",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202405/4c/6663b370c7f8fe548989165fac13f64c.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.2",
+        "tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "12823",
+            "tagtype" : "0",
+            "tagname" : "黑料"
+          },
+          {
+            "itemcount" : "448",
+            "tagid" : "1347",
+            "tagtype" : "1",
+            "tagname" : "素人"
+          },
+          {
+            "itemcount" : "2",
+            "tagid" : "12121",
+            "tagtype" : "0",
+            "tagname" : "聊天"
+          },
+          {
+            "itemcount" : "6",
+            "tagid" : "12962",
+            "tagtype" : "0",
+            "tagname" : "曝光"
+          },
+          {
+            "itemcount" : "1796",
+            "tagid" : "36",
+            "tagtype" : "1",
+            "tagname" : "淫荡"
+          },
+          {
+            "itemcount" : "428",
+            "tagid" : "1538",
+            "tagtype" : "0",
+            "tagname" : "不雅"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "63150",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "9",
+        "title" : "【抖音】抓哥&张露文-黑料整理聊天记录大全",
+        "updatetime" : "2024-05-08 18:57:50",
+        "downnum" : "234",
+        "actor_tags" : [
+          {
+            "itemcount" : "1",
+            "tagid" : "12963",
+            "tagtype" : "1",
+            "tagname" : "抓哥&张露文"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/63023",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/63023/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2024-05-03 21:14:57",
+        "play_url" : "/vod/reqplay/63023",
+        "duration" : "02:36",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202405/63/56634e30a62d4b933873dd6d704afb63.jpg",
+        "isvip" : "1",
+        "yearname" : "2024",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 37,
+        "intro" : "",
+        "upnum" : "1537",
+        "yearid" : "14",
+        "view_price" : 1000000,
+        "downcount_total" : 1,
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "8986",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202405/63/56634e30a62d4b933873dd6d704afb63.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.5",
+        "tags" : [
+          {
+            "itemcount" : "2364",
+            "tagid" : "14",
+            "tagtype" : "1",
+            "tagname" : "自拍"
+          },
+          {
+            "itemcount" : "13",
+            "tagid" : "5387",
+            "tagtype" : "0",
+            "tagname" : "抠逼"
+          },
+          {
+            "itemcount" : "134",
+            "tagid" : "394",
+            "tagtype" : "0",
+            "tagname" : "粉嫩"
+          },
+          {
+            "itemcount" : "548",
+            "tagid" : "589",
+            "tagtype" : "0",
+            "tagname" : "淫叫"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "294",
+            "tagid" : "635",
+            "tagtype" : "0",
+            "tagname" : "流出"
+          },
+          {
+            "itemcount" : "428",
+            "tagid" : "1538",
+            "tagtype" : "0",
+            "tagname" : "不雅"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "63023",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【热门吃瓜】上海19岁情侣吵架互发不雅视频",
+        "updatetime" : "2024-05-03 21:14:57",
+        "downnum" : "292",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/62788",
+        "episode_total" : "0",
+        "catename" : "清纯少女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/62788/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2024-04-25 17:59:22",
+        "play_url" : "/vod/reqplay/62788",
+        "duration" : "07:07",
+        "playlist" : [
+
+        ],
+        "definition" : "3",
+        "coverx" : "202404/f6/3662a287941719546264681f8903f6f6.jpg",
+        "isvip" : "1",
+        "yearname" : "2024",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 59,
+        "intro" : "",
+        "upnum" : "2587",
+        "yearid" : "14",
+        "view_price" : 1000000,
+        "downcount_total" : 1,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "10019",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202404/f6/3662a287941719546264681f8903f6f6.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "751",
+            "tagid" : "10",
+            "tagtype" : "0",
+            "tagname" : "清纯"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "58",
+            "tagid" : "413",
+            "tagtype" : "0",
+            "tagname" : "校花"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "294",
+            "tagid" : "635",
+            "tagtype" : "0",
+            "tagname" : "流出"
+          },
+          {
+            "itemcount" : "428",
+            "tagid" : "1538",
+            "tagtype" : "0",
+            "tagname" : "不雅"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "62788",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "6",
+        "title" : "中国音乐学院王雨辰被富二代强行拍摄记录性爱视频",
+        "updatetime" : "2024-04-25 22:35:37",
+        "downnum" : "446",
+        "actor_tags" : [
+          {
+            "itemcount" : "1",
+            "tagid" : "12925",
+            "tagtype" : "1",
+            "tagname" : "王雨辰"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/62563",
+        "episode_total" : "0",
+        "catename" : "制服诱惑",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/62563/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2024-04-17 20:12:05",
+        "play_url" : "/vod/reqplay/62563",
+        "duration" : "53:40",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202404/78/8661fbbf9228807167c2d5016d764f78.jpg",
+        "isvip" : "1",
+        "yearname" : "2024",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 40,
+        "intro" : "",
+        "upnum" : "2342",
+        "yearid" : "14",
+        "view_price" : 1000000,
+        "downcount_total" : 1,
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "8821",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202404/78/8661fbbf9228807167c2d5016d764f78.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.7",
+        "tags" : [
+          {
+            "itemcount" : "178",
+            "tagid" : "1199",
+            "tagtype" : "0",
+            "tagname" : "合集"
+          },
+          {
+            "itemcount" : "428",
+            "tagid" : "1538",
+            "tagtype" : "0",
+            "tagname" : "不雅"
+          },
+          {
+            "itemcount" : "2364",
+            "tagid" : "14",
+            "tagtype" : "1",
+            "tagname" : "自拍"
+          },
+          {
+            "itemcount" : "2433",
+            "tagid" : "43",
+            "tagtype" : "1",
+            "tagname" : "自慰"
+          },
+          {
+            "itemcount" : "717",
+            "tagid" : "1720",
+            "tagtype" : "1",
+            "tagname" : "勾引"
+          },
+          {
+            "itemcount" : "2545",
+            "tagid" : "29",
+            "tagtype" : "1",
+            "tagname" : "性感"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "62563",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "5",
+        "title" : "【网红】闫盼盼走光大秀最全合集",
+        "updatetime" : "2024-04-18 18:42:59",
+        "downnum" : "323",
+        "actor_tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "12897",
+            "tagtype" : "1",
+            "tagname" : "闫盼盼"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      }
+    ],
+    "latestrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85089",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85089/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-14 21:31:07",
+        "play_url" : "/vod/reqplay/85089",
+        "duration" : "06:33",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/b0/96aa7f573a7d8390dd4e9c77d7aa64b0.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 38,
+        "intro" : "",
+        "upnum" : "924",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "12120",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/b0/96aa7f573a7d8390dd4e9c77d7aa64b0.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "8",
+            "tagid" : "13796",
+            "tagtype" : "0",
+            "tagname" : "八卦"
+          },
+          {
+            "itemcount" : "5",
+            "tagid" : "13652",
+            "tagtype" : "0",
+            "tagname" : "吃瓜"
+          },
+          {
+            "itemcount" : "4",
+            "tagid" : "13025",
+            "tagtype" : "0",
+            "tagname" : "泄密"
+          },
+          {
+            "itemcount" : "6",
+            "tagid" : "12962",
+            "tagtype" : "0",
+            "tagname" : "曝光"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85089",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【热门大瓜】圆桌战神：泰国高僧跌落神坛，偷吃女信徒视频流出",
+        "updatetime" : "2026-09-16 16:30:33",
+        "downnum" : "174",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85006",
+        "episode_total" : "0",
+        "catename" : "香蕉原创",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85006/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-03 22:26:30",
+        "play_url" : "/vod/reqplay/85006",
+        "duration" : "32:01",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/0f/46a998350ac06c45c549c1ade1c77e0f.jpg",
+        "isvip" : "2",
+        "yearname" : "2026",
+        "vip_price" : 38,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "114",
+        "yearid" : "19",
+        "view_price" : 38,
+        "downcount_total" : "817",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "4752",
+        "areaname" : "欧美",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/0f/46a998350ac06c45c549c1ade1c77e0f.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "4084",
+            "tagid" : "95",
+            "tagtype" : "1",
+            "tagname" : "内射"
+          },
+          {
+            "itemcount" : "2303",
+            "tagid" : "93",
+            "tagtype" : "1",
+            "tagname" : "人妻"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85006",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "16",
+        "title" : "【付费】比起做家务，骚人妻更喜欢做爱",
+        "updatetime" : "2026-09-16 16:30:25",
+        "downnum" : "24",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 1,
+        "areaid" : "6"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85086",
+        "episode_total" : "0",
+        "catename" : "制服诱惑",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85086/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-13 23:20:39",
+        "play_url" : "/vod/reqplay/85086",
+        "duration" : "1:58:50",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/64/96aa6bf110704694c119dad68e239064.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "213",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "887",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1196",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/64/96aa6bf110704694c119dad68e239064.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "402",
+            "tagid" : "2101",
+            "tagtype" : "0",
+            "tagname" : "群交"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "3845",
+            "tagid" : "2317",
+            "tagtype" : "0",
+            "tagname" : "制服"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "RLMP-013",
+        "islimitv3" : "0",
+        "vodid" : "85086",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "5",
+        "title" : "【高清无码破坏版】肉体奴隶妈妈的排球队，淫荡不堪的受孕营！-推川悠里RLMP-013",
+        "updatetime" : "2026-09-16 16:29:14",
+        "downnum" : "34",
+        "actor_tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "11387",
+            "tagtype" : "1",
+            "tagname" : "推川悠里"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84468",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84468/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-21 01:49:05",
+        "play_url" : "/vod/reqplay/84468",
+        "duration" : "24:07",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/0e/56a873de493b82351dbab90f410e320e.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "105",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "380",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "417",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/0e/56a873de493b82351dbab90f410e320e.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84468",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【反差婊】人气网黄极品嫩模，高跟黑丝吊带道具啪啪高潮喷水-北京瑶瑶",
+        "updatetime" : "2026-09-16 16:28:59",
+        "downnum" : "33",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84925",
+        "episode_total" : "0",
+        "catename" : "制服诱惑",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84925/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-01 12:45:46",
+        "play_url" : "/vod/reqplay/84925",
+        "duration" : "33:13",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/5d/66a96580a52ae53307772e092ab8775d.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "336",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "761",
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "890",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/5d/66a96580a52ae53307772e092ab8775d.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.1",
+        "tags" : [
+          {
+            "itemcount" : "6848",
+            "tagid" : "12",
+            "tagtype" : "0",
+            "tagname" : "少女"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "3845",
+            "tagid" : "2317",
+            "tagtype" : "0",
+            "tagname" : "制服"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2433",
+            "tagid" : "43",
+            "tagtype" : "1",
+            "tagname" : "自慰"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84925",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "5",
+        "title" : "【制服诱惑】清纯精神小妹直播高潮秀",
+        "updatetime" : "2026-09-16 16:28:48",
+        "downnum" : "43",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85040",
+        "episode_total" : "0",
+        "catename" : "变态另类",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85040/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-07 15:12:59",
+        "play_url" : "/vod/reqplay/85040",
+        "duration" : "15:15",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/75/66a9e63c0cbd2615eb68823b41f52275.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "141",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "422",
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "431",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/75/66a9e63c0cbd2615eb68823b41f52275.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "44",
+            "tagid" : "2642",
+            "tagtype" : "0",
+            "tagname" : "伪娘"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85040",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "13",
+        "title" : "【伪娘诱惑】酒吧带回家一个极品妹子，裤子一脱直接破防了，两个鸡巴赤裸相见",
+        "updatetime" : "2026-09-16 16:28:29",
+        "downnum" : "30",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85100",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85100/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-15 17:33:51",
+        "play_url" : "/vod/reqplay/85100",
+        "duration" : "1:57:21",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/a2/66aa910b552e5491671e7d24e66c7da2.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "103",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "310",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "287",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/a2/66aa910b552e5491671e7d24e66c7da2.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "1344",
+            "tagid" : "277",
+            "tagtype" : "1",
+            "tagname" : "少妇"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "MIAB-646",
+        "islimitv3" : "0",
+        "vodid" : "85100",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【中字高清】丰满的G罩杯激情乳摇-宍户里帆MIAB-646",
+        "updatetime" : "2026-09-16 16:28:16",
+        "downnum" : "31",
+        "actor_tags" : [
+          {
+            "itemcount" : "5",
+            "tagid" : "13888",
+            "tagtype" : "1",
+            "tagname" : "宍户里帆"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/83502",
+        "episode_total" : "0",
+        "catename" : "辣妹大奶",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/83502/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-07-05 23:54:12",
+        "play_url" : "/vod/reqplay/83502",
+        "duration" : "1:02:03",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202607/73/76a4a7e087de4c05168124eba10ff173.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "304",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "687",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "671",
+        "areaname" : "欧美",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202607/73/76a4a7e087de4c05168124eba10ff173.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.3",
+        "tags" : [
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "1796",
+            "tagid" : "36",
+            "tagtype" : "1",
+            "tagname" : "淫荡"
+          },
+          {
+            "itemcount" : "548",
+            "tagid" : "589",
+            "tagtype" : "0",
+            "tagname" : "淫叫"
+          },
+          {
+            "itemcount" : "2545",
+            "tagid" : "29",
+            "tagtype" : "1",
+            "tagname" : "性感"
+          },
+          {
+            "itemcount" : "717",
+            "tagid" : "1720",
+            "tagtype" : "1",
+            "tagname" : "勾引"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "83502",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "7",
+        "title" : "【欧美激情】性感女招待初入情色行业",
+        "updatetime" : "2026-09-16 16:28:02",
+        "downnum" : "25",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "6"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84740",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84740/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-28 18:32:54",
+        "play_url" : "/vod/reqplay/84740",
+        "duration" : "20:06",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/73/26a9163a6f2fd454f6434562dff12173.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "60",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "436",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "117",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/73/26a9163a6f2fd454f6434562dff12173.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84740",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【淫人师表】老师家访辅导，没想到辅导的是家长",
+        "updatetime" : "2026-09-16 16:27:15",
+        "downnum" : "18",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84172",
+        "episode_total" : "0",
+        "catename" : "清纯少女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84172/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-02 16:31:15",
+        "play_url" : "/vod/reqplay/84172",
+        "duration" : "25:08",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/83/46a6f00164e6cb701a97db81df3a6b83.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "76",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "374",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "102",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/83/46a6f00164e6cb701a97db81df3a6b83.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.5",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84172",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "6",
+        "title" : "【少女诱惑】别看我平时乖乖的，其实私下是坏女孩的哦-优娜",
+        "updatetime" : "2026-09-16 16:27:01",
+        "downnum" : "24",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84537",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84537/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-24 19:55:51",
+        "play_url" : "/vod/reqplay/84537",
+        "duration" : "28:55",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/09/06a8c31173f758724eda29ada7323409.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "195",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "363",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "506",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/09/06a8c31173f758724eda29ada7323409.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "336",
+            "tagid" : "2734",
+            "tagtype" : "0",
+            "tagname" : "动漫"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "1375",
+            "tagid" : "2997",
+            "tagtype" : "0",
+            "tagname" : "出轨"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84537",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【中字高清】放入他所不知道的秘密",
+        "updatetime" : "2026-09-16 16:26:48",
+        "downnum" : "11",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84917",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84917/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-01 12:23:35",
+        "play_url" : "/vod/reqplay/84917",
+        "duration" : "12:19",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/86/66a96530a0921c4096c921a22e73e386.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 0,
+        "intro" : "",
+        "upnum" : "66",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "192",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "98",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/86/66a96530a0921c4096c921a22e73e386.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "2433",
+            "tagid" : "43",
+            "tagtype" : "1",
+            "tagname" : "自慰"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "224",
+            "tagid" : "898",
+            "tagtype" : "0",
+            "tagname" : "挑逗"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84917",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【反差婊】骚骚粉丝互动体验，极品粉穴任由玩弄，超粗阳具插入抽插",
+        "updatetime" : "2026-09-16 16:26:35",
+        "downnum" : "13",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84842",
+        "episode_total" : "0",
+        "catename" : "清纯少女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84842/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-30 14:57:02",
+        "play_url" : "/vod/reqplay/84842",
+        "duration" : "1:21:21",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/c3/86a93d4127565f203766fd700511c7c3.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 0,
+        "intro" : "",
+        "upnum" : "76",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "264",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "100",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/c3/86a93d4127565f203766fd700511c7c3.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.5",
+        "tags" : [
+          {
+            "itemcount" : "219",
+            "tagid" : "1977",
+            "tagtype" : "1",
+            "tagname" : "FC2"
+          },
+          {
+            "itemcount" : "179",
+            "tagid" : "33",
+            "tagtype" : "0",
+            "tagname" : "学生妹"
+          },
+          {
+            "itemcount" : "3797",
+            "tagid" : "1968",
+            "tagtype" : "1",
+            "tagname" : "无码"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          }
+        ],
+        "vodkey" : "PPV-4909883",
+        "islimitv3" : "0",
+        "vodid" : "84842",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "6",
+        "title" : "【FC2】知名高学历美巨乳女大被鸡巴干得娇喘连连-PPV-4909883",
+        "updatetime" : "2026-09-16 16:26:25",
+        "downnum" : "17",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85091",
+        "episode_total" : "0",
+        "catename" : "香蕉原创",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85091/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-15 00:15:21",
+        "play_url" : "/vod/reqplay/85091",
+        "duration" : "34:26",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/e8/96aa81d5922c17720522b8a62ab9cee8.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 9,
+        "intro" : "",
+        "upnum" : "787",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "7706",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/e8/96aa81d5922c17720522b8a62ab9cee8.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "717",
+            "tagid" : "1720",
+            "tagtype" : "1",
+            "tagname" : "勾引"
+          },
+          {
+            "itemcount" : "2689",
+            "tagid" : "3185",
+            "tagtype" : "1",
+            "tagname" : "骑乘"
+          },
+          {
+            "itemcount" : "4084",
+            "tagid" : "95",
+            "tagtype" : "1",
+            "tagname" : "内射"
+          },
+          {
+            "itemcount" : "2303",
+            "tagid" : "93",
+            "tagtype" : "1",
+            "tagname" : "人妻"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85091",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "16",
+        "title" : "【香蕉秀】第830期-饥渴人妻穿上战袍勾引分居的老公来打炮！",
+        "updatetime" : "2026-09-16 16:26:00",
+        "downnum" : "47",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84910",
+        "episode_total" : "0",
+        "catename" : "清纯少女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84910/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-31 18:17:34",
+        "play_url" : "/vod/reqplay/84910",
+        "duration" : "2:07:33",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/69/16a955492cd68e45d5ab254b6a0e6369.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "397",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "2342",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/69/16a955492cd68e45d5ab254b6a0e6369.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "IPZZ-293",
+        "islimitv3" : "0",
+        "vodid" : "84910",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "6",
+        "title" : "【中字无码】穿着竞赛泳衣的巨乳美女被恶质男人给侵犯-桃乃木香奈IPZZ-293",
+        "updatetime" : "2026-09-16 16:25:45",
+        "downnum" : "32",
+        "actor_tags" : [
+          {
+            "itemcount" : "62",
+            "tagid" : "3309",
+            "tagtype" : "1",
+            "tagname" : "桃乃木香奈"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84262",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84262/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-07 17:35:25",
+        "play_url" : "/vod/reqplay/84262",
+        "duration" : "44:24",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/a5/36a75a6b0aba76355ff6b52d374314a5.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "103",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "458",
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "711",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/a5/36a75a6b0aba76355ff6b52d374314a5.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "888",
+            "tagid" : "70",
+            "tagtype" : "1",
+            "tagname" : "偷情"
+          },
+          {
+            "itemcount" : "23",
+            "tagid" : "13439",
+            "tagtype" : "0",
+            "tagname" : "短剧"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84262",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【擦边短剧】外卖小哥的幸福生活-周艺丹",
+        "updatetime" : "2026-09-16 16:25:35",
+        "downnum" : "24",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      }
+    ],
+    "sliderows" : [
+      {
+        "showweight" : null,
+        "title" : "VPN广告",
+        "scene" : "web.url",
+        "url" : "https://www.sub999.com/banana.html?1",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201904/7e/55cb2240159a222065ffc2fcfd010b7e.jpg"
+      },
+      {
+        "showweight" : null,
+        "title" : "活动调查",
+        "scene" : "web.url",
+        "url" : "https://jinshuju.net/f/szKUvr",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201903/a2/05c9cbda710adb90dfdca97c9e4e93a2.png"
+      },
+      {
+        "showweight" : null,
+        "title" : "诱异你这在",
+        "scene" : "web.url",
+        "url" : "https://www.EE52.APP",
+        "pic" : "https://20260917.aqsmimg4252.sbs:9001/201902/67/85c56bae6f0ea5610ba25f7084f1d367.jpg"
+      }
+    ],
+    "likerows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/49229",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/49229/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2020-11-01 14:37:35",
+        "play_url" : "/vod/reqplay/49229",
+        "duration" : "1:57:18",
+        "playlist" : [
+
+        ],
+        "definition" : "0",
+        "coverx" : "202011/14/45f9e57b08b26b3525248a4571204014.jpg",
+        "isvip" : "0",
+        "yearname" : "2020",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 5,
+        "intro" : "无",
+        "upnum" : "310",
+        "yearid" : "18",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "311",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202011/14/45f9e57b08b26b3525248a4571204014.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.8",
+        "tags" : [
+          {
+            "itemcount" : "4794",
+            "tagid" : "2002",
+            "tagtype" : "1",
+            "tagname" : "有码"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "5101",
+            "tagid" : "3080",
+            "tagtype" : "0",
+            "tagname" : "单体作品"
+          },
+          {
+            "itemcount" : "4222",
+            "tagid" : "3473",
+            "tagtype" : "0",
+            "tagname" : "DMM独家"
+          },
+          {
+            "itemcount" : "97",
+            "tagid" : "3143",
+            "tagtype" : "0",
+            "tagname" : "女佣"
+          },
+          {
+            "itemcount" : "277",
+            "tagid" : "1148",
+            "tagtype" : "0",
+            "tagname" : "女大学生"
+          },
+          {
+            "itemcount" : "103",
+            "tagid" : "2899",
+            "tagtype" : "0",
+            "tagname" : "乳液"
+          },
+          {
+            "itemcount" : "6527",
+            "tagid" : "3467",
+            "tagtype" : "0",
+            "tagname" : "高画质"
+          },
+          {
+            "itemcount" : "98",
+            "tagid" : "3917",
+            "tagtype" : "0",
+            "tagname" : "汗だく"
+          }
+        ],
+        "vodkey" : "EBOD-552",
+        "islimitv3" : "0",
+        "vodid" : "49229",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "湿透猥亵乳头Hcup爆乳女仆佐仓ね",
+        "updatetime" : "2020-11-01 14:42:24",
+        "downnum" : "42",
+        "actor_tags" : [
+          {
+            "itemcount" : "13",
+            "tagid" : "4710",
+            "tagtype" : "1",
+            "tagname" : "佐仓ねね"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/49230",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/49230/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2020-11-01 14:37:52",
+        "play_url" : "/vod/reqplay/49230",
+        "duration" : "2:24:33",
+        "playlist" : [
+
+        ],
+        "definition" : "0",
+        "coverx" : "202011/4f/05f9e57c200b8770eb5117d813ca1a4f.jpg",
+        "isvip" : "0",
+        "yearname" : "2020",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "无",
+        "upnum" : "226",
+        "yearid" : "18",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "226",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202011/4f/05f9e57c200b8770eb5117d813ca1a4f.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.9",
+        "tags" : [
+          {
+            "itemcount" : "4794",
+            "tagid" : "2002",
+            "tagtype" : "1",
+            "tagname" : "有码"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "5101",
+            "tagid" : "3080",
+            "tagtype" : "0",
+            "tagname" : "单体作品"
+          },
+          {
+            "itemcount" : "4222",
+            "tagid" : "3473",
+            "tagtype" : "0",
+            "tagname" : "DMM独家"
+          },
+          {
+            "itemcount" : "959",
+            "tagid" : "2102",
+            "tagtype" : "1",
+            "tagname" : "颜射"
+          },
+          {
+            "itemcount" : "120",
+            "tagid" : "373",
+            "tagtype" : "0",
+            "tagname" : "女生"
+          },
+          {
+            "itemcount" : "444",
+            "tagid" : "3276",
+            "tagtype" : "0",
+            "tagname" : "花痴"
+          },
+          {
+            "itemcount" : "6527",
+            "tagid" : "3467",
+            "tagtype" : "0",
+            "tagname" : "高画质"
+          }
+        ],
+        "vodkey" : "EBOD-543",
+        "islimitv3" : "0",
+        "vodid" : "49230",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "真正解禁中出的褐色菠萝身体注入10枚生精子",
+        "updatetime" : "2020-11-01 14:42:16",
+        "downnum" : "29",
+        "actor_tags" : [
+          {
+            "itemcount" : "11",
+            "tagid" : "4202",
+            "tagtype" : "1",
+            "tagname" : "NAOMI"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/49232",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/49232/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2020-11-01 14:38:09",
+        "play_url" : "/vod/reqplay/49232",
+        "duration" : "1:58:42",
+        "playlist" : [
+
+        ],
+        "definition" : "0",
+        "coverx" : "202011/e1/25f9e57d2bf29f516a7e71c34f8e2ce1.jpg",
+        "isvip" : "0",
+        "yearname" : "2020",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 8,
+        "intro" : "无",
+        "upnum" : "346",
+        "yearid" : "18",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "453",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202011/e1/25f9e57d2bf29f516a7e71c34f8e2ce1.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.4",
+        "tags" : [
+          {
+            "itemcount" : "4794",
+            "tagid" : "2002",
+            "tagtype" : "1",
+            "tagname" : "有码"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "5101",
+            "tagid" : "3080",
+            "tagtype" : "0",
+            "tagname" : "单体作品"
+          },
+          {
+            "itemcount" : "4222",
+            "tagid" : "3473",
+            "tagtype" : "0",
+            "tagname" : "DMM独家"
+          },
+          {
+            "itemcount" : "73",
+            "tagid" : "3675",
+            "tagtype" : "0",
+            "tagname" : "高"
+          },
+          {
+            "itemcount" : "280",
+            "tagid" : "3705",
+            "tagtype" : "0",
+            "tagname" : "首次亮相"
+          },
+          {
+            "itemcount" : "49",
+            "tagid" : "1972",
+            "tagtype" : "0",
+            "tagname" : "模特儿"
+          },
+          {
+            "itemcount" : "6527",
+            "tagid" : "3467",
+            "tagtype" : "0",
+            "tagname" : "高画质"
+          }
+        ],
+        "vodkey" : "EBOD-670",
+        "islimitv3" : "0",
+        "vodid" : "49232",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "个子高的美女吗身高172cm归国子女Fcup模特泷泽",
+        "updatetime" : "2020-11-01 14:42:07",
+        "downnum" : "65",
+        "actor_tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "10938",
+            "tagtype" : "1",
+            "tagname" : "滝沢ななお"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/49233",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/49233/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2020-11-01 14:38:16",
+        "play_url" : "/vod/reqplay/49233",
+        "duration" : "1:58:19",
+        "playlist" : [
+
+        ],
+        "definition" : "0",
+        "coverx" : "202011/e6/25f9e57da2085b411163add121e34fe6.jpg",
+        "isvip" : "0",
+        "yearname" : "2020",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "无",
+        "upnum" : "192",
+        "yearid" : "18",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "173",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202011/e6/25f9e57da2085b411163add121e34fe6.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.9",
+        "tags" : [
+          {
+            "itemcount" : "4794",
+            "tagid" : "2002",
+            "tagtype" : "1",
+            "tagname" : "有码"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "5101",
+            "tagid" : "3080",
+            "tagtype" : "0",
+            "tagname" : "单体作品"
+          },
+          {
+            "itemcount" : "4222",
+            "tagid" : "3473",
+            "tagtype" : "0",
+            "tagname" : "DMM独家"
+          },
+          {
+            "itemcount" : "120",
+            "tagid" : "373",
+            "tagtype" : "0",
+            "tagname" : "女生"
+          },
+          {
+            "itemcount" : "474",
+            "tagid" : "374",
+            "tagtype" : "0",
+            "tagname" : "按摩"
+          },
+          {
+            "itemcount" : "33",
+            "tagid" : "3941",
+            "tagtype" : "0",
+            "tagname" : "子宫颈"
+          },
+          {
+            "itemcount" : "6527",
+            "tagid" : "3467",
+            "tagtype" : "0",
+            "tagname" : "高画质"
+          },
+          {
+            "itemcount" : "15",
+            "tagid" : "4263",
+            "tagtype" : "0",
+            "tagname" : "日焼け"
+          }
+        ],
+        "vodkey" : "EBOD-696",
+        "islimitv3" : "0",
+        "vodid" : "49233",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "让日晒巨乳辣妹超苦闷的性感★觉醒精油按摩今井夏帆",
+        "updatetime" : "2020-11-01 14:41:44",
+        "downnum" : "23",
+        "actor_tags" : [
+          {
+            "itemcount" : "4",
+            "tagid" : "6327",
+            "tagtype" : "1",
+            "tagname" : "今井夏帆"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/49234",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/49234/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2020-11-01 14:38:26",
+        "play_url" : "/vod/reqplay/49234",
+        "duration" : "1:58:42",
+        "playlist" : [
+
+        ],
+        "definition" : "0",
+        "coverx" : "202011/4e/25f9e57e41697c61f0dc38c4bf20454e.jpg",
+        "isvip" : "0",
+        "yearname" : "2020",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "无",
+        "upnum" : "162",
+        "yearid" : "18",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "212",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202011/4e/25f9e57e41697c61f0dc38c4bf20454e.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.7",
+        "tags" : [
+          {
+            "itemcount" : "4794",
+            "tagid" : "2002",
+            "tagtype" : "1",
+            "tagname" : "有码"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "5101",
+            "tagid" : "3080",
+            "tagtype" : "0",
+            "tagname" : "单体作品"
+          },
+          {
+            "itemcount" : "4222",
+            "tagid" : "3473",
+            "tagtype" : "0",
+            "tagname" : "DMM独家"
+          },
+          {
+            "itemcount" : "73",
+            "tagid" : "3675",
+            "tagtype" : "0",
+            "tagname" : "高"
+          },
+          {
+            "itemcount" : "280",
+            "tagid" : "3705",
+            "tagtype" : "0",
+            "tagname" : "首次亮相"
+          },
+          {
+            "itemcount" : "49",
+            "tagid" : "1972",
+            "tagtype" : "0",
+            "tagname" : "模特儿"
+          },
+          {
+            "itemcount" : "6527",
+            "tagid" : "3467",
+            "tagtype" : "0",
+            "tagname" : "高画质"
+          }
+        ],
+        "vodkey" : "EBOD-670",
+        "islimitv3" : "0",
+        "vodid" : "49234",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "喜欢个子高的美女吗身高172cm归国子女",
+        "updatetime" : "2020-11-01 14:41:34",
+        "downnum" : "24",
+        "actor_tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "10938",
+            "tagtype" : "1",
+            "tagname" : "滝沢ななお"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/49236",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/49236/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2020-11-01 14:39:54",
+        "play_url" : "/vod/reqplay/49236",
+        "duration" : "1:58:38",
+        "playlist" : [
+
+        ],
+        "definition" : "0",
+        "coverx" : "202011/65/75f9e583c36f77434ba4226b48a8f065.jpg",
+        "isvip" : "0",
+        "yearname" : "2020",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "无",
+        "upnum" : "101",
+        "yearid" : "18",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "165",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202011/65/75f9e583c36f77434ba4226b48a8f065.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.7",
+        "tags" : [
+          {
+            "itemcount" : "4794",
+            "tagid" : "2002",
+            "tagtype" : "1",
+            "tagname" : "有码"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "5101",
+            "tagid" : "3080",
+            "tagtype" : "0",
+            "tagname" : "单体作品"
+          },
+          {
+            "itemcount" : "4222",
+            "tagid" : "3473",
+            "tagtype" : "0",
+            "tagname" : "DMM独家"
+          },
+          {
+            "itemcount" : "3370",
+            "tagid" : "844",
+            "tagtype" : "1",
+            "tagname" : "苗条"
+          },
+          {
+            "itemcount" : "444",
+            "tagid" : "3276",
+            "tagtype" : "0",
+            "tagname" : "花痴"
+          },
+          {
+            "itemcount" : "499",
+            "tagid" : "3286",
+            "tagtype" : "0",
+            "tagname" : "乳房"
+          },
+          {
+            "itemcount" : "6527",
+            "tagid" : "3467",
+            "tagtype" : "0",
+            "tagname" : "高画质"
+          }
+        ],
+        "vodkey" : "EBOD-654",
+        "islimitv3" : "0",
+        "vodid" : "49236",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "著名大学啦啦队选手竟然中出AV出道佐久间惠美",
+        "updatetime" : "2020-11-01 14:41:16",
+        "downnum" : "15",
+        "actor_tags" : [
+          {
+            "itemcount" : "12",
+            "tagid" : "4559",
+            "tagtype" : "1",
+            "tagname" : "佐久间恵美"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      }
+    ],
+    "b_vodrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84537",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84537/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-24 19:55:51",
+        "play_url" : "/vod/reqplay/84537",
+        "duration" : "28:55",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/09/06a8c31173f758724eda29ada7323409.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "195",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "362",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "505",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/09/06a8c31173f758724eda29ada7323409.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "336",
+            "tagid" : "2734",
+            "tagtype" : "0",
+            "tagname" : "动漫"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "1375",
+            "tagid" : "2997",
+            "tagtype" : "0",
+            "tagname" : "出轨"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84537",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【中字高清】放入他所不知道的秘密",
+        "updatetime" : "2026-09-16 16:26:48",
+        "downnum" : "11",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84548",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84548/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-24 20:19:06",
+        "play_url" : "/vod/reqplay/84548",
+        "duration" : "25:32",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/4a/46a8c36814736d03325de183e2d7544a.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 5,
+        "intro" : "",
+        "upnum" : "324",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "558",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "943",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/4a/46a8c36814736d03325de183e2d7544a.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "336",
+            "tagid" : "2734",
+            "tagtype" : "0",
+            "tagname" : "动漫"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84548",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【中字高清】色情游戏能用来解决所有问题-第一话",
+        "updatetime" : "2026-09-15 17:44:23",
+        "downnum" : "22",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84586",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84586/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-25 22:48:29",
+        "play_url" : "/vod/reqplay/84586",
+        "duration" : "32:55",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/ec/96a8dab0a33c3705d5f3d974bffae5ec.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "",
+        "upnum" : "145",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "426",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "630",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/ec/96a8dab0a33c3705d5f3d974bffae5ec.jpg",
+        "episode_status" : "0",
+        "scorenum" : "8.7",
+        "tags" : [
+          {
+            "itemcount" : "266",
+            "tagid" : "11726",
+            "tagtype" : "0",
+            "tagname" : "3D"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "103",
+            "tagid" : "3111",
+            "tagtype" : "0",
+            "tagname" : "绿帽"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84586",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【完美世界】清漪牛头怪酒馆NTR",
+        "updatetime" : "2026-09-14 15:39:27",
+        "downnum" : "32",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84583",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84583/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-25 22:43:16",
+        "play_url" : "/vod/reqplay/84583",
+        "duration" : "30:57",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/e4/56a8da9d5d836961988c7224f74973e4.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "",
+        "upnum" : "179",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "424",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "517",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/e4/56a8da9d5d836961988c7224f74973e4.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "266",
+            "tagid" : "11726",
+            "tagtype" : "0",
+            "tagname" : "3D"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "159",
+            "tagid" : "2790",
+            "tagtype" : "0",
+            "tagname" : "坐骑"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84583",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【黑神话】萍萍的高难度服侍",
+        "updatetime" : "2026-09-13 19:19:25",
+        "downnum" : "35",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84584",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84584/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-25 22:45:08",
+        "play_url" : "/vod/reqplay/84584",
+        "duration" : "16:16",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/19/16a8daa463dcf14168a6618b1d946b19.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "129",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "335",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "364",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/19/16a8daa463dcf14168a6618b1d946b19.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "266",
+            "tagid" : "11726",
+            "tagtype" : "0",
+            "tagname" : "3D"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84584",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【神印王座】圣采儿的卧室激情",
+        "updatetime" : "2026-09-12 17:09:22",
+        "downnum" : "30",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84587",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84587/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-25 22:52:56",
+        "play_url" : "/vod/reqplay/84587",
+        "duration" : "22:48",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/12/76a8dac1fb8c6644350bd5ca41195b12.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 7,
+        "intro" : "",
+        "upnum" : "390",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "890",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "983",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/12/76a8dac1fb8c6644350bd5ca41195b12.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "266",
+            "tagid" : "11726",
+            "tagtype" : "0",
+            "tagname" : "3D"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "159",
+            "tagid" : "2790",
+            "tagtype" : "0",
+            "tagname" : "坐骑"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          },
+          {
+            "itemcount" : "4084",
+            "tagid" : "95",
+            "tagtype" : "1",
+            "tagname" : "内射"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84587",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【完美世界】芸仙子被猥琐凡人老头的巨根侵犯",
+        "updatetime" : "2026-09-11 15:55:40",
+        "downnum" : "33",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      }
+    ],
+    "d_vodrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85100",
+        "episode_total" : "0",
+        "catename" : "经典伦理",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85100/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-15 17:33:51",
+        "play_url" : "/vod/reqplay/85100",
+        "duration" : "1:57:21",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/a2/66aa910b552e5491671e7d24e66c7da2.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "104",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "308",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "282",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/a2/66aa910b552e5491671e7d24e66c7da2.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "1344",
+            "tagid" : "277",
+            "tagtype" : "1",
+            "tagname" : "少妇"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "MIAB-646",
+        "islimitv3" : "0",
+        "vodid" : "85100",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "14",
+        "title" : "【中字高清】丰满的G罩杯激情乳摇-宍户里帆MIAB-646",
+        "updatetime" : "2026-09-16 16:28:16",
+        "downnum" : "30",
+        "actor_tags" : [
+          {
+            "itemcount" : "5",
+            "tagid" : "13888",
+            "tagtype" : "1",
+            "tagname" : "宍户里帆"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84537",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84537/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-24 19:55:51",
+        "play_url" : "/vod/reqplay/84537",
+        "duration" : "28:55",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/09/06a8c31173f758724eda29ada7323409.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "194",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "359",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "502",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/09/06a8c31173f758724eda29ada7323409.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "336",
+            "tagid" : "2734",
+            "tagtype" : "0",
+            "tagname" : "动漫"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "1375",
+            "tagid" : "2997",
+            "tagtype" : "0",
+            "tagname" : "出轨"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84537",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【中字高清】放入他所不知道的秘密",
+        "updatetime" : "2026-09-16 16:26:48",
+        "downnum" : "11",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84910",
+        "episode_total" : "0",
+        "catename" : "清纯少女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84910/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-31 18:17:34",
+        "play_url" : "/vod/reqplay/84910",
+        "duration" : "2:07:33",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/69/16a955492cd68e45d5ab254b6a0e6369.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "394",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "2309",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/69/16a955492cd68e45d5ab254b6a0e6369.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "IPZZ-293",
+        "islimitv3" : "0",
+        "vodid" : "84910",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "6",
+        "title" : "【中字无码】穿着竞赛泳衣的巨乳美女被恶质男人给侵犯-桃乃木香奈IPZZ-293",
+        "updatetime" : "2026-09-16 16:25:45",
+        "downnum" : "32",
+        "actor_tags" : [
+          {
+            "itemcount" : "62",
+            "tagid" : "3309",
+            "tagtype" : "1",
+            "tagname" : "桃乃木香奈"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84548",
+        "episode_total" : "0",
+        "catename" : "成人动漫",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84548/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-24 20:19:06",
+        "play_url" : "/vod/reqplay/84548",
+        "duration" : "25:32",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/4a/46a8c36814736d03325de183e2d7544a.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 5,
+        "intro" : "",
+        "upnum" : "324",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "558",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "942",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/4a/46a8c36814736d03325de183e2d7544a.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.0",
+        "tags" : [
+          {
+            "itemcount" : "336",
+            "tagid" : "2734",
+            "tagtype" : "0",
+            "tagname" : "动漫"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84548",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "11",
+        "title" : "【中字高清】色情游戏能用来解决所有问题-第一话",
+        "updatetime" : "2026-09-15 17:44:23",
+        "downnum" : "22",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84656",
+        "episode_total" : "0",
+        "catename" : "人妻熟女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84656/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-27 17:10:16",
+        "play_url" : "/vod/reqplay/84656",
+        "duration" : "1:27:04",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/89/16a8ffec3cb2270364f3051d77d41d89.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 6,
+        "intro" : "",
+        "upnum" : "773",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "4294",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/89/16a8ffec3cb2270364f3051d77d41d89.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "2303",
+            "tagid" : "93",
+            "tagtype" : "1",
+            "tagname" : "人妻"
+          },
+          {
+            "itemcount" : "3480",
+            "tagid" : "2133",
+            "tagtype" : "1",
+            "tagname" : "剧情"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "6807",
+            "tagid" : "1970",
+            "tagtype" : "1",
+            "tagname" : "中出"
+          }
+        ],
+        "vodkey" : "JUR-648",
+        "islimitv3" : "0",
+        "vodid" : "84656",
+        "mosaic" : "1",
+        "exclusive" : 0,
+        "cateid" : "12",
+        "title" : "【中字高清】每周3次的妻子欲求不满-新沼由香JUR-648",
+        "updatetime" : "2026-09-15 17:43:25",
+        "downnum" : "45",
+        "actor_tags" : [
+          {
+            "itemcount" : "2",
+            "tagid" : "14227",
+            "tagtype" : "1",
+            "tagname" : "新沼由香"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84997",
+        "episode_total" : "0",
+        "catename" : "辣妹大奶",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84997/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-03 15:50:13",
+        "play_url" : "/vod/reqplay/84997",
+        "duration" : "2:26:19",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/b6/86a9926854f8a47476b55800a0d005b6.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "",
+        "upnum" : "528",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1959",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/b6/86a9926854f8a47476b55800a0d005b6.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.7",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "SNIS-919",
+        "islimitv3" : "0",
+        "vodid" : "84997",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "7",
+        "title" : "【中字无码】欢迎来到偶像风俗公寓，三上悠亚的贴身性爱技巧-SNIS-919",
+        "updatetime" : "2026-09-14 15:38:36",
+        "downnum" : "58",
+        "actor_tags" : [
+          {
+            "itemcount" : "73",
+            "tagid" : "2689",
+            "tagtype" : "1",
+            "tagname" : "三上悠亚"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      }
+    ],
+    "a_vodrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85089",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85089/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-14 21:31:07",
+        "play_url" : "/vod/reqplay/85089",
+        "duration" : "06:33",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/b0/96aa7f573a7d8390dd4e9c77d7aa64b0.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 38,
+        "intro" : "",
+        "upnum" : "924",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "12118",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/b0/96aa7f573a7d8390dd4e9c77d7aa64b0.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "8",
+            "tagid" : "13796",
+            "tagtype" : "0",
+            "tagname" : "八卦"
+          },
+          {
+            "itemcount" : "5",
+            "tagid" : "13652",
+            "tagtype" : "0",
+            "tagname" : "吃瓜"
+          },
+          {
+            "itemcount" : "4",
+            "tagid" : "13025",
+            "tagtype" : "0",
+            "tagname" : "泄密"
+          },
+          {
+            "itemcount" : "6",
+            "tagid" : "12962",
+            "tagtype" : "0",
+            "tagname" : "曝光"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85089",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【热门大瓜】圆桌战神：泰国高僧跌落神坛，偷吃女信徒视频流出",
+        "updatetime" : "2026-09-16 16:30:33",
+        "downnum" : "174",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84468",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84468/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-21 01:49:05",
+        "play_url" : "/vod/reqplay/84468",
+        "duration" : "24:07",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/0e/56a873de493b82351dbab90f410e320e.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "105",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "378",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "416",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/0e/56a873de493b82351dbab90f410e320e.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.8",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84468",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【反差婊】人气网黄极品嫩模，高跟黑丝吊带道具啪啪高潮喷水-北京瑶瑶",
+        "updatetime" : "2026-09-16 16:28:59",
+        "downnum" : "33",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84740",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84740/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-28 18:32:54",
+        "play_url" : "/vod/reqplay/84740",
+        "duration" : "20:06",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/73/26a9163a6f2fd454f6434562dff12173.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 1,
+        "intro" : "",
+        "upnum" : "60",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "434",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "117",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/73/26a9163a6f2fd454f6434562dff12173.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84740",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【淫人师表】老师家访辅导，没想到辅导的是家长",
+        "updatetime" : "2026-09-16 16:27:15",
+        "downnum" : "18",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84917",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84917/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-01 12:23:35",
+        "play_url" : "/vod/reqplay/84917",
+        "duration" : "12:19",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/86/66a96530a0921c4096c921a22e73e386.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 0,
+        "intro" : "",
+        "upnum" : "66",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "191",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "98",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/86/66a96530a0921c4096c921a22e73e386.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.6",
+        "tags" : [
+          {
+            "itemcount" : "2433",
+            "tagid" : "43",
+            "tagtype" : "1",
+            "tagname" : "自慰"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "3391",
+            "tagid" : "101",
+            "tagtype" : "1",
+            "tagname" : "调教"
+          },
+          {
+            "itemcount" : "224",
+            "tagid" : "898",
+            "tagtype" : "0",
+            "tagname" : "挑逗"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84917",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【反差婊】骚骚粉丝互动体验，极品粉穴任由玩弄，超粗阳具插入抽插",
+        "updatetime" : "2026-09-16 16:26:35",
+        "downnum" : "13",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84262",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84262/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-07 17:35:25",
+        "play_url" : "/vod/reqplay/84262",
+        "duration" : "44:24",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/a5/36a75a6b0aba76355ff6b52d374314a5.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "103",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "455",
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "706",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/a5/36a75a6b0aba76355ff6b52d374314a5.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "888",
+            "tagid" : "70",
+            "tagtype" : "1",
+            "tagname" : "偷情"
+          },
+          {
+            "itemcount" : "23",
+            "tagid" : "13439",
+            "tagtype" : "0",
+            "tagname" : "短剧"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84262",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【擦边短剧】外卖小哥的幸福生活-周艺丹",
+        "updatetime" : "2026-09-16 16:25:35",
+        "downnum" : "24",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84381",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84381/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-17 21:44:40",
+        "play_url" : "/vod/reqplay/84381",
+        "duration" : "1:02:43",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/ff/26a83101bddd16713f506cfd0eacf4ff.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "145",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "525",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "705",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/ff/26a83101bddd16713f506cfd0eacf4ff.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.7",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "685",
+            "tagid" : "11551",
+            "tagtype" : "0",
+            "tagname" : "探花"
+          },
+          {
+            "itemcount" : "891",
+            "tagid" : "321",
+            "tagtype" : "0",
+            "tagname" : "偷拍"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84381",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【午夜寻欢】约操颜值少妇，沙发无套猛操无毛粉穴",
+        "updatetime" : "2026-09-15 17:45:31",
+        "downnum" : "26",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      }
+    ],
+    "dayrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85091",
+        "episode_total" : "0",
+        "catename" : "香蕉原创",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85091/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-15 00:15:21",
+        "play_url" : "/vod/reqplay/85091",
+        "duration" : "34:26",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/e8/96aa81d5922c17720522b8a62ab9cee8.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 9,
+        "intro" : "",
+        "upnum" : "786",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "7679",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/e8/96aa81d5922c17720522b8a62ab9cee8.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "11725",
+            "tagid" : "30",
+            "tagtype" : "1",
+            "tagname" : "巨乳"
+          },
+          {
+            "itemcount" : "2222",
+            "tagid" : "12342",
+            "tagtype" : "0",
+            "tagname" : "反差"
+          },
+          {
+            "itemcount" : "717",
+            "tagid" : "1720",
+            "tagtype" : "1",
+            "tagname" : "勾引"
+          },
+          {
+            "itemcount" : "2689",
+            "tagid" : "3185",
+            "tagtype" : "1",
+            "tagname" : "骑乘"
+          },
+          {
+            "itemcount" : "4084",
+            "tagid" : "95",
+            "tagtype" : "1",
+            "tagname" : "内射"
+          },
+          {
+            "itemcount" : "2303",
+            "tagid" : "93",
+            "tagtype" : "1",
+            "tagname" : "人妻"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85091",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "16",
+        "title" : "【香蕉秀】第830期-饥渴人妻穿上战袍勾引分居的老公来打炮！",
+        "updatetime" : "2026-09-16 16:26:00",
+        "downnum" : "47",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84910",
+        "episode_total" : "0",
+        "catename" : "清纯少女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84910/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-31 18:17:34",
+        "play_url" : "/vod/reqplay/84910",
+        "duration" : "2:07:33",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/69/16a955492cd68e45d5ab254b6a0e6369.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "396",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "2339",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/69/16a955492cd68e45d5ab254b6a0e6369.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "IPZZ-293",
+        "islimitv3" : "0",
+        "vodid" : "84910",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "6",
+        "title" : "【中字无码】穿着竞赛泳衣的巨乳美女被恶质男人给侵犯-桃乃木香奈IPZZ-293",
+        "updatetime" : "2026-09-16 16:25:45",
+        "downnum" : "32",
+        "actor_tags" : [
+          {
+            "itemcount" : "62",
+            "tagid" : "3309",
+            "tagtype" : "1",
+            "tagname" : "桃乃木香奈"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84262",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84262/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-08-07 17:35:25",
+        "play_url" : "/vod/reqplay/84262",
+        "duration" : "44:24",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202608/a5/36a75a6b0aba76355ff6b52d374314a5.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 2,
+        "intro" : "",
+        "upnum" : "103",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "457",
+        "islimit" : "0",
+        "portrait" : "1",
+        "commentcount" : "709",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202608/a5/36a75a6b0aba76355ff6b52d374314a5.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "888",
+            "tagid" : "70",
+            "tagtype" : "1",
+            "tagname" : "偷情"
+          },
+          {
+            "itemcount" : "23",
+            "tagid" : "13439",
+            "tagtype" : "0",
+            "tagname" : "短剧"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "84262",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【擦边短剧】外卖小哥的幸福生活-周艺丹",
+        "updatetime" : "2026-09-16 16:25:35",
+        "downnum" : "24",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85096",
+        "episode_total" : "0",
+        "catename" : "角色扮演",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85096/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-15 17:18:59",
+        "play_url" : "/vod/reqplay/85096",
+        "duration" : "12:07",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/76/06aa90d3f6d9f882dabc4540977ee376.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "312",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "593",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1073",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/76/06aa90d3f6d9f882dabc4540977ee376.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.5",
+        "tags" : [
+          {
+            "itemcount" : "3845",
+            "tagid" : "2317",
+            "tagtype" : "0",
+            "tagname" : "制服"
+          },
+          {
+            "itemcount" : "525",
+            "tagid" : "2720",
+            "tagtype" : "1",
+            "tagname" : "肥臀"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "2525",
+            "tagid" : "613",
+            "tagtype" : "1",
+            "tagname" : "爆操"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85096",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "10",
+        "title" : "【幻想次元】COS白上吹雪被按在床边后入猛插",
+        "updatetime" : "2026-09-16 16:25:25",
+        "downnum" : "47",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      }
+    ],
+    "hotrows" : [
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85052",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85052/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-09 00:13:13",
+        "play_url" : "/vod/reqplay/85052",
+        "duration" : "34:17",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/33/86aa033de6b32d55885df08af75a2333.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 20,
+        "intro" : "",
+        "upnum" : "1355",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "4524",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/33/86aa033de6b32d55885df08af75a2333.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.1",
+        "tags" : [
+          {
+            "itemcount" : "6848",
+            "tagid" : "12",
+            "tagtype" : "0",
+            "tagname" : "少女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "2433",
+            "tagid" : "43",
+            "tagtype" : "1",
+            "tagname" : "自慰"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85052",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【户外露出】美女为寻求刺激公园内大胆露出，商场内更是直接自慰",
+        "updatetime" : "2026-09-11 15:57:43",
+        "downnum" : "103",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84998",
+        "episode_total" : "0",
+        "catename" : "辣妹大奶",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84998/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-03 16:56:56",
+        "play_url" : "/vod/reqplay/84998",
+        "duration" : "1:55:52",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/7f/16a9936171620493128a6ef77f9bbc7f.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 7,
+        "intro" : "",
+        "upnum" : "819",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "4444",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/7f/16a9936171620493128a6ef77f9bbc7f.jpg",
+        "episode_status" : "0",
+        "scorenum" : "10.0",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "SNIS-872",
+        "islimitv3" : "0",
+        "vodid" : "84998",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "7",
+        "title" : "【中字无码】国民偶像爱欲觉醒，第一次痉挛痉挛特别篇-三上悠亚SNIS-872",
+        "updatetime" : "2026-09-13 19:18:53",
+        "downnum" : "63",
+        "actor_tags" : [
+          {
+            "itemcount" : "73",
+            "tagid" : "2689",
+            "tagtype" : "1",
+            "tagname" : "三上悠亚"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85043",
+        "episode_total" : "0",
+        "catename" : "女同专属",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85043/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-07 15:17:10",
+        "play_url" : "/vod/reqplay/85043",
+        "duration" : "23:18",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/dc/06a9e64b53597e31d69aa98e198adedc.jpg",
+        "isvip" : "0",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 6,
+        "intro" : "",
+        "upnum" : "329",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "782",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1176",
+        "areaname" : "欧美",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/dc/06a9e64b53597e31d69aa98e198adedc.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.2",
+        "tags" : [
+          {
+            "itemcount" : "6848",
+            "tagid" : "12",
+            "tagtype" : "0",
+            "tagname" : "少女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "2433",
+            "tagid" : "43",
+            "tagtype" : "1",
+            "tagname" : "自慰"
+          },
+          {
+            "itemcount" : "2038",
+            "tagid" : "2710",
+            "tagtype" : "0",
+            "tagname" : "白虎"
+          },
+          {
+            "itemcount" : "75",
+            "tagid" : "2737",
+            "tagtype" : "0",
+            "tagname" : "女同"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85043",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "8",
+        "title" : "【情欲女同】拉拉的性爱秘诀-交叉磨B互换淫水三指插入填充感十足",
+        "updatetime" : "2026-09-13 19:19:59",
+        "downnum" : "49",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "6"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/84997",
+        "episode_total" : "0",
+        "catename" : "辣妹大奶",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/84997/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-03 15:50:13",
+        "play_url" : "/vod/reqplay/84997",
+        "duration" : "2:26:19",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/b6/86a9926854f8a47476b55800a0d005b6.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "",
+        "upnum" : "528",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1960",
+        "areaname" : "日本",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/b6/86a9926854f8a47476b55800a0d005b6.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.7",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "SNIS-919",
+        "islimitv3" : "0",
+        "vodid" : "84997",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "7",
+        "title" : "【中字无码】欢迎来到偶像风俗公寓，三上悠亚的贴身性爱技巧-SNIS-919",
+        "updatetime" : "2026-09-14 15:38:36",
+        "downnum" : "58",
+        "actor_tags" : [
+          {
+            "itemcount" : "73",
+            "tagid" : "2689",
+            "tagtype" : "1",
+            "tagname" : "三上悠亚"
+          }
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "3"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85060",
+        "episode_total" : "0",
+        "catename" : "偷拍自拍",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85060/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-09 02:06:06",
+        "play_url" : "/vod/reqplay/85060",
+        "duration" : "52:09",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/d5/56aa04e51dd81655205c29dbf4c9ecd5.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 4,
+        "intro" : "",
+        "upnum" : "311",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : 0,
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "1946",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/d5/56aa04e51dd81655205c29dbf4c9ecd5.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.5",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          },
+          {
+            "itemcount" : "685",
+            "tagid" : "11551",
+            "tagtype" : "0",
+            "tagname" : "探花"
+          },
+          {
+            "itemcount" : "891",
+            "tagid" : "321",
+            "tagtype" : "0",
+            "tagname" : "偷拍"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85060",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "4",
+        "title" : "【午夜寻欢】约炮身材苗条大长腿美女，颜值身材一流",
+        "updatetime" : "2026-09-14 15:41:11",
+        "downnum" : "50",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      },
+      {
+        "author" : "",
+        "down_url" : "/vod/reqdown/85032",
+        "episode_total" : "0",
+        "catename" : "人妻熟女",
+        "authorid" : "0",
+        "preview_url" : "https://preview4.k18e7j.com/vod/preView/85032/index.m3u8",
+        "downlist" : [
+
+        ],
+        "createtime" : "2026-09-06 01:25:11",
+        "play_url" : "/vod/reqplay/85032",
+        "duration" : "50:03",
+        "playlist" : [
+
+        ],
+        "definition" : "4",
+        "coverx" : "202609/62/26a9c504e1db2764e52d005403563562.jpg",
+        "isvip" : "1",
+        "yearname" : "2026",
+        "vip_price" : 1000000,
+        "limit_free" : 0,
+        "playcount_total" : 3,
+        "intro" : "",
+        "upnum" : "262",
+        "yearid" : "19",
+        "view_price" : 1000000,
+        "downcount_total" : "702",
+        "islimit" : "0",
+        "portrait" : "0",
+        "commentcount" : "570",
+        "areaname" : "国产",
+        "coverpic" : "https://20260917.aqsmimg4252.sbs:9001/202609/62/26a9c504e1db2764e52d005403563562.jpg",
+        "episode_status" : "0",
+        "scorenum" : "9.2",
+        "tags" : [
+          {
+            "itemcount" : "1789",
+            "tagid" : "596",
+            "tagtype" : "0",
+            "tagname" : "欲女"
+          },
+          {
+            "itemcount" : "8387",
+            "tagid" : "479",
+            "tagtype" : "1",
+            "tagname" : "诱惑"
+          },
+          {
+            "itemcount" : "8105",
+            "tagid" : "1162",
+            "tagtype" : "1",
+            "tagname" : "后入"
+          },
+          {
+            "itemcount" : "10292",
+            "tagid" : "984",
+            "tagtype" : "1",
+            "tagname" : "美乳"
+          },
+          {
+            "itemcount" : "10906",
+            "tagid" : "387",
+            "tagtype" : "1",
+            "tagname" : "口交"
+          }
+        ],
+        "vodkey" : "",
+        "islimitv3" : "0",
+        "vodid" : "85032",
+        "mosaic" : "2",
+        "exclusive" : 0,
+        "cateid" : "12",
+        "title" : "【淫欲人妻】电竞房开黑献妻，兄弟老婆不穿内衣当面脱光，被三根鸡巴轮流插入",
+        "updatetime" : "2026-09-14 15:39:21",
+        "downnum" : "39",
+        "actor_tags" : [
+
+        ],
+        "playindex" : 0,
+        "need_buy" : 0,
+        "areaid" : "2"
+      }
+    ]
+  }
+}
