@@ -1,0 +1,41 @@
+{
+  "retcode" : 0,
+  "errmsg" : "",
+  "data" : {
+    "signed" : 0,
+    "uinfo" : {
+      "goldcoin" : "0",
+      "down_daily_remainders" : 0,
+      "curr_group" : null,
+      "minivod_play_daily_remainders" : 10,
+      "minivod_down_daily_remainders" : 0,
+      "next_upgrade_need" : 0,
+      "play_daily_remainders" : 3,
+      "next_group" : null
+    },
+    "xxx_api_auth" : "6262613639363334336632313166353866313538353235613735396230653638",
+    "user" : {
+      "dueday" : "",
+      "sysgid" : null,
+      "newmsg" : null,
+      "nickname" : null,
+      "duetime" : "",
+      "gold_bean" : 0,
+      "gids" : null,
+      "mobi" : null,
+      "gicon" : "",
+      "avatar_url" : "https://20260917.aqsmimg4258.sbs:9001/sysavatar/noavatar.png",
+      "goldcoin" : 0,
+      "gender" : 0,
+      "uid" : 0,
+      "uniqkey" : "0",
+      "email" : null,
+      "isvip" : 0,
+      "gid" : null,
+      "avatar" : null,
+      "recommend_total" : 0,
+      "regtime" : "1970-01-01 08:00:00",
+      "username" : null
+    }
+  }
+}
