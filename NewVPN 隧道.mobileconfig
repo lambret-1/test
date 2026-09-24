@@ -46,16 +46,6 @@
 					<key>serverAddress</key>
 					<string>127.0.0.1</string>
 				</dict>
-				<key>DNS</key>
-				<dict>
-					<key>SearchDomains</key>
-					<array/>
-					<key>ServerAddresses</key>
-					<array>
-						<string>8.8.8.8</string>
-						<string>1.1.1.1</string>
-					</array>
-				</dict>
 			</dict>
 		</dict>
 	</array>
