@@ -8,86 +8,53 @@
             <key>PayloadDescription</key>
             <string>配置 VPN 设置</string>
             <key>PayloadDisplayName</key>
-            <string>NewVPN 隧道</string>
+            <string>newVPN 隧道</string>
             <key>PayloadIdentifier</key>
-            <string>com.apple.vpn.managed.D7130226-39B8-4CAF-A187-1D05E2A634F5</string>
+            <string>com.apple.vpn.managed.4B6F2E90-7A15-48D8-90C7-2F41E3B97D12</string>
             <key>PayloadType</key>
             <string>com.apple.vpn.managed</string>
             <key>PayloadUUID</key>
-            <string>D7130226-39B8-4CAF-A187-1D05E2A634F5</string>
+            <string>4B6F2E90-7A15-48D8-90C7-2F41E3B97D12</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>UserDefinedName</key>
-            <string>NewVPN 隧道</string>
+            <string>newVPN 隧道</string>
             <key>VPN</key>
             <dict>
-                <key>AuthName</key>
-                <string></string>
-                <key>AuthenticationMethod</key>
-                <string>Password</string>
-                <key>DisconnectOnIdle</key>
-                <integer>1</integer>
-                <key>DisconnectOnIdleTimer</key>
-                <integer>0</integer>
+                <key>VPNSubType</key>
+                <string>com.newvpn.app.tunnel</string>
+                <key>VPNType</key>
+                <string>VPN</string>
+                <key>ProviderBundleIdentifier</key>
+                <string>com.newvpn.app.tunnel</string>
+                <key>ProviderType</key>
+                <string>packet-tunnel</string>
                 <key>IncludeAllNetworkTraffic</key>
                 <true/>
                 <key>OnDemandEnabled</key>
                 <integer>0</integer>
-                <key>OnDemandRules</key>
-                <array>
-                    <dict>
-                        <key>Action</key>
-                        <string>Connect</string>
-                    </dict>
-                </array>
-                <key>ProviderBundleIdentifier</key>
-                <string>com.newvpn.app.tunnel</string>
                 <key>ProviderConfiguration</key>
                 <dict>
-                        <key>bundleIdentifier</key>
-                        <string>com.newvpn.app.tunnel</string>
-                        <key>serverAddress</key>
-                        <string>127.0.0.1</string>
-                        </dict>
-                <key>ProviderType</key>
-                <string>packet-tunnel</string>
-                <key>RemoteAddress</key>
-                <string>127.0.0.1</string>
-                <key>SendAllTraffic</key>
-                <true/>
-                <key>DNSSettings</key>
-                <dict>
-                    <key>DNSDomains</key>
-                    <array>
-                        
-                    </array>
-                    <key>DNSServerAddresses</key>
-                    <array>
-                        <string>223.5.5.5</string>
-                                <string>119.29.29.29</string>
-                    </array>
+                    <key>serverAddress</key>
+                    <string>127.0.0.1</string>
                 </dict>
             </dict>
-            <key>VPNType</key>
-            <string>VPN</string>
-            <key>VPNSubType</key>
-            <string>com.newvpn.app.tunnel</string>
         </dict>
     </array>
     <key>PayloadDescription</key>
     <string>VPN 配置描述文件</string>
     <key>PayloadDisplayName</key>
-    <string>NewVPN 隧道</string>
-    <key>PayloadIdentifier</key>
-    <string>com.newvpn.app.vpn.D90C9632-40A3-41EF-9E5E-BFEC4C02FD3A</string>
+    <string>newVPN 隧道配置</string>
     <key>PayloadOrganization</key>
     <string>NewVPN</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadType</key>
     <string>Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.newvpn.app.vpn.8E72D5C1-B490-412A-936C-7D01A5E24F9B</string>
     <key>PayloadUUID</key>
-    <string>A9FA4B8E-098F-490F-8716-DBC89FF6DDAA</string>
+    <string>8E72D5C1-B490-412A-936C-7D01A5E24F9B</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>
